@@ -5,7 +5,7 @@ import BlueCat from "./Images/blue-cat-150.png";
 const Header = () => (
   <>
     <div className="header">
-      <img src={BlueCat} alt="blue-cat" />
+      <img className="blue" src={BlueCat} alt="blue-cat" />
     </div>
   </>
 );
