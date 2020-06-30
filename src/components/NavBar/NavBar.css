@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: mediumvioletred;
+  height: 100px;
+}
+nav ul li {
+  display: flex;
+}
+.home,
+.shop,
+.plants,
+.about {
+  width: 120px;
+  height: 60px;
+  line-height: 1.5;
+  padding: 5px 24px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
+  border: 6px double black;
+  background-color: rgb(245, 170, 7);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(243, 139, 139, 0.7)
+  );
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
