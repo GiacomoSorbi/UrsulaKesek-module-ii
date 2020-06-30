@@ -6,7 +6,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: mediumvioletred;
+  background-color: rgb(100, 4, 92);
   height: 100px;
 }
 nav ul li {

@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(100, 4, 92);
+  height: 150px;
+}
+.blue {
+  position: relative;
+  left: 45px;
+  top:7px;
+  z-index: 1;
+}
+h1 {
+  color: rgb(233, 231, 231);
+  font-size: 4.5em;
+  text-shadow: 3px 3px 3px #000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  z-index: 1;
+  position: relative;
+  top: 50px;
+}
+.box1{
+  width:850px;
+  height:120px;
+  background-color: rgb(74, 197, 241);
+  position: relative;
+  top:27px;
+  right:200px;
+}
+.pb75{
+  position: relative;
+  right:350px;
+  top:40px;
+  z-index: 1;
+}
