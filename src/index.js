@@ -6,6 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavBar } from "./components";
 import {Header } from "./components";
+import {Footer } from "./components";
 
 ReactDOM.render(
   <Router>
@@ -13,6 +14,7 @@ ReactDOM.render(
       <Header/>
       <NavBar/>
       <App />
+      <Footer/>
     </React.StrictMode>
   </Router>,
   document.getElementById("root")
