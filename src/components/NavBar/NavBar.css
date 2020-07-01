@@ -29,12 +29,12 @@ nav ul li {
   text-decoration: none;
   text-shadow: 2px 2px 1px #000;
   border: 6px double black;
-  background-color: rgb(245, 170, 7);
+  background-color: rgb(16, 207, 6);
   background-image: linear-gradient(
     to top left,
     rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2) 30%,
-    rgba(243, 139, 139, 0.7)
+    rgba(214, 233, 11, 0.885)
   );
   box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
     inset -4px -4px 3px rgba(0, 0, 0, 0.6);
