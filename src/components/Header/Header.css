@@ -16,7 +16,7 @@ h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   z-index: 1;
   position: relative;
-  top:15px;
+  top:85px;
   left:40px;
 }
 .box1{
@@ -27,16 +27,18 @@ h1 {
   border-radius:0px 170px 0px 170px ;
   position: relative;
   top:15px;
-  left:60px;
+  left:90px;
   animation-name:slide ;
   animation-duration:5s ;
   animation-iteration-count: 4;
   animation-direction: alternate;
+  animation-delay:2s ;
+  animation-timing-function: ease-in-out;
 }
 @keyframes slide
   {
   from{
-      transform:translateX(0px);
+      transform:translateX(-30px);
   }
   to{
     transform: translateX(600px);
