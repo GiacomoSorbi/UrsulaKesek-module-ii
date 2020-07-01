@@ -1,5 +1,16 @@
-.main{
-    width:1440px;
-    height:560px;
-    background-image:url(Images/fence.png);
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 560px;
+}
+.box2 {
+  height: 560px;
+  width: 250px;
+  background-color: rgb(41, 2, 10);
+}
+.box3 {
+  height: 560px;
+  width: 90px;
+  background-color: rgb(41, 2, 10);
 }

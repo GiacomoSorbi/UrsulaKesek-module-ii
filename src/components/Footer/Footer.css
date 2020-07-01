@@ -1,8 +1,8 @@
-.footer{
-    height:50px;
-    background-color: rgba(78, 211, 12, 0.755);
-    position:absolute;
-left:0;
-bottom:0;
-right:0;
+.footer {
+  height: 90px;
+  background-color: rgba(78, 211, 12, 0.75);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

@@ -1,4 +1,4 @@
 import React from "react";
 
-const HomePage = () => <div>I am the home page!</div>;
+const HomePage = () => <div></div>;
 export default HomePage;

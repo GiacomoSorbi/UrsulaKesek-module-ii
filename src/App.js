@@ -6,7 +6,6 @@ import { HomePage, AboutPage, ShopPage, PlantsPage } from "./pages";
 function App() {
   return (
     <>
-      <div className="app">Some Content Which is always HERE</div>
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/shop" exact component={ShopPage} />
