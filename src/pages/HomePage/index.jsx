@@ -1,5 +1,6 @@
 import React from "react";
 import Front from "./Images/aw-front.png";
+import "./HomePage.css";
 
 function HomePage () {
     return(
