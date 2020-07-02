@@ -4,13 +4,42 @@
   width: 1440px;
   height: 560px;
 }
-.box2 {
+.box2 {display:flex;
+  flex-direction: column;
   height: 560px;
   width: 240px;
-  background-color: rgb(41, 2, 10);
 }
 .box3 {
   height: 560px;
   width: 100px;
-  background-color: rgb(41, 2, 10);
+}
+.perfOne{
+  height:145px;
+  width:240px;
+  background-color:rgba(241,70,8,1);
+}
+.perfTwo{
+  height:145px;
+  width:240px;
+  background-color: rgb(179, 8, 226);
+}
+.perfThree{
+  height:145px;
+  width:240px;
+  background-color:rgba(241,70,8,1);
+}
+.perfFour{
+  height:145px;
+  width:240px;
+  background-color: rgb(179, 8, 226);
+}
+.clubs{
+  position: relative;
+  left:140px;
+  top:20px;
+}
+.box2 p{
+  color:white;
+  font-size:2em;
+  text-align: center;
 }
