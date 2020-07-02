@@ -19,7 +19,7 @@ const Main = () => (
       </div>
       </div>
     <img className="front" src={Front} alt="andy-window" />
-    <div className="box3">Box3</div>
+    <div className="box3"></div>
   </section>
 );
 export default Main;

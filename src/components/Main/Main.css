@@ -9,10 +9,20 @@
   height: 560px;
   width: 240px;
 }
+.box2 p{
+  color:white;
+  font-size:2em;
+  text-align: center;
+}
 .box3 {
   height: 560px;
   width: 100px;
+  background-color:rgba(241,70,8,1);
 }
+.front{
+  border:6px double black;
+}
+
 .perfOne{
   height:145px;
   width:240px;
@@ -32,14 +42,4 @@
   height:145px;
   width:240px;
   background-color: rgb(179, 8, 226);
-}
-.clubs{
-  position: relative;
-  left:140px;
-  top:20px;
-}
-.box2 p{
-  color:white;
-  font-size:2em;
-  text-align: center;
 }
