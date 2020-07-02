@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
-import { NavBar,Header,Footer,Main } from "./components";
+import { NavBar,Header,Footer } from "./components";
 
 
 ReactDOM.render(
@@ -13,7 +13,6 @@ ReactDOM.render(
       <Header/>
       <NavBar/>
       <App />
-      <Main/>
       <Footer/>
     </React.StrictMode>
   </Router>,

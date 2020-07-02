@@ -5,6 +5,7 @@ import Front from "./Images/aw-front.png";
 const Main = () => (
   <section className="main">
     <div className="box2">
+    <h2>Scent Families </h2>
       <div className="perfOne">
       <p>Floral</p>
       </div>

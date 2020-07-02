@@ -11,7 +11,7 @@
 }
 .box2 p{
   color:white;
-  font-size:2em;
+  font-size:1.5em;
   text-align: center;
 }
 .box3 {
@@ -22,24 +22,30 @@
 .front{
   border:6px double black;
 }
+h2{
+  height:60px;
+  color:white;
+  background-color: rgb(107, 33, 24);
+  text-align: center;
+}
 
 .perfOne{
-  height:145px;
+  height:130px;
   width:240px;
   background-color:rgba(241,70,8,1);
 }
 .perfTwo{
-  height:145px;
+  height:130px;
   width:240px;
-  background-color: rgb(179, 8, 226);
+  background-color: rgb(107, 33, 24);
 }
 .perfThree{
-  height:145px;
+  height:130px;
   width:240px;
   background-color:rgba(241,70,8,1);
 }
 .perfFour{
-  height:145px;
+  height:130px;
   width:240px;
-  background-color: rgb(179, 8, 226);
+  background-color: rgb(107, 33, 24);
 }
