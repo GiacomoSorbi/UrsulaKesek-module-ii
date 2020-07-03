@@ -4,26 +4,34 @@
   width: 1440px;
   height: 560px;
 }
-.box2 {display:flex;
+.box2 {
+  display:flex;
   flex-direction: column;
+  margin:10px;
   height: 560px;
-  width: 240px;
+  z-index:1 ;
+  background-color: rgb(55, 54, 56);
+
 }
 .box2 p{
-  color:white;
+  color:rgba(241,70,8);
   font-size:1.5em;
+  font-weight: 900;
   text-align: center;
+  background-color: rgb(55, 54, 56);
 }
 .box3 {
   height: 560px;
   width: 100px;
-  background-color:rgba(241,70,8,1);
+  background-color: rgb(55, 54, 56);
+}
+.bubble{
+  margin-top:10px;
 }
 .floral,.fresh,.orient,.woody{
   position: relative;
   top:50px;
-  left:65px;
-  padding:20px;
+  padding:32px 26.5px 15px;
   font-size: 1.5rem;
   text-align: center;
   color: white;
@@ -44,32 +52,22 @@
 
 
 .front{
-  border:6px double black;
+  position: relative;
+  left:5px;
+  top:10px;
 }
 h2{
   height:60px;
   color:white;
-  background-color: rgb(78,211, 12);
+  background-color: rgb(55, 54, 56);
   text-align: center;
 }
+hr.new1 {
+  border: 5px double rgba(241,70,8,1);
+}
 
-.perfOne{
+.perfOne,.perfTwo,.perfThree,.perfFour{
   height:130px;
   width:240px;
-  background-color:rgba(241,70,8,1);
-}
-.perfTwo{
-  height:130px;
-  width:240px;
-  background-color: rgb(78,211, 12);
-}
-.perfThree{
-  height:130px;
-  width:240px;
-  background-color:rgba(241,70,8,1);
-}
-.perfFour{
-  height:130px;
-  width:240px;
-  background-color: rgb(78,211, 12);
+  background-color: rgb(55, 54, 56);
 }
