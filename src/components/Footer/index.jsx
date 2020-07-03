@@ -12,6 +12,7 @@ import Twitter from "./Images/Twitter.png";
 
 const Footer=()=>(
     <footer className="footer">
+      <p>Ursula Kesek made this website in Hackney in July 2020.</p>
       <div className="sm">
       <img className="beh" src={Behance} alt="behance-logo" />
       <img className="dev" src={Deviant} alt="deviantart-logo" />
