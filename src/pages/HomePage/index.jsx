@@ -13,7 +13,6 @@ function HomePage() {
            Floral
            </NavLink>
         </div>
-
         <div className="perfTwo">
           <NavLink className="fresh" to="/fresh">
             Fresh

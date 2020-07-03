@@ -19,7 +19,10 @@
   width: 100px;
   background-color:rgba(241,70,8,1);
 }
-.floral{
+.floral,.fresh,.orient,.woody{
+  position: relative;
+  top:50px;
+  left:65px;
   padding:20px;
   font-size: 1.5rem;
   text-align: center;
@@ -46,7 +49,7 @@
 h2{
   height:60px;
   color:white;
-  background-color: rgb(107, 33, 24);
+  background-color: rgb(78,211, 12);
   text-align: center;
 }
 
@@ -58,7 +61,7 @@ h2{
 .perfTwo{
   height:130px;
   width:240px;
-  background-color: rgb(107, 33, 24);
+  background-color: rgb(78,211, 12);
 }
 .perfThree{
   height:130px;
@@ -68,5 +71,5 @@ h2{
 .perfFour{
   height:130px;
   width:240px;
-  background-color: rgb(107, 33, 24);
+  background-color: rgb(78,211, 12);
 }
