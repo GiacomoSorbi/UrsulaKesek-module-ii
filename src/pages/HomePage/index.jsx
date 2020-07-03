@@ -1,6 +1,7 @@
 import React from "react";
 import Front from "./Images/aw-front.png";
 import "./HomePage.css";
+import { NavLink} from "react-router-dom";
 
 function HomePage() {
   return (
@@ -8,16 +9,25 @@ function HomePage() {
       <div className="box2">
         <h2>Scent Families </h2>
         <div className="perfOne">
-          <p>Floral</p>
+          <NavLink className="floral" to="/floral">
+           Floral
+           </NavLink>
         </div>
+
         <div className="perfTwo">
-          <p>Fresh</p>
+          <NavLink className="fresh" to="/fresh">
+            Fresh
+          </NavLink>
         </div>
         <div className="perfThree">
-          <p>Oriental</p>
+          <NavLink className="orient" to="/oriental">
+            Oriental
+          </NavLink>
         </div>
         <div className="perfFour">
-          <p>Woody</p>
+          <NavLink className="woody" to="/woody">
+            Woody
+          </NavLink>
         </div>
       </div>
       <img className="front" src={Front} alt="andy-window" />

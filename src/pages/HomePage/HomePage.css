@@ -19,6 +19,27 @@
   width: 100px;
   background-color:rgba(241,70,8,1);
 }
+.floral{
+  padding:20px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px #000;
+  border: 6px double black;
+  background-color: rgb(78, 211, 12);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(214, 233, 11, 0.885)
+  );
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+
 .front{
   border:6px double black;
 }
