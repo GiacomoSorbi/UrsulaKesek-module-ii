@@ -12,6 +12,7 @@ import Twitter from "./Images/Twitter.png";
 
 const Footer=()=>(
     <footer className="footer">
+      <p> Built by Ursula Kesek, Hackney July 2020</p>
       <div className="sm">
       <img className="beh" src={Behance} alt="behance-logo" />
       <img className="dev" src={Deviant} alt="deviantart-logo" />
