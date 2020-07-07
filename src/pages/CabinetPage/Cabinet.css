@@ -4,7 +4,7 @@
 .aroma {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content:space-between;
 }
 .box2 h2 {
   color: rgb(93, 243, 18);
@@ -58,5 +58,11 @@ p.wo {
   color: rgb(241, 70, 8);
 }
 .sntwl {
-  margin: 40px;
+  margin-top: 40px;
+  margin-left:120px;
+  width:500px;
+}
+.wheel{
+  width:720px;
+  background-color:rgb(241, 70, 8) ;
 }
