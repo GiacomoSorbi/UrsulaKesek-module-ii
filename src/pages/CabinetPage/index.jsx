@@ -64,7 +64,7 @@ const CabinetPage = () => (
           </NavLink>
         </div>
       </main>
-      <aside classname="wheel">
+      <aside className="wheel">
         <img className="sntwl" src={fragranceWheel} alt="perfume-chart" />
       </aside>
     </section>
