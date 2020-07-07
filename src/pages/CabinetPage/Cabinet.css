@@ -1,10 +1,22 @@
-
+* {
+  box-sizing: border-box;
+}
+.aroma {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.curios {
+  display: flex;
+  flex-direction: column;
+}
 .floral,
 .fresh,
 .orient,
 .woody {
   position: relative;
-  top: 50px;
+  top: 40px;
+  left: 50px;
   padding: 32px 26.5px 15px;
   font-size: 1.5rem;
   text-align: center;
@@ -28,6 +40,19 @@
 .perfThree,
 .perfFour {
   height: 130px;
-  width: 240px;
+  width: 500px;
   background-color: rgb(55, 54, 56);
+}
+p.fl,
+p.fr,
+p.or,
+p.wo {
+  margin-left: 50px;
+  text-align: left;
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(241, 70, 8);
+}
+wheel {
+  background-color: rgb(241, 70, 8);
 }
