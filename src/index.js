@@ -4,16 +4,15 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
-import { NavBar,Header,Footer } from "./components";
-
+import { NavBar, Header, Footer } from "./components";
 
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <React.StrictMode>
-      <Header/>
-      <NavBar/>
+      <Header />
+      <NavBar />
       <App />
-      <Footer/>
+      <Footer />
     </React.StrictMode>
   </Router>,
   document.getElementById("root")
