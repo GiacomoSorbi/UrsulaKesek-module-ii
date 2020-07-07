@@ -13,13 +13,6 @@
   z-index: 1;
   background-color: rgb(55, 54, 56);
 }
-.box2 p {
-  color: rgba(241, 70, 8);
-  font-size: 1.5em;
-  font-weight: 900;
-  text-align: center;
-  background-color: rgb(55, 54, 56);
-}
 .box3 {
   height: 560px;
   width: 100px;
@@ -28,31 +21,6 @@
 .bubble {
   margin-top: 10px;
 }
-.floral,
-.fresh,
-.orient,
-.woody {
-  position: relative;
-  top: 50px;
-  padding: 32px 26.5px 15px;
-  font-size: 1.5rem;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  text-shadow: 2px 2px 1px #000;
-  border: 6px double black;
-  background-color: rgb(78, 211, 12);
-  background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(214, 233, 11, 0.885)
-  );
-  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
-    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
-  outline: none;
-}
-
 .front {
   position: relative;
   left: 5px;
@@ -71,16 +39,4 @@ h2 {
   color: white;
   background-color: rgb(55, 54, 56);
   text-align: center;
-}
-hr.new1 {
-  border: 5px double rgba(241, 70, 8, 1);
-}
-
-.perfOne,
-.perfTwo,
-.perfThree,
-.perfFour {
-  height: 130px;
-  width: 240px;
-  background-color: rgb(55, 54, 56);
 }

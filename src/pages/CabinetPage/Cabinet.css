@@ -1,27 +1,11 @@
-* {
-  box-sizing: border-box;
-  margin:0px;
-}
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(241, 70, 8);
-  height: 100px;
-  padding-inline-start:0px; 
-}
-nav ul li {
-  display: flex;
-}
-.home,
-.shop,
-.plants,
-.cabinet {
+
+.floral,
+.fresh,
+.orient,
+.woody {
   position: relative;
-  width: 235px;
-  height: 60px;
-  line-height: 1.5;
-  padding: 5px;
+  top: 50px;
+  padding: 32px 26.5px 15px;
   font-size: 1.5rem;
   text-align: center;
   color: white;
@@ -38,4 +22,12 @@ nav ul li {
   box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
     inset -4px -4px 3px rgba(0, 0, 0, 0.6);
   outline: none;
+}
+.perfOne,
+.perfTwo,
+.perfThree,
+.perfFour {
+  height: 130px;
+  width: 240px;
+  background-color: rgb(55, 54, 56);
 }

@@ -1,4 +1,4 @@
-export { default as AboutPage } from "./AboutPage";
+export { default as CabinetPage } from "./CabinetPage";
 export { default as Floral } from "./Floral";
 export { default as Fresh } from "./Fresh";
 export { default as HomePage } from "./HomePage";

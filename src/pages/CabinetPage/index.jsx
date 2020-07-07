@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink} from "react-router-dom";
-const AboutPage = () =>
+import "./Cabinet.css";
+
+const CabinetPage = () =>
 <>
  <div>
     <div className="box2">
@@ -59,4 +61,4 @@ const AboutPage = () =>
     </div>
     </>
     
-export default AboutPage;
+export default CabinetPage;
