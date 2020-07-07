@@ -44,17 +44,23 @@ const CabinetPage = () => (
           <NavLink className="orient" to="/oriental">
             J
           </NavLink>
+          <NavLink className="orient" to="/oriental">
+            K
+          </NavLink>
         </div>
         <div className="perfFour">
           <p className="wo">Woody</p>
-          <NavLink className="woody" to="/woody">
-            K
-          </NavLink>
           <NavLink className="woody" to="/woody">
             L
           </NavLink>
           <NavLink className="woody" to="/woody">
             M
+          </NavLink>
+          <NavLink className="woody" to="/woody">
+            N
+          </NavLink>
+          <NavLink className="woody" to="/woody">
+            P
           </NavLink>
         </div>
       </main>

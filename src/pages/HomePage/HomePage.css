@@ -34,9 +34,10 @@
   height: 200px;
 }
 h2 {
-  height: 60px;
+  padding:6px;
+  height: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: white;
   background-color: rgb(55, 54, 56);
-  text-align: center;
+  text-align:center;
 }
