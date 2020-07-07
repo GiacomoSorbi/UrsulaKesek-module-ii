@@ -5,17 +5,17 @@
   height: 560px;
 }
 .box2 {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  margin:10px;
+  margin: 10px;
   height: 560px;
-  z-index:1 ;
+  width: 500px;
+  z-index: 1;
   background-color: rgb(55, 54, 56);
-
 }
-.box2 p{
-  color:rgba(241,70,8);
-  font-size:1.5em;
+.box2 p {
+  color: rgba(241, 70, 8);
+  font-size: 1.5em;
   font-weight: 900;
   text-align: center;
   background-color: rgb(55, 54, 56);
@@ -25,13 +25,16 @@
   width: 100px;
   background-color: rgb(55, 54, 56);
 }
-.bubble{
-  margin-top:10px;
+.bubble {
+  margin-top: 10px;
 }
-.floral,.fresh,.orient,.woody{
+.floral,
+.fresh,
+.orient,
+.woody {
   position: relative;
-  top:50px;
-  padding:32px 26.5px 15px;
+  top: 50px;
+  padding: 32px 26.5px 15px;
   font-size: 1.5rem;
   text-align: center;
   color: white;
@@ -50,24 +53,34 @@
   outline: none;
 }
 
-
-.front{
+.front {
   position: relative;
-  left:5px;
-  top:10px;
+  left: 5px;
+  top: 10px;
 }
-h2{
-  height:60px;
-  color:white;
+.green1 {
+  position: relative;
+  top: 270px;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+h2 {
+  height: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
   background-color: rgb(55, 54, 56);
   text-align: center;
 }
 hr.new1 {
-  border: 5px double rgba(241,70,8,1);
+  border: 5px double rgba(241, 70, 8, 1);
 }
 
-.perfOne,.perfTwo,.perfThree,.perfFour{
-  height:130px;
-  width:240px;
+.perfOne,
+.perfTwo,
+.perfThree,
+.perfFour {
+  height: 130px;
+  width: 240px;
   background-color: rgb(55, 54, 56);
 }

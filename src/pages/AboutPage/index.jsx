@@ -1,4 +1,62 @@
 import React from "react";
+import { NavLink} from "react-router-dom";
+const AboutPage = () =>
+<>
+ <div>
+    <div className="box2">
+        <h2>Cabinet Of Curiosities </h2>
+        <hr className="new1"/>
+        <div className="perfOne">
+          <p className="fl">Floral</p>
+          <NavLink className="floral" to="/floral">
+            A
+           </NavLink>
+           <NavLink className="floral" to="/floral">
+            B
+            </NavLink>
+            <NavLink className="floral" to="/floral">
+            C
+            </NavLink>
+        </div>
+        <div className="perfTwo">
+        <p className="fr">Fresh</p>
 
-const AboutPage = () => <div>I am the About page!</div>;
+          <NavLink className="fresh" to="/fresh">
+           D
+          </NavLink>
+          <NavLink className="fresh" to="/fresh">
+           E
+          </NavLink>
+          <NavLink className="fresh" to="/fresh">
+           F
+          </NavLink>
+        </div>
+        <div className="perfThree">
+        <p className="or">Oriental</p>
+          <NavLink className="orient" to="/oriental">
+            G
+          </NavLink>
+          <NavLink className="orient" to="/oriental">
+            H
+          </NavLink>
+          <NavLink className="orient" to="/oriental">
+            J
+          </NavLink>
+        </div>
+        <div className="perfFour">
+        <p className="wo">Woody</p>
+          <NavLink className="woody" to="/woody">
+            K
+          </NavLink>
+          <NavLink className="woody" to="/woody">
+            L
+          </NavLink>
+          <NavLink className="woody" to="/woody">
+            M
+          </NavLink>
+        </div>
+    </div>
+    </div>
+    </>
+    
 export default AboutPage;

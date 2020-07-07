@@ -5,7 +5,7 @@ import pb75 from "./Images/pb75.png";
 const Header = () => (
   <>
     <div className="header">
-      <img className="blue" src={GreenCat} alt="green-cat" />
+      <img className="green" src={GreenCat} alt="green-cat" />
       <h1>UK PERFUMES</h1>
       <div className="box1">
       <p className="exotic">Travel places through scents</p>
