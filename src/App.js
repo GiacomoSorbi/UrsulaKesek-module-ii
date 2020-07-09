@@ -9,7 +9,7 @@ import {
   Oriental,
   PlantsPage,
   ShopPage,
-  Woody
+  Woody,
 } from "./pages";
 
 function App() {
@@ -24,6 +24,15 @@ function App() {
         <Route path="/shop" exact component={ShopPage} />
         <Route path="/plants" exact component={PlantsPage} />
         <Route path="/cabinet" exact component={CabinetPage} />
+        <Route
+          path="*"
+          render={() => (
+            <img
+              alt="404"
+              src="https://i.pinimg.com/originals/f3/1b/5b/f31b5bcda076125bf7010c781a4578a0.gif"
+            />
+          )}
+        />
       </Switch>
     </>
   );
