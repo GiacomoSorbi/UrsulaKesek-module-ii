@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <section className="main">
       <div className="box2">
-        <h2>COOL CATS AND CHICKS ROAM THE WORLD</h2>
+        <h2 className="hph2">COOL CATS AND CHICKS ROAM THE WORLD</h2>
         <img className="green1" src={GreenCat} alt="green-cat" />
       </div>
       <img className="front" src={Front} alt="andy-window" />

@@ -6,7 +6,7 @@
   flex-direction: row;
   justify-content:space-between;
 }
-.box2 h2 {
+ h2.cbh2 {
   color: rgb(93, 243, 18);
   text-align: end;
 }
@@ -64,5 +64,6 @@ p.wo {
 }
 .wheel{
   width:720px;
-  background-color:rgb(241, 70, 8) ;
+  height:575px;
+  background: linear-gradient(rgb(235, 143, 110),rgb(241, 70, 8));
 }

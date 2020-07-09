@@ -32,7 +32,8 @@
   width: 200px;
   height: 200px;
 }
-h2 {
+
+h2.hph2 {
   padding: 6px;
   height: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
