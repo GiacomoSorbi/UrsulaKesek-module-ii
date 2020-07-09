@@ -11,6 +11,7 @@ import {
   ShopPage,
   Woody,
 } from "./pages";
+import Error from "./components/Error";
 
 function App() {
   return (
@@ -27,12 +28,8 @@ function App() {
         <Route
           path="*"
           render={() => (
-            <img
-              alt="404"
-              src="https://i.pinimg.com/originals/f3/1b/5b/f31b5bcda076125bf7010c781a4578a0.gif"
-            />
-          )}
-        />
+            <Error/>
+          )}/> 
       </Switch>
     </>
   );
