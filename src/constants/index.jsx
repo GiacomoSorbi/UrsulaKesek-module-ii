@@ -1,14 +1,14 @@
 import bottle from "./Images/green.png";
 import bottle1 from "./Images/turq.png";
-import bottle2 from "./Images/pink.png";
-import bottle3 from "./Images/blue.png";
+import bottle2 from "./Images/blue.png";
+import bottle3 from "./Images/pink.png";
 
  export const products = [
   {
     id: 1,
     name: "Perfume1",
     title: "Seychelles Floral",
-    desc: "",
+    desc: "A blend of ylang ylang,bergamot and blackpepper",
     img: bottle,
     alt: "404",
     prefix: "£",
@@ -22,7 +22,10 @@ import bottle3 from "./Images/blue.png";
     title: "Sri Lanka Woody",
     desc: "",
     img: bottle1,
-    price: "",
+    price: 145.00,
+    quantity: 0,
+    subTotal: 0,
+
   },
   {
     id: 3,
@@ -30,28 +33,28 @@ import bottle3 from "./Images/blue.png";
     title:"Nashville Fruity",
     img: bottle3,
     desc: "",
-    price: "",
+    price: 150.00,
   },
   {
     id: 4,
     name: "Perfume 4",
     img: bottle2,
     description: "",
-    price: "",
+    price: 165.00,
   },
   {
     id: 5,
     name: "Perfume 5",
     img: "",
     description: "",
-    price: "",
+    price: 125.00,
   },
   {
     id: 6,
     name: "Perfume 6",
     img: "",
     description: "",
-    price: "",
+    price: 185.00,
   },
 
   {
@@ -60,7 +63,7 @@ import bottle3 from "./Images/blue.png";
     title: "Poets of Berlin:",
     desc: " A blend of Wild green orris,vanilla,blueberry,lemon,vetiver.",
     prefix: "£",
-    price: 185.0,
+    price: 185.00,
     quantity: 0,
     subTotal: 0,
   },
@@ -70,7 +73,7 @@ import bottle3 from "./Images/blue.png";
     title: "Basso Continuo in Noto :  ",
     desc: "A blend of:Marsala Cask Whisky/Sandalwood/Vetiver/Leather.",
     prefix: "£",
-    price: 145.0,
+    price: 145.00,
     quantity: 0,
     subTotal: 0,
   },
@@ -80,7 +83,7 @@ import bottle3 from "./Images/blue.png";
     title: "Toamasina Ensemble:",
     desc: "An Island Blend:Grapefruit/Cardomom/Vetiver/Vanilla.",
     prefix: "£",
-    price: 160.0,
+    price: 160.00,
     quantity: 0,
     subTotal: 0,
   },
@@ -90,7 +93,7 @@ import bottle3 from "./Images/blue.png";
     title: "Jazz New York:",
     desc: "A classic blend of:Patchouli/Cedar/Lime.",
     prefix: "£",
-    price: 150.0,
+    price: 150.00,
     quantity: 0,
     subTotal: 0,
   },

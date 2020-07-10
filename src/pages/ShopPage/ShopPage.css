@@ -3,6 +3,12 @@ h1.sph2 {
   position:relative;
   top:10px;
   color: white;
+  text-shadow: 3px 3px 3px rgb(238, 106, 5);
+
+}
+h2.pptitle{
+  padding:15px;
+  text-align: center;
 }
 .product-link {
   display:flex;
@@ -10,12 +16,21 @@ h1.sph2 {
   justify-content: space-evenly;
   background-color: azure;
   margin: 30px;
-  padding:20px;
+  padding:10px;
   width:150px;
-  height:70px;
+  height:40px;
+  border-radius:20px;
+  text-decoration:none ;
 }
 .prodp{
+  background-color: rgb(241, 88, 6);
   color:white;
+  height:60px;
+}
+.spcards{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .spitems{
   display:flex;
