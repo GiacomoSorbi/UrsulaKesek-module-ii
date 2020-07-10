@@ -6,25 +6,27 @@ import singleProductPage from "../SingleProductPage";
 
 const ShopPage = () => (
   <>
-    <h2 className="h2.sph2">I am the Shop Page</h2>
-    {products.map((product) => (
-      <NavLink
-        key={product.id}
-        className="product-link"
-        to={`/shop/${product.id}`}
-      >
-        {product.name}
-      </NavLink>
-    ))}
-    <Route
-      path="/shop"
-      render={() => <div>I am the products page</div>}
-    />
-    <Route path="/shop/:id" component={singleProductPage} />
+    <section className="spitems">
+      <h2 className="sph2">I am the Shop Page</h2>
+      {products.map((product) => (
+        <NavLink
+          key={product.id}
+          className="product-link"
+          to={`/shop/${product.id}`}
+        >
+          {product.name}
+        </NavLink>
+      ))}
+      <Route
+        path="/shop"
+        render={() => <div className="prodp">I am the products page</div>}
+      />
+      <Route path="/shop/:id" component={singleProductPage} />
 
-    {/* <NavLink className="product-link"to ="product2"> Product 2</NavLink>
+      {/* <NavLink className="product-link"to ="product2"> Product 2</NavLink>
 <NavLink className="product-link"to ="product3"> Product 3</NavLink>
 <NavLink className="product-link"to ="product4"> Product 4</NavLink> */}
+    </section>
   </>
 );
 export default ShopPage;

@@ -17,22 +17,22 @@
   width: 100px;
   background-color: rgb(55, 54, 56);
 }
-.bubble {
+img.bubble {
   margin-top: 10px;
 }
-.front {
+img.front {
   position: relative;
   left: 5px;
   top: 10px;
 }
-.green1 {
+img.green1 {
   position: relative;
   top: 70px;
   margin: 20px;
   width: 200px;
   height: 200px;
 }
-.bird {
+img.bird {
   margin: 20px;
   position: relative;
   top: 50px;

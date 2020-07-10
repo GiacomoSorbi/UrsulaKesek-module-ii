@@ -4,9 +4,9 @@
 .aroma {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
- h2.cbh2 {
+h2.cbh2 {
   color: rgb(93, 243, 18);
   text-align: end;
 }
@@ -57,13 +57,13 @@ p.wo {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(241, 70, 8);
 }
-.sntwl {
+img.sntwl {
   margin-top: 40px;
-  margin-left:120px;
-  width:500px;
+  margin-left: 120px;
+  width: 500px;
 }
-.wheel{
-  width:720px;
-  height:575px;
-  background: linear-gradient(rgb(235, 143, 110),rgb(241, 70, 8));
+.wheel {
+  width: 720px;
+  height: 575px;
+  background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
 }

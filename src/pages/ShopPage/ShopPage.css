@@ -2,7 +2,22 @@ h2.sph2 {
   color: white;
 }
 .product-link {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: azure;
   margin: 30px;
+  padding:20px;
+  width:150px;
+  height:70px;
 }
- 
+.prodp{
+  color:white;
+}
+.spitems{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+} 

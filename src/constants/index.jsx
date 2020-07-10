@@ -1,44 +1,95 @@
-export const products = [
+import bottle from "./Images/pb10.png";
+import bottle1 from "./Images/gold.png";
+import bottle2 from "./Images/pink.png";
+ export const products = [
   {
     id: 1,
-    name: "Perfume 1",
-    img:"",
-    description:"",
-    price:''
+    name: "Perfume1",
+    title: "Seychelles Floral",
+    desc: "",
+    img: bottle,
+    alt: "404",
+    prefix: "£",
+    price: 185.00,
+    quantity: 0,
+    subTotal: 0,
   },
   {
     id: 2,
     name: "Perfume 2",
-    img:"",
-    description:"",
-    price:''
+    title: "Sri Lanka Woody",
+    desc: "",
+    img: bottle1,
+    price: "",
   },
   {
     id: 3,
     name: "Perfume 3",
-    img:"",
-    description:"",
-    price:''
+    title:"Nashville Fruity",
+    img: bottle2,
+    desc: "",
+    price: "",
   },
   {
     id: 4,
     name: "Perfume 4",
-    img:"",
-    description:"",
-    price:''
+    img: "",
+    description: "",
+    price: "",
   },
   {
     id: 5,
     name: "Perfume 5",
-    img:"",
-    description:"",
-    price:''
+    img: "",
+    description: "",
+    price: "",
   },
   {
     id: 6,
     name: "Perfume 6",
-    img:"",
-    description:"",
-    price:''
+    img: "",
+    description: "",
+    price: "",
+  },
+
+  {
+    id: 7,
+    name: "Perfume 7",
+    title: "Poets of Berlin:",
+    desc: " A blend of Wild green orris,vanilla,blueberry,lemon,vetiver.",
+    prefix: "£",
+    price: 185.0,
+    quantity: 0,
+    subTotal: 0,
+  },
+  {
+    id: 8,
+    name: "Perfume 8",
+    title: "Basso Continuo in Noto :  ",
+    desc: "A blend of:Marsala Cask Whisky/Sandalwood/Vetiver/Leather.",
+    prefix: "£",
+    price: 145.0,
+    quantity: 0,
+    subTotal: 0,
+  },
+  {
+    id: 9,
+    name: "Perfume 9",
+    title: "Toamasina Ensemble:",
+    desc: "An Island Blend:Grapefruit/Cardomom/Vetiver/Vanilla.",
+    prefix: "£",
+    price: 160.0,
+    quantity: 0,
+    subTotal: 0,
+  },
+  {
+    id: 10,
+    name: "Perfume 10",
+    title: "Jazz New York:",
+    desc: "A classic blend of:Patchouli/Cedar/Lime.",
+    prefix: "£",
+    price: 150.0,
+    quantity: 0,
+    subTotal: 0,
   },
 ];
