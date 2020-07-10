@@ -6,8 +6,8 @@ import singleProductPage from "../SingleProductPage";
 
 const ShopPage = () => (
   <>
+      <h1 className="sph2">I am the Shop Page</h1>
     <section className="spitems">
-      <h2 className="sph2">I am the Shop Page</h2>
       {products.map((product) => (
         <NavLink
           key={product.id}

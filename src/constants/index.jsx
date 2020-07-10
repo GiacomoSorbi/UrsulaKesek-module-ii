@@ -1,6 +1,8 @@
-import bottle from "./Images/pb10.png";
-import bottle1 from "./Images/gold.png";
+import bottle from "./Images/green.png";
+import bottle1 from "./Images/turq.png";
 import bottle2 from "./Images/pink.png";
+import bottle3 from "./Images/blue.png";
+
  export const products = [
   {
     id: 1,
@@ -26,14 +28,14 @@ import bottle2 from "./Images/pink.png";
     id: 3,
     name: "Perfume 3",
     title:"Nashville Fruity",
-    img: bottle2,
+    img: bottle3,
     desc: "",
     price: "",
   },
   {
     id: 4,
     name: "Perfume 4",
-    img: "",
+    img: bottle2,
     description: "",
     price: "",
   },

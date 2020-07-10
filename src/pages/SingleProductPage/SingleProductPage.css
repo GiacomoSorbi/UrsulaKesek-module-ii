@@ -1,17 +1,38 @@
 .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   padding: 20px;
   width: 300px;
   height: 500px;
-  background-color: rgba(250, 154, 30, 1);
+  background-color: black;
+  color: white;
 }
 .pimg {
-    margin:30px;
-  width: 175px;
-  height: 175px;
-  border: 2px double darkorange;
+  width: 200px;
+  height: 200px;
+  border: 4px double darkorange;
 }
 .price {
+  padding: 15px;
   width: 100px;
   height: 50px;
+  border: 2px double darkorange;
+}
+.pn {
+  padding: 6px 20px;
+  border: 2px double darkorange;
+  width: 150px;
+  border-radius: 20px;
+}
+.pt {
+  margin: 5px;
+  padding: 6px 25px;
+  border: 2px double darkorange;
+  width: 250px;
+  border-radius: 20px;
+}
+.pp {
   border: 2px double darkorange;
 }

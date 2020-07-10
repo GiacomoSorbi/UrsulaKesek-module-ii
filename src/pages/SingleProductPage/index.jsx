@@ -14,20 +14,22 @@ const SingleProductPage = ({ match }) => {
     <>
       <div className="product">
         <h4>I am the SingleProductpage!</h4>
-        <h2>
-          {productId} - {productName}
-          {productTitle}
+        <h2 className="pn">
+         {productName}
         </h2>
+        <h2 className="pt">{productTitle}</h2>
         <div
           className="pimg"
           style={{ backgroundImage: `url(${productImg}` }}
         />
-              <h4 className="price">{productPrefix}{productPrice}</h4>
-
+        <h4 className="price">
+          {productPrefix}
+          {productPrice.toFixed(2)}
+        </h4>
+        <NavLink className="pp" to="/shop">
+          BACK TO PRODUCTS
+        </NavLink>
       </div>
-      <NavLink className="pp" to="/shop">
-        BACK TO PRODUCTS
-      </NavLink>
     </>
   );
 };
