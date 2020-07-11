@@ -13,7 +13,6 @@ const SingleProductPage = ({ match }) => {
   return (
     <>
       <div className="product">
-        <h4>I am the SingleProductpage!</h4>
         <h2 className="pn">
          {productName}
         </h2>

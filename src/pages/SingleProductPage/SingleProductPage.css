@@ -1,10 +1,10 @@
 .product {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  width: 370px;
-  height: 500px;
+  width: 1440px;
+  height: 230px;
   background-color: black;
   color: white;
 }
@@ -20,9 +20,9 @@
   border: 2px double darkorange;
 }
 .pn {
-  padding: 6px 20px;
+  padding:10px 15px;
   border: 2px double darkorange;
-  width: 150px;
+  width: 60px;
   border-radius: 20px;
 }
 .pt {

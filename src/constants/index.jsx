@@ -6,7 +6,7 @@ import bottle3 from "./Images/pink.png";
  export const products = [
   {
     id: 1,
-    name: "Perfume1",
+    name: "P1",
     title: "Seychelles Floral",
     desc: "A blend of ylang ylang,bergamot and blackpepper",
     img: bottle,
@@ -18,7 +18,7 @@ import bottle3 from "./Images/pink.png";
   },
   {
     id: 2,
-    name: "Perfume 2",
+    name: "P2",
     title: "Sri Lanka Woody",
     desc: "",
     img: bottle1,
@@ -29,7 +29,7 @@ import bottle3 from "./Images/pink.png";
   },
   {
     id: 3,
-    name: "Perfume 3",
+    name: "P3",
     title:"Nashville Fruity",
     img: bottle3,
     desc: "",
@@ -37,29 +37,21 @@ import bottle3 from "./Images/pink.png";
   },
   {
     id: 4,
-    name: "Perfume 4",
+    name: "P4",
     img: bottle2,
     description: "",
     price: 165.00,
   },
   {
     id: 5,
-    name: "Perfume 5",
+    name: "P5",
     img: "",
     description: "",
     price: 125.00,
   },
   {
     id: 6,
-    name: "Perfume 6",
-    img: "",
-    description: "",
-    price: 185.00,
-  },
-
-  {
-    id: 7,
-    name: "Perfume 7",
+    name: "P6",
     title: "Poets of Berlin:",
     desc: " A blend of Wild green orris,vanilla,blueberry,lemon,vetiver.",
     prefix: "£",
@@ -68,8 +60,8 @@ import bottle3 from "./Images/pink.png";
     subTotal: 0,
   },
   {
-    id: 8,
-    name: "Perfume 8",
+    id: 7,
+    name: "P7",
     title: "Basso Continuo in Noto :  ",
     desc: "A blend of:Marsala Cask Whisky/Sandalwood/Vetiver/Leather.",
     prefix: "£",
@@ -78,8 +70,8 @@ import bottle3 from "./Images/pink.png";
     subTotal: 0,
   },
   {
-    id: 9,
-    name: "Perfume 9",
+    id: 8,
+    name: "P8",
     title: "Toamasina Ensemble:",
     desc: "An Island Blend:Grapefruit/Cardomom/Vetiver/Vanilla.",
     prefix: "£",
@@ -88,8 +80,8 @@ import bottle3 from "./Images/pink.png";
     subTotal: 0,
   },
   {
-    id: 10,
-    name: "Perfume 10",
+    id: 9,
+    name: "P9",
     title: "Jazz New York:",
     desc: "A classic blend of:Patchouli/Cedar/Lime.",
     prefix: "£",

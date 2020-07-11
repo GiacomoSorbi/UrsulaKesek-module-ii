@@ -1,41 +1,58 @@
-h1.sph2 {
+h2.sph2 {
   text-align: center;
-  position:relative;
-  top:10px;
+  position: relative;
+  top: 10px;
   color: white;
   text-shadow: 3px 3px 3px rgb(238, 106, 5);
-
 }
-h2.pptitle{
-  padding:15px;
+h2.pptitle {
+  padding: 15px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+h3.sppick {
+  color: white;
   text-align: center;
 }
 .product-link {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: azure;
-  margin: 30px;
-  padding:10px;
-  width:150px;
-  height:40px;
-  border-radius:20px;
-  text-decoration:none ;
+  line-height: 1;
+  padding: 7px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px #000;
+  border: 6px double black;
+  background-color: rgb(78, 211, 12);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(214, 233, 11, 0.885)
+  );
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+  outline: none;
 }
-.prodp{
+
+.prodp {
   background-color: rgb(241, 88, 6);
-  color:white;
-  height:60px;
+  color: white;
+  height: 60px;
 }
-.spcards{
-  display:flex;
-  flex-direction: row;
+.spcards {
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
-.spitems{
-  display:flex;
+.spitems {
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-
-} 
+  margin: 20px;
+}
