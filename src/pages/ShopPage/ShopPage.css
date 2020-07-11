@@ -12,6 +12,7 @@ h2.pptitle {
   text-align: center;
 }
 h3.sppick {
+  margin:15px;
   color: white;
   text-align: center;
 }
@@ -48,6 +49,9 @@ h3.sppick {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+header.spheader{
+  height:70px;
 }
 .spitems {
   display: flex;

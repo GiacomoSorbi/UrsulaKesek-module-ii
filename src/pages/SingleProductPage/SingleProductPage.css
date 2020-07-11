@@ -23,15 +23,16 @@
   padding:10px 15px;
   border: 2px double darkorange;
   width: 60px;
-  border-radius: 20px;
 }
 .pt {
-  margin: 5px;
-  padding: 6px 25px;
+  padding:8px;
   border: 2px double darkorange;
   width: 250px;
-  border-radius: 20px;
 }
 .pp {
+  padding:5px;
   border: 2px double darkorange;
+  color:white;
+  text-decoration:none ;
+  cursor:pointer;
 }

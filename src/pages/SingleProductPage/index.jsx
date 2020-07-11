@@ -10,13 +10,15 @@ const SingleProductPage = ({ match }) => {
   const productImg = products.find((elem) => elem.id === productId).img;
   const productPrice = products.find((elem) => elem.id === productId).price;
   const productPrefix = products.find((elem) => elem.id === productId).prefix;
+  const productQuantity = products.find((elem) => elem.id === productId).quantity;
+  const productDesc = products.find((elem) => elem.id === productId).desc;
   return (
     <>
       <div className="product">
         <h2 className="pn">
          {productName}
         </h2>
-        <h2 className="pt">{productTitle}</h2>
+        <p className="pt">{productTitle} - {productDesc}</p>
         <div
           className="pimg"
           style={{ backgroundImage: `url(${productImg}` }}
@@ -24,7 +26,11 @@ const SingleProductPage = ({ match }) => {
         <h4 className="price">
           {productPrefix}
           {productPrice.toFixed(2)}
+          </h4>
+          <button>-</button>
+         <h4> {productQuantity}
         </h4>
+        <button>+</button>
         <NavLink className="pp" to="/shop">
           BACK TO PRODUCTS
         </NavLink>
