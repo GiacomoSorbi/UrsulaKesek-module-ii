@@ -34,7 +34,7 @@ const ShopPage = () => (
         <Route path="/shop/:id" component={singleProductPage} />
       </div>
       <div className="cp">
-        <Route path="/cart" component={singleProductPage} />
+        <Route path="/cart"/>
       </div>
       {/* <NavLink className="product-link"to ="product2"> Product 2</NavLink>
 <NavLink className="product-link"to ="product3"> Product 3</NavLink>

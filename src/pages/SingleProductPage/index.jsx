@@ -32,6 +32,7 @@ const SingleProductPage = ({ match }) => {
         <NavLink className="pp" to="/shop">
           BACK TO PRODUCTS
         </NavLink>
+
       </div>
     </>
   );

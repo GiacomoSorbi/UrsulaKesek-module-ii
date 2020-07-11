@@ -1,4 +1,5 @@
 export { default as CabinetPage } from "./CabinetPage";
+export { default as CartPage } from "./CartPage";
 export { default as Floral } from "./Floral";
 export { default as Fresh } from "./Fresh";
 export { default as HomePage } from "./HomePage";

@@ -3,6 +3,7 @@ import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import {
   CabinetPage,
+  CartPage,
   Floral,
   Fresh,
   HomePage,
@@ -25,6 +26,7 @@ function App() {
         <Route path="/shop" component={ShopPage} />
         <Route path="/plants" exact component={PlantsPage} />
         <Route path="/cabinet" exact component={CabinetPage} />
+        <Route path="/cart" exact component={CartPage} />
         <Route
           path="*"
           render={() => (
