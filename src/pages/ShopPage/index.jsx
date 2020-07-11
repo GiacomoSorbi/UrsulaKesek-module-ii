@@ -6,9 +6,9 @@ import singleProductPage from "../SingleProductPage";
 
 const ShopPage = () => (
   <>
-  <header className="spheader">
-    <h2 className="sph2">I am the Shop Page</h2>
-    <h3 className="sppick">Click on any item P1 to P9</h3>
+    <header className="spheader">
+      <h2 className="sph2">I am the Shop Page</h2>
+      <h3 className="sppick">Click on any item P1 to P9</h3>
     </header>
     <section className="spitems">
       {products.map((product) => (
@@ -32,6 +32,9 @@ const ShopPage = () => (
       />
       <div className="spp">
         <Route path="/shop/:id" component={singleProductPage} />
+      </div>
+      <div className="cp">
+        <Route path="/cart" component={singleProductPage} />
       </div>
       {/* <NavLink className="product-link"to ="product2"> Product 2</NavLink>
 <NavLink className="product-link"to ="product3"> Product 3</NavLink>
