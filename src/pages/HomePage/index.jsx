@@ -12,11 +12,10 @@ function HomePage() {
         <h2 className="hph2">COOL CHICKS AND CATS ROAM THE WORLD</h2>
         <img className="bird" src={Bird} alt="robin-bird" />
         <img className="green1" src={GreenCat} alt="green-cat" />
-
       </div>
       <img className="front" src={Front} alt="andy-window" />
       <div className="box3">
-      <img className="bubble" src={Bubble} alt="small-bubble-animation" />
+        <img className="bubble" src={Bubble} alt="small-bubble-animation" />
       </div>
     </section>
   );

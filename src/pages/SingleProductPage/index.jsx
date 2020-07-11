@@ -14,7 +14,7 @@ const SingleProductPage = ({ match }) => {
   return (
     <>
       <div className="product">
-        <h2 className="pn">{productName}</h2>
+        <h2 className="pn">{productId}-{productName}</h2>
         <p className="pt">
           {productTitle} - {productDesc}
         </p>
@@ -32,7 +32,6 @@ const SingleProductPage = ({ match }) => {
         <NavLink className="pp" to="/shop">
           BACK TO PRODUCTS
         </NavLink>
-
       </div>
     </>
   );

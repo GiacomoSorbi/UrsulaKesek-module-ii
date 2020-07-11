@@ -57,7 +57,7 @@ export const products = [
   {
     id: 6,
     name: "P6",
-    title: "Poets of Berlin:",
+    title: "Poets of Berlin",
     desc: "Blending wild green orris,lemon,blueberry,vanilla,vetiver.",
     prefix: "£",
     price: 185.0,
