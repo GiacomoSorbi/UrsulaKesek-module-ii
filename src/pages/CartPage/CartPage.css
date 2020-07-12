@@ -1,0 +1,49 @@
+.btns{
+  margin:10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding:15px;
+}
+h2.cpid{
+  color:white;
+}
+.less{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  font-size:2em ;
+}
+.add{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  font-size:2em ;
+}
+.cart{
+  margin:10px;
+  width:300px;
+  height:560px;
+  background-color: black;
+  border: 4px double darkorange;
+}
+.empty{
+  color:white;
+}
+h2.cp{
+  width:290px;
+  height:60px;
+  padding:15px;
+}
+h3.empty{
+  padding:15px;
+}
+.pimg {
+  width: 200px;
+  height: 200px;
+  border: 4px double darkorange;
+}
+.qty{
+  color:white;
+  font-size:2em;
+}

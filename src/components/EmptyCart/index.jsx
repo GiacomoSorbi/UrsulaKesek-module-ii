@@ -4,7 +4,7 @@ import "./EmptyCart.css";
 
 const EmptyCart = ()=>{
     return(
-        <p className="empty">
+        <p className="mtcart">
             <h1>Nothing in your Cart</h1>
             <h2>Don't miss some wonderful scents</h2>
         </p>

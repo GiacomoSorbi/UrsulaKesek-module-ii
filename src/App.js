@@ -26,7 +26,7 @@ function App() {
         <Route path="/shop" component={ShopPage} />
         <Route path="/plants" exact component={PlantsPage} />
         <Route path="/cabinet" exact component={CabinetPage} />
-        <Route path="/cart" exact component={CartPage} />
+        <Route path="/cart" component={CartPage} />
         <Route
           path="*"
           render={() => (

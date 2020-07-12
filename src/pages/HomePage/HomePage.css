@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   height: 570px;
-  width: 530px;
+  width: 300px;
   z-index: 1;
   background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
 }

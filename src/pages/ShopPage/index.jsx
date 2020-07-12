@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Route } from "react-router-dom";
 import "./ShopPage.css";
 import { products } from "../../constants";
-import singleProductPage from "../SingleProductPage";
+import SingleProductPage from "../SingleProductPage";
 
 const ShopPage = () => (
   <>
@@ -31,10 +31,10 @@ const ShopPage = () => (
         )}
       />
       <div className="spp">
-        <Route path="/shop/:id" component={singleProductPage} />
+        <Route path="/shop/:id" component={SingleProductPage} />
       </div>
-      <div className="cp">
-        <Route path="/cart"/>
+      <div className="cartp">
+        <Route path="/cart/:id" component={SingleProductPage}/>
       </div>
       {/* <NavLink className="product-link"to ="product2"> Product 2</NavLink>
 <NavLink className="product-link"to ="product3"> Product 3</NavLink>

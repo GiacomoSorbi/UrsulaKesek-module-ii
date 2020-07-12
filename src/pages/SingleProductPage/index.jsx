@@ -13,8 +13,10 @@ const SingleProductPage = ({ match }) => {
   const productDesc = products.find((elem) => elem.id === productId).desc;
   return (
     <>
-      <div className="product">
-        <h2 className="pn">{productId}-{productName}</h2>
+      <main className="product">
+        <h2 className="pn">
+          {productId}-{productName}
+        </h2>
         <p className="pt">
           {productTitle} - {productDesc}
         </p>
@@ -26,13 +28,15 @@ const SingleProductPage = ({ match }) => {
           {productPrefix}
           {productPrice.toFixed(2)}
         </h4>
-        <NavLink className="cp" to="/cart">
+        <NavLink className="cp" to="/cart/">
           ADD TO CART
         </NavLink>
-        <NavLink className="pp" to="/shop">
-          BACK TO PRODUCTS
-        </NavLink>
-      </div>
+        <div className="bts">
+          <NavLink className="pp" to="/shop/:id">
+            BACK TO SHOP
+          </NavLink>
+        </div>
+      </main>
     </>
   );
 };
