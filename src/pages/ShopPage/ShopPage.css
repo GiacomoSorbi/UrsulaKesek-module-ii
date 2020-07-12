@@ -16,6 +16,12 @@ h3.sppick {
   color: white;
   text-align: center;
 }
+.item{
+    height:200px;
+    width:200px;
+    background-color: deeppink;
+    visibility:visible;
+}
 .product-link {
   display: flex;
   flex-direction: row;

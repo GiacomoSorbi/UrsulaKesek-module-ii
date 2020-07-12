@@ -23,7 +23,7 @@ const SingleProductPage = ({ match }) => {
         <div
           className="pimg"
           style={{ backgroundImage: `url(${productImg}` }}
-        />
+        ></div>
         <h4 className="price">
           {productPrefix}
           {productPrice.toFixed(2)}
