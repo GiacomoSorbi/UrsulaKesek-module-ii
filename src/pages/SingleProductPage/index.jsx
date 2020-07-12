@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink,Route } from "react-router-dom";
 import { products } from "../../constants";
 import "./SingleProductPage.css";
 
@@ -28,14 +28,21 @@ const SingleProductPage = ({ match }) => {
           {productPrefix}
           {productPrice.toFixed(2)}
         </h4>
-        <NavLink className="cp" to="/cart/">
-          ADD TO CART
+        <NavLink 
+        className="cp"
+        key={productId} 
+        to={`/cart/${productId}`}>
+         ADD TO CART
         </NavLink>
         <div className="bts">
           <NavLink className="pp" to="/shop/:id">
             BACK TO SHOP
           </NavLink>
         </div>
+        <div className="cartp">
+        <Route path="/cart/:id"/>
+      </div>
+
       </main>
     </>
   );

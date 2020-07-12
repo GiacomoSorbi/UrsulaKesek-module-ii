@@ -4,7 +4,9 @@ import { products } from "../../constants";
 import { EmptyCart } from "../../components";
 import "./CartPage.css";
 
-const CartPage = () => {
+const CartPage = ({ match }) => {
+  const productId = +match.params.id;
+  // const productImg = products.find((elem) => elem.id === productId).img;
   const [quantity, setQuantity] = useState(0);
   const increaseQty = () => setQuantity(quantity + 1);
   const decreaseQty = () => setQuantity(quantity - 1);
@@ -17,8 +19,13 @@ const CartPage = () => {
       <section className="cart">
         <h2 className="cp">I am in the Cart Page</h2>
         <h3 className="empty">
-          {products.length === 0 ?<EmptyCart/>:"blah blah blah"}
+          {products.length === 0 ? <EmptyCart /> : "Nothing to see Here"}
         </h3>
+        <h2 className="cpid">{productId}</h2>
+        {/* <div
+          className="pimg"
+          style={{ backgroundImage: `url(${productImg}` }}
+        /> */}
         <div className="btns">
           <button className="less" onClick={decreaseQty}>
             -

@@ -4,10 +4,10 @@ import "./EmptyCart.css";
 
 const EmptyCart = ()=>{
     return(
-        <p className="mtcart">
-            <h1>Nothing in your Cart</h1>
-            <h2>Don't miss some wonderful scents</h2>
-        </p>
+        <div className="mtcart">
+            <h2>Nothing in your Cart</h2>
+            <h3>Don't miss some wonderful scents</h3>
+        </div>
     )
 }
 export default EmptyCart;
