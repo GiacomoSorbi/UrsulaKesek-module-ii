@@ -1,29 +1,22 @@
-import React from "react";
-// import { EmptyCart } from "../../components";
-// import { Item } from "../../components";
-// import { items } from "../../constants";
-// import { NavLink } from "react-router-dom";
+import React,{useState} from "react";
+import { EmptyCart } from "../../components";
+import { Item } from "../../components";
+import { items } from "../../constants";
+import { NavLink } from "react-router-dom";
 import "./CartPage.css";
 
-const CartPage = ({ match }) => {
-  // const ItemId = match.params.id;
-  // const [quantity, setQuantity] = useState(0);
-  // const[cart,Setcart]=useState([items]);
-  // const addToCart =(items)=>{
-  //   Setcart(previousCart=>[...previousCart,items]);
-  // };
+const CartPage = () => {
 
-  // const increaseQty = () => setQuantity(quantity + 1);
-  // const decreaseQty = () => setQuantity(quantity - 1);
-  // const quantityChanged = (quantity)=> {
-  //   if(isNaN (quantity.value) || quantity.value <= -1)
-  //   {quantity.value = 0}
-  // }
+  const [quantity, setQuantity] = useState(0);
+
+
+  const increaseQty = () => setQuantity(quantity + 1);
+  const decreaseQty = () => setQuantity(quantity - 1);
   return (
     <>
       <section className="cart">
         <h2 className="cp">I am in the Cart Page</h2>
-        {/* <EmptyCart />
+        <EmptyCart />
         <ul className="cul">
           {items.map((item) => (
             <li key={item.id} className="cit">
@@ -45,7 +38,7 @@ const CartPage = ({ match }) => {
               BACK TO SHOP
             </NavLink>
           </li>
-        </ul> */}
+        </ul>
       </section>
     </>
   );
