@@ -12,10 +12,10 @@ const SingleProductPage = ({ match }) => {
   const productPrefix = products.find((elem) => elem.id === productId).prefix;
   const productDesc = products.find((elem) => elem.id === productId).desc;
 
-  const [cart, Setcart] = useState([0]);
+  const [cart, Setcart] = useState([]);
 
-  const addToCart = () => {
-    Setcart((oldCart) => [...oldCart, products]);
+  const addToCart = (product) => {
+    Setcart((oldCart) => [...oldCart, product]);
   };
 
   return (
@@ -37,12 +37,12 @@ const SingleProductPage = ({ match }) => {
         </h4>
         <button onClick={addToCart}>+</button>
         <div className="links">
-          <NavLink className="cp" to="/cart/">
+          <NavLink className="cp" to="/cartp">
             TO CART
           </NavLink>
         </div>
         <div className="cartp">
-          <Route path="/cart" />
+          <Route path="/cartp" />
         </div>
       </main>
     </>
