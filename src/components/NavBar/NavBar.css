@@ -16,7 +16,8 @@ nav ul li {
 .home,
 .shop,
 .plants,
-.cabinet {
+.cabinet,
+.cartp {
   position: relative;
   width: 235px;
   height: 60px;

@@ -3,7 +3,6 @@ import { NavLink, Route } from "react-router-dom";
 import "./ShopPage.css";
 import { products } from "../../constants";
 import SingleProductPage from "../SingleProductPage";
-import { Item } from "../../components";
 
 const ShopPage = () => (
   <>
@@ -34,13 +33,10 @@ const ShopPage = () => (
       <div className="spp">
         <Route path="/shop/:id" component={SingleProductPage} />
       </div>
-      <div className="cartp">
-        <Route path="/cart/:id" component ={Item}/>
-      </div>
+      </section>
       {/* <NavLink className="product-link"to ="product2"> Product 2</NavLink>
 <NavLink className="product-link"to ="product3"> Product 3</NavLink>
 <NavLink className="product-link"to ="product4"> Product 4</NavLink> */}
-    </section>
   </>
 );
 export default ShopPage;

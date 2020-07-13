@@ -1,4 +1,7 @@
 .mtcart{
-    background-color: coral;
-    height:60px;
+    margin:50px;
+    background-color: green;
+    padding:10px;
+    height:70px;
+    width:330px;
 }

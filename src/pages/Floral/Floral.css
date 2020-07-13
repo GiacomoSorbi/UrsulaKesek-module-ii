@@ -1,0 +1,23 @@
+h2.flo{
+    padding:5px;
+    background-color:rgb(82, 207, 10) ;
+    color:black;
+    text-align: center;
+}
+main.flo{
+    background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
+width:1440px;
+height:575px;
+}
+section.flosec{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+p.floa,p.flob,p.floc{
+    margin:15px;
+    border:4px double black;
+    width:300px;
+    height:500px;
+    text-align: center;
+}

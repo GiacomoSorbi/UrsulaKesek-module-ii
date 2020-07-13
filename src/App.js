@@ -26,12 +26,8 @@ function App() {
         <Route path="/shop" component={ShopPage} />
         <Route path="/plants" exact component={PlantsPage} />
         <Route path="/cabinet" exact component={CabinetPage} />
-        <Route path="/cart" exact component={CartPage} />
-        <Route
-          path="*"
-          render={() => (
-            <Error/>
-          )}/> 
+        <Route path="/cartp" component={CartPage} />
+        <Route path="*" render={() => <Error />} />
       </Switch>
     </>
   );

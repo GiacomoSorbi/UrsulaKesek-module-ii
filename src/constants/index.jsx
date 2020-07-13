@@ -38,7 +38,7 @@ export const products = [
     name: "Scent 3",
     title: "Rio City Garden",
     img: bottle3,
-    desc:"Exciting cocktail of ",
+    desc:"Exciting cocktail of gardenia,ylang-ylang,passion-fruit and lime",
     price: 150.0,
     quantity: `Qty:${0}`,
     subTotal: 0,
@@ -48,7 +48,7 @@ export const products = [
     name: "Scent 4",
     title: "Cuenca Rose",
     img: bottle6,
-    desc:"Sensational tuberose,cedar and oakmoss,violets",
+    desc:"Sensational tuberose,cedar,vetiver and violets",
     price: 165.0,
   },
   {
@@ -56,7 +56,7 @@ export const products = [
     name: "Scent 5",
     title: "Paris Mimosa",
     img: bottle4,
-    description: "",
+    desc: "Mesmerising mimosa,cardamom, sandalwood,damask rose and tonka",
     price: 125.0,
   },
   {

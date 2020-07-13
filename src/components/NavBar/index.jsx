@@ -16,6 +16,11 @@ const NavBar = () => (
         </Link>
       </li>
       <li>
+        <Link className="cartp" to="/cartp">
+          Cart
+        </Link>
+      </li>
+      <li>
         <Link className="plants" to="/plants">
           Plants
         </Link>

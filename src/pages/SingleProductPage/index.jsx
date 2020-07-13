@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { products } from "../../constants";
 import "./SingleProductPage.css";
 
@@ -37,12 +37,10 @@ const SingleProductPage = ({ match }) => {
         </h4>
         <button onClick={addToCart}>+</button>
         <div className="links">
-          <NavLink className="cp" to="/cartp">
+          <Link className="cp"
+           to="/cartp">
             TO CART
-          </NavLink>
-        </div>
-        <div className="cartp">
-          <Route path="/cartp" />
+          </Link>
         </div>
       </main>
     </>

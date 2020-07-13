@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 import { EmptyCart } from "../../components";
-import { Item } from "../../components";
 import { items } from "../../constants";
 import { NavLink } from "react-router-dom";
 import "./CartPage.css";
@@ -8,8 +7,6 @@ import "./CartPage.css";
 const CartPage = () => {
 
   const [quantity, setQuantity] = useState(0);
-
-
   const increaseQty = () => setQuantity(quantity + 1);
   const decreaseQty = () => setQuantity(quantity - 1);
   return (
@@ -17,10 +14,12 @@ const CartPage = () => {
       <section className="cart">
         <h2 className="cp">I am in the Cart Page</h2>
         <EmptyCart />
-        <ul className="cul">
           {items.map((item) => (
-            <li key={item.id} className="cit">
-              <Item item={item} />
+            <NavLink key={item.id} className="item-link"
+              to={`/cartp/${item.id}`}>
+                {item.title}
+                </NavLink>
+          ))}
               <div className="btns">
                 <button className="less" onClick={decreaseQty}>
                   -
@@ -30,16 +29,13 @@ const CartPage = () => {
                   +
                 </button>
               </div>
-            </li>
-          ))}
-          ;
-          <li className="cpl">
+          <div className="cpl">
             <NavLink className="pp" to="/shop">
               BACK TO SHOP
             </NavLink>
-          </li>
-        </ul>
-      </section>
+            </div>
+            </section>
+
     </>
   );
 };
