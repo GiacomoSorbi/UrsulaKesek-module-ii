@@ -1,12 +1,12 @@
 import React from 'react';
-
+import Cat404 from './Image/Bluecat404.gif';
+import "./Error.css";
 const Error =()=>
 <> 
-<div>
-    I am the Error Page
+<div className="err">
     <img
               alt="404"
-              src="https://i.pinimg.com/originals/f3/1b/5b/f31b5bcda076125bf7010c781a4578a0.gif"
+              src={Cat404}
             />
 
     </div>
