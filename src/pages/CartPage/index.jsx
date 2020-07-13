@@ -9,12 +9,13 @@ const CartPage = () => {
   const [quantity, setQuantity] = useState(0);
   const increaseQty = () => setQuantity(quantity + 1);
   const decreaseQty = () => setQuantity(quantity - 1);
+
   return (
     <>
       <section className="cart">
         <div>
-          <h2 className="cp">I am in the Cart Page</h2>
-          <EmptyCart />
+          {/* <h2 className="cp">I am in the Cart Page</h2> */}
+          {/* <EmptyCart/> */}
           <div className="cpitems">
             {items.map((item) => (
               <NavLink
@@ -22,7 +23,7 @@ const CartPage = () => {
                 className="item-link"
                 to={`/cartp/${item.id}`}
               >
-                {item.id}
+                {item.title}
               </NavLink>
             ))}
           </div>
@@ -31,15 +32,13 @@ const CartPage = () => {
           <Route
             path="/cartp"
             render={() => (
-              <div className="itemp">
-                <h2 className="iptitle">ITEMS</h2>
+              <div>
+                <h2 className="cptitle">ITEMS</h2>
               </div>
             )}
           />
           <div className="cpi">
             <Route path="/cartp/:id" component={Item} />
-          </div>
-
           <div className="btns">
             <button className="less" onClick={decreaseQty}>
               -
@@ -53,6 +52,7 @@ const CartPage = () => {
             <NavLink className="pp" to="/shop">
               BACK TO SHOP
             </NavLink>
+          </div>
           </div>
         </div>
       </section>

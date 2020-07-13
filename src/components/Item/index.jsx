@@ -12,7 +12,6 @@ const Item = ({ match }) => {
   return (
     <>
       <div className="item">
-        I am an Item
         <main className="item-one">
           <h2 className="iid">{itemId}</h2>
           <p className="ipt">{itemTitle}</p>

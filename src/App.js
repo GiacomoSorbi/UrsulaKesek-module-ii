@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import {
@@ -15,6 +15,12 @@ import {
 import Error from "./components/Error";
 
 function App() {
+  const [cart, setCart] = useState([]);
+
+  const addToCart = (item) => {
+    setCart((oldCart) => [...oldCart, item]);
+  };
+
   return (
     <>
       <Switch>

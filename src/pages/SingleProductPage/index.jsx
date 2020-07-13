@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { products } from "../../constants";
 import "./SingleProductPage.css";
 
-const SingleProductPage = ({ match }) => {
+const SingleProductPage = ({ match,addToCart }) => {
   const productId = match.params.id;
   const productName = products.find((elem) => elem.id === productId).name;
   const productTitle = products.find((elem) => elem.id === productId).title;
@@ -12,11 +12,6 @@ const SingleProductPage = ({ match }) => {
   const productPrefix = products.find((elem) => elem.id === productId).prefix;
   const productDesc = products.find((elem) => elem.id === productId).desc;
 
-  const [cart, Setcart] = useState([]);
-
-  const addToCart = (product) => {
-    Setcart((oldCart) => [...oldCart, product]);
-  };
 
   return (
     <>

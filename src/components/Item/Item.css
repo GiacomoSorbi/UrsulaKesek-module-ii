@@ -1,9 +1,25 @@
-.item{
-    height:600px;
-    width:300px;
-    background-color: deeppink;
+.item-one {
+  margin: 30px;
+  background-color: black;
+  width:200px;
+  height:200px;
 }
-.iimg{
-    width:200px;
-    height:200px;
+.iimg {
+  width: 200px;
+  height: 195px;
+}
+h2.iid {
+  padding: 4px;
+  text-align: center;
+}
+p.ipt {
+  text-align: center;
+  font-size: 1.5em;
+  color:white;
+}
+h4.price {
+  text-align: center;
+  width: 200px;
+  color: white;
+  background-color: black;
 }
