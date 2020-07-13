@@ -5,8 +5,9 @@
   justify-content: space-evenly;
   padding:15px;
 }
-.cpid{
+h2.cpid{
   color:white;
+  background-color: deeppink;
 }
 .less{
   width:50px;

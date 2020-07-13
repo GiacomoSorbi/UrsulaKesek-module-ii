@@ -4,10 +4,15 @@ import { products } from "../../constants";
 import { EmptyCart } from "../../components";
 import "./CartPage.css";
 
-const CartPage = ({ match }) => {
+const CartPage = ({match}) => {
   const productId = +match.params.id;
 
   const [quantity, setQuantity] = useState(0);
+  const[cart,Setcart]=useState([]);
+  const addToCart =(products)=>{
+    Setcart(previousCart=>[...previousCart,products]);
+  };
+
   const increaseQty = () => setQuantity(quantity + 1);
   const decreaseQty = () => setQuantity(quantity - 1);
   // const quantityChanged = (quantity)=> {

@@ -12,20 +12,19 @@ h2.pptitle {
   text-align: center;
 }
 h3.sppick {
-  margin:15px;
+  margin: 15px;
   color: white;
   text-align: center;
 }
-.item{
-    height:200px;
-    width:200px;
-    background-color: deeppink;
-    visibility:visible;
+.item {
+  height: 200px;
+  width: 200px;
+  background-color: deeppink;
+  visibility: visible;
 }
 .product-link {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   line-height: 1;
   padding: 7px;
   font-size: 1.5rem;
@@ -56,12 +55,11 @@ h3.sppick {
   flex-direction: column;
   justify-content: space-around;
 }
-header.spheader{
-  height:70px;
+header.spheader {
+  height: 70px;
 }
 .spitems {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   margin: 20px;

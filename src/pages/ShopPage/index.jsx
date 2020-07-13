@@ -7,7 +7,7 @@ import SingleProductPage from "../SingleProductPage";
 const ShopPage = () => (
   <>
     <header className="spheader">
-      <h2 className="sph2">I am the Shop Page</h2>
+      <h2 className="sph2">Choose your Scents Here</h2>
       <h3 className="sppick">Click on any item P1 to P9</h3>
     </header>
     <section className="spitems">
@@ -17,7 +17,7 @@ const ShopPage = () => (
           className="product-link"
           to={`/shop/${product.id}`}
         >
-          {product.name}
+          {product.title}
         </NavLink>
       ))}
     </section>
@@ -34,7 +34,7 @@ const ShopPage = () => (
         <Route path="/shop/:id" component={SingleProductPage} />
       </div>
       <div className="cartp">
-        <Route path="/cart/:id"/>
+        <Route path="/cart" component ={SingleProductPage}/>
       </div>
       {/* <NavLink className="product-link"to ="product2"> Product 2</NavLink>
 <NavLink className="product-link"to ="product3"> Product 3</NavLink>
