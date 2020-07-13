@@ -38,7 +38,7 @@ export const products = [
     name: "Scent 3",
     title: "Rio City Garden",
     img: bottle3,
-    desc: "",
+    desc: "Exciting cocktail of ",
     price: 150.0,
     quantity: `Qty:${0}`,
     subTotal: 0,
@@ -48,7 +48,7 @@ export const products = [
     name: "Scent 4",
     title: "Cuenca Rose",
     img: bottle6,
-    description: "",
+    description: "Sensational tuberose,cedar and oakmoss,violets",
     price: 165.0,
   },
   {
@@ -95,12 +95,26 @@ export const products = [
   {
     id: "9",
     name: "Scent 9",
-    title: "Jazz New York:",
+    title: "Jazz New York",
     desc: "A classic blend of Patchouli,Cedar and Lime.",
     img: bottle8,
     prefix: "£",
     price: 150.0,
     quantity: 0,
     subTotal: 0,
+  },
+];
+export const items = [
+  {
+    id: "1",
+    img: bottle,
+    prefix: "£",
+    price: 185.0,
+  },
+  {
+    id: "2",
+    img: bottle1,
+    prefix: "£",
+    price: 145.0,
   },
 ];

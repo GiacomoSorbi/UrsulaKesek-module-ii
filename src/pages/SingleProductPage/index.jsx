@@ -1,5 +1,5 @@
-import React,{useState} from "react";
-import { NavLink,Route } from "react-router-dom";
+import React, { useState } from "react";
+import { NavLink, Route } from "react-router-dom";
 import { products } from "../../constants";
 import "./SingleProductPage.css";
 
@@ -12,10 +12,10 @@ const SingleProductPage = ({ match }) => {
   const productPrefix = products.find((elem) => elem.id === productId).prefix;
   const productDesc = products.find((elem) => elem.id === productId).desc;
 
-  const[cart,Setcart]=useState([{products}]);
+  const [cart, Setcart] = useState([0]);
 
-  const addToCart =(products)=>{
-    Setcart(previousCart=>[...previousCart,products]);
+  const addToCart = () => {
+    Setcart((oldCart) => [...oldCart, products]);
   };
 
   return (
@@ -36,21 +36,14 @@ const SingleProductPage = ({ match }) => {
           {productPrice.toFixed(2)}
         </h4>
         <button onClick={addToCart}>+</button>
-
         <div className="links">
-        <NavLink 
-        className="cp"
-        to="/cart/">
-         TO CART
-        </NavLink>
-          <NavLink className="pp" to="/shop">
-            BACK TO SHOP
+          <NavLink className="cp" to="/cart/">
+            TO CART
           </NavLink>
         </div>
         <div className="cartp">
-        <Route path="/cart/:id"/>
-      </div>
-
+          <Route path="/cart" />
+        </div>
       </main>
     </>
   );

@@ -1,4 +1,8 @@
 import React from "react";
-
-const PlantsPage = () => <div className="plants"><p>I am the Plants page!</p></div>;
+import "./PlantsPage.css";
+const PlantsPage = () => (
+  <main className="plpg">
+    <h2>I am the Plants page!</h2>
+  </main>
+);
 export default PlantsPage;

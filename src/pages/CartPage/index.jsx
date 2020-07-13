@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import { products } from "../../constants";
-import { EmptyCart } from "../../components";
+import React from "react";
+// import { EmptyCart } from "../../components";
+// import { Item } from "../../components";
+// import { items } from "../../constants";
+// import { NavLink } from "react-router-dom";
 import "./CartPage.css";
 
-const CartPage = ({match}) => {
-  const productId = +match.params.id;
+const CartPage = ({ match }) => {
+  // const ItemId = match.params.id;
+  // const [quantity, setQuantity] = useState(0);
+  // const[cart,Setcart]=useState([items]);
+  // const addToCart =(items)=>{
+  //   Setcart(previousCart=>[...previousCart,items]);
+  // };
 
-  const [quantity, setQuantity] = useState(0);
-  const[cart,Setcart]=useState([]);
-  const addToCart =(products)=>{
-    Setcart(previousCart=>[...previousCart,products]);
-  };
-
-  const increaseQty = () => setQuantity(quantity + 1);
-  const decreaseQty = () => setQuantity(quantity - 1);
+  // const increaseQty = () => setQuantity(quantity + 1);
+  // const decreaseQty = () => setQuantity(quantity - 1);
   // const quantityChanged = (quantity)=> {
   //   if(isNaN (quantity.value) || quantity.value <= -1)
   //   {quantity.value = 0}
@@ -23,23 +23,29 @@ const CartPage = ({match}) => {
     <>
       <section className="cart">
         <h2 className="cp">I am in the Cart Page</h2>
-        <h3 className="empty">
-          {products.length === 0 ? <EmptyCart /> : "Nothing to see Here"}
-        </h3>
-        <h2 className="cpid">{productId}
-        </h2>
-        <div className="btns">
-          <button className="less" onClick={decreaseQty}>
-            -
-          </button>
-          <h3 className="qty">{quantity}</h3>
-          <button className="add" onClick={increaseQty}>
-            +
-          </button>
-        </div>
-        <NavLink className="pp" to="/shop">
-          BACK TO SHOP
-        </NavLink>
+        {/* <EmptyCart />
+        <ul className="cul">
+          {items.map((item) => (
+            <li key={item.id} className="cit">
+              <Item item={item} />
+              <div className="btns">
+                <button className="less" onClick={decreaseQty}>
+                  -
+                </button>
+                <h3 className="qty">{quantity}</h3>
+                <button className="add" onClick={increaseQty}>
+                  +
+                </button>
+              </div>
+            </li>
+          ))}
+          ;
+          <li className="cpl">
+            <NavLink className="pp" to="/shop">
+              BACK TO SHOP
+            </NavLink>
+          </li>
+        </ul> */}
       </section>
     </>
   );

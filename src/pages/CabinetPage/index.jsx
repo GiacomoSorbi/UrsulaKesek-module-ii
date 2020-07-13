@@ -6,7 +6,7 @@ import fragranceWheel from "./Images/fragrance-wheel.png";
 const CabinetPage = () => (
   <>
     <section className="aroma">
-      <main className="">
+      <main className="cbmain">
         <h2 className="cbh2">Cabinet Of Curiosities </h2>
         <div className="perfOne">
           <p className="fl">Floral</p>
