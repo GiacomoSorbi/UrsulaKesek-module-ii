@@ -19,6 +19,7 @@
 }
 .bubble {
   margin-top: 10px;
+  visibility:visible;
 }
 .front {
   position: relative;

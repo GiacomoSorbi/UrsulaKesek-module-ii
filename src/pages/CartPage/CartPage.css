@@ -5,7 +5,7 @@
   width: 260px;
   position: relative;
   top: 75px;
-  padding:5px;
+  padding: 5px;
 }
 .add {
   width: 50px;
@@ -28,8 +28,11 @@
 
 .cart {
   width: 1440px;
-  height: 565px;
+  height: 575px;
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
+}
+.cpcards {
+  height: 485px;
 }
 .cptitle {
   position: relative;
@@ -42,12 +45,11 @@ h2.cp {
   color: black;
   text-align: center;
 }
-.cpi{
-  margin:20px;
+.cpi {
+  margin: 20px;
   background-color: black;
-  width:260px;
-  height:420px;
-
+  width: 260px;
+  height: 440px;
 }
 .cpitems {
   display: flex;
@@ -64,9 +66,9 @@ h2.cp {
   background-color: black;
   text-decoration: none;
 }
-.item-link:hover{
+.item-link:hover {
   background-color: rgb(189, 189, 6);
-  color:black;
+  color: black;
 }
 .qty {
   color: white;
@@ -79,31 +81,31 @@ h2.cp {
   border: 4px double darkorange;
   background-color: rgb(19, 1, 15);
 }
-.pp:hover{
+.pp:hover {
   background-color: rgb(243, 4, 191);
 }
 @media screen and (max-width: 768px) {
-  .cart{
-    width:768px;
+  .cart {
+    width: 768px;
   }
   .cpitems {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 768px;
-    height:100px;
+    height: 100px;
   }
   .cptitle {
     position: relative;
     top: 10px;
     text-align: center;
   }
-  
-  .item-link{
+
+  .item-link {
     text-align: center;
-    width:126px;
-    border-radius:20px;
-    margin:5px;
+    width: 126px;
+    border-radius: 20px;
+    margin: 5px;
   }
-  } 
+}
