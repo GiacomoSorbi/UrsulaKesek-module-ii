@@ -19,7 +19,7 @@ const Item = ({ match }) => {
             className="iimg"
             style={{ backgroundImage: `url(${itemImg}` }}
           ></div>
-          <h4 className="price">
+          <h4 className="cost">
             {itemPrefix}
             {itemPrice.toFixed(2)}
           </h4>

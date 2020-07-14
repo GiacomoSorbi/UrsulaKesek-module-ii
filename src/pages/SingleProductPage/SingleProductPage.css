@@ -9,10 +9,15 @@
   color:white;
   text-decoration:none ;
 }
-.links{
-  display:flex;
-  flex-direction: column;
+h4{
+color:greenyellow;
+text-align: center;
 }
+item-link{
+  margin:10px;
+  width:300px;
+  border: 2px double darkorange;
+ }
 .product {
   display: flex;
   flex-direction: row;

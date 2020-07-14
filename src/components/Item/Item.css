@@ -17,9 +17,11 @@ p.ipt {
   font-size: 1.5em;
   color:white;
 }
-h4.price {
+h4.cost {
+  padding:5px;
   text-align: center;
   width: 200px;
   color: white;
-  background-color: black;
+  font-size:1.5em ;
+  border:3px double white
 }
