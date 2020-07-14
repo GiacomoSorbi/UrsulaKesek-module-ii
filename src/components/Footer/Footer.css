@@ -15,6 +15,22 @@
   top: 10px;
   width: 400px;
 }
-footer p{
-  margin:0px 500px;
+footer p {
+  margin: 0px 500px;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 768px;
+    height: 120px;
+    position: relative;
+    top: 10px;
+  }
+  footer p {
+    text-align: center;
+    margin: 0px 30px;
+  }
+  .sm {
+    top: 30px;
+    left: 220px;
+  }
 }

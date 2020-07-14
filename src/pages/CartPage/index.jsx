@@ -39,21 +39,21 @@ const CartPage = () => {
           />
           <div className="cpi">
             <Route path="/cartp/:id" component={Item} />
-            
-          <div className="btns">
-            <button className="less" onClick={decreaseQty}>
-              -
-            </button>
-            <h3 className="qty">{quantity}</h3>
-            <button className="add" onClick={increaseQty}>
-              +
-            </button>
-          </div>
-          <div className="cpl">
-            <NavLink className="pp" to="/shop">
-              BACK TO SHOP
-            </NavLink>
-          </div>
+
+            <div className="btns">
+              <button className="less" onClick={decreaseQty}>
+                -
+              </button>
+              <h3 className="qty">{quantity}</h3>
+              <button className="add" onClick={increaseQty}>
+                +
+              </button>
+            </div>
+            <div className="cpl">
+              <NavLink className="pp" to="/shop">
+                BACK TO SHOP
+              </NavLink>
+            </div>
           </div>
         </div>
       </section>

@@ -24,21 +24,29 @@
   position: relative;
   left: 5px;
   top: 10px;
-
+}
+.front2 {
+  visibility: hidden;
+  position: absolute;
 }
 .green1 {
   position: relative;
   top: 40px;
   margin: 20px;
-  height:200px;
+  height: 200px;
+  visibility: visible;
 }
 .bird {
   margin: 20px;
   position: relative;
   top: 40px;
-  height:200px;
+  height: 200px;
+  visibility: visible;
 }
-
+.chick,
+.blue1 {
+  visibility: hidden;
+}
 h2.hph2 {
   padding: 6px;
   height: 30px;
@@ -46,4 +54,62 @@ h2.hph2 {
   color: white;
   background-color: rgb(55, 54, 56);
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
+  }
+  h1 {
+    top: 60px;
+    left: 2px;
+  }
+  .box1 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 200px;
+    height: 80px;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    height: 570px;
+    width: 150px;
+    z-index: 1;
+    background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
+  }
+  .chick {
+    margin: 10px;
+    visibility: visible;
+    position: relative;
+    bottom: 360px;
+    left:20px;
+    height:100px;
+    width:100px;
+  }
+  .blue1 {
+    margin: 10px;
+    visibility: visible;
+    position: relative;
+    bottom: 300px;
+  }
+
+  .pb75,
+  .green1,
+  .bird,
+  .front {
+    visibility: hidden;
+  }
+  .front2 {
+    margin: 10px;
+    visibility: visible;
+    position: relative;
+    right: 1080px;
+    top: 10px;
+    border: 4mm ridge rgb(241, 70, 8);
+  }
+  .bubble {
+    position: relative;
+    right: 1060px;
+  }
 }

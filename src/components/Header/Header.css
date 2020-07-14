@@ -30,7 +30,7 @@ h1 {
   left:90px;
   animation-name:slide ;
   animation-duration:5s ;
-  animation-iteration-count: 4;
+  animation-iteration-count:4;
   animation-direction: alternate;
   animation-delay:2s ;
   animation-timing-function: ease-in-out;
@@ -43,7 +43,6 @@ h1 {
   to{
     transform: translateX(600px);
   }
-
   }
 
 .pb75{

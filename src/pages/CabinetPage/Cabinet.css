@@ -67,3 +67,27 @@ img.sntwl {
   height: 575px;
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
 }
+@media screen and (max-width: 768px) {
+  .aroma {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.cbmain{
+  width:768px;
+}
+h2.cbh2 {
+  color: rgb(22, 59, 4);
+  text-align: center;
+}
+.perfOne,
+.perfTwo,
+.perfThree,
+.perfFour {
+  width:768px;
+}
+.wheel{
+  margin-top:10px; 
+  width:768px;
+}
+} 
