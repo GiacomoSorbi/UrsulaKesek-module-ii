@@ -4,7 +4,8 @@
   justify-content: space-evenly;
   width: 260px;
   position: relative;
-  top:80px;
+  top: 80px;
+  background-color: black;
 }
 .add {
   width: 50px;
@@ -30,13 +31,13 @@
   height: 565px;
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
 }
-.cptitle{
+.cptitle {
   position: relative;
-  top:35px;
+  top: 35px;
   text-align: center;
 }
 h2.cp {
-  width:1440px;
+  width: 1440px;
   padding: 15px;
   color: black;
   text-align: center;
@@ -48,22 +49,22 @@ h2.cp {
   height: 20px;
 }
 .item-link {
-  padding:10px;
-  width:160px;
-  height:50px;
-  color:white;
-  font-size:1.5em ;
+  padding: 10px;
+  width: 160px;
+  height: 50px;
+  color: white;
+  font-size: 1.5em;
   background-color: black;
   text-decoration: none;
 }
 .qty {
-  color: black;
+  color: white;
   font-size: 2em;
 }
 .pp {
   position: relative;
-  top:100px;
-  left:30px;
+  top: 100px;
+  left: 30px;
   border: 4px double darkorange;
   background-color: brown;
 }

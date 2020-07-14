@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { EmptyCart } from "../../components";
+// import { EmptyCart } from "../../components";
 import { items } from "../../constants";
 import { NavLink, Route } from "react-router-dom";
 import { Item } from "../../components";
@@ -39,6 +39,7 @@ const CartPage = () => {
           />
           <div className="cpi">
             <Route path="/cartp/:id" component={Item} />
+            
           <div className="btns">
             <button className="less" onClick={decreaseQty}>
               -

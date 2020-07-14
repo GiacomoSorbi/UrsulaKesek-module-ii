@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .cp{
   paddinG:5px;
   width: 120px;

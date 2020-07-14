@@ -1,9 +1,9 @@
-import React from "react";
+import React,{useState} from "react";
 import { Link } from "react-router-dom";
 import { products } from "../../constants";
 import "./SingleProductPage.css";
 
-const SingleProductPage = ({ match,addToCart }) => {
+const SingleProductPage = ({ match}) => {
   const productId = match.params.id;
   const productName = products.find((elem) => elem.id === productId).name;
   const productTitle = products.find((elem) => elem.id === productId).title;
@@ -11,7 +11,10 @@ const SingleProductPage = ({ match,addToCart }) => {
   const productPrice = products.find((elem) => elem.id === productId).price;
   const productPrefix = products.find((elem) => elem.id === productId).prefix;
   const productDesc = products.find((elem) => elem.id === productId).desc;
-
+  const [cart,setCart]= useState([]);
+  const addToCart = (product)=>{
+    setCart(oldCart=>[...oldCart,product]);
+  }
 
   return (
     <>
@@ -30,7 +33,7 @@ const SingleProductPage = ({ match,addToCart }) => {
           {productPrefix}
           {productPrice.toFixed(2)}
         </h4>
-        <button onClick={addToCart}>+</button>
+        <button onClick={addToCart}> +</button>
         <div className="links">
           <Link className="cp"
            to="/cartp">
