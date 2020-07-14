@@ -43,10 +43,11 @@ h2.cp {
   text-align: center;
 }
 .cpi{
-  height:400px;
   margin:20px;
   background-color: black;
   width:260px;
+  height:420px;
+
 }
 .cpitems {
   display: flex;
@@ -63,14 +64,46 @@ h2.cp {
   background-color: black;
   text-decoration: none;
 }
+.item-link:hover{
+  background-color: rgb(189, 189, 6);
+  color:black;
+}
 .qty {
   color: white;
   font-size: 2em;
 }
 .pp {
   position: relative;
-  top: 120px;
+  top: 90px;
   left: 60px;
   border: 4px double darkorange;
   background-color: rgb(19, 1, 15);
 }
+.pp:hover{
+  background-color: rgb(243, 4, 191);
+}
+@media screen and (max-width: 768px) {
+  .cart{
+    width:768px;
+  }
+  .cpitems {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width: 768px;
+    height:100px;
+  }
+  .cptitle {
+    position: relative;
+    top: 10px;
+    text-align: center;
+  }
+  
+  .item-link{
+    text-align: center;
+    width:126px;
+    border-radius:20px;
+    margin:5px;
+  }
+  } 

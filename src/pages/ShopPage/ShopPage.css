@@ -36,6 +36,9 @@ h3.sppick {
     inset -4px -4px 3px rgba(0, 0, 0, 0.6);
   outline: none;
 }
+.product-link:hover{
+  color:red;
+}
 
 .prodp {
   background-color: rgb(241, 88, 6);
@@ -55,4 +58,17 @@ header.spheader {
   flex-direction: row;
   justify-content: space-evenly;
   margin: 20px;
+}
+@media screen and (max-width: 768px) {
+ .spitems{
+   width:768px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:space-evenly ;
+margin:0px;
+ }
+ main.product{
+   width:768px;
+ } 
 }

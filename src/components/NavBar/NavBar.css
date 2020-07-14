@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin:0px;
+  margin: 0px;
 }
 nav ul {
   display: flex;
@@ -8,7 +8,7 @@ nav ul {
   align-items: center;
   background-color: rgb(241, 70, 8);
   height: 100px;
-  padding-inline-start:0px; 
+  padding-inline-start: 0px;
 }
 nav ul li {
   display: flex;
@@ -40,7 +40,15 @@ nav ul li {
     inset -4px -4px 3px rgba(0, 0, 0, 0.6);
   outline: none;
 }
-@media screen and (max-width:768px){
+.home:hover,
+.shop:hover,
+.plants:hover,
+.cabinet:hover,
+.cartp:hover {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
   .home,
   .shop,
   .plants,
@@ -49,5 +57,5 @@ nav ul li {
     position: relative;
     width: 150px;
     height: 60px;
-    }
   }
+}

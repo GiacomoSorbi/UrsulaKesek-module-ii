@@ -21,3 +21,8 @@ p.floa,p.flob,p.floc{
     height:500px;
     text-align: center;
 }
+@media screen and (max-width: 768px) {
+    main.flo{
+      width:768px;
+    }
+}
