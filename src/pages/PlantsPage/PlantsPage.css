@@ -1,24 +1,49 @@
-main.plpg {
-  width: 1440px;
-  height: 575px;
-  background: linear-gradient(rgb(2, 131, 60), rgb(6, 240, 26));
+article.plaa,article.plab,article.plac{
+  margin:15px;
+  border:4px double black;
+  width:300px;
+  height:500px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+color:white;
 }
 
 h2 {
   color: white;
   text-align: center;
 }
+h3{
+  color: white;
+  text-align: center;
+}
+li{
+  margin:15px;
+  border:2px solid orange;
+}
+
+main.plpg {
+  width: 1440px;
+  height: 575px;
+  background: linear-gradient(rgb(2, 131, 60), rgb(6, 240, 26));
+}
+ol{
+  margin:15px;
+}
+.plant{
+  text-decoration:none ;
+  color:white;
+  cursor:pointer;
+}
+
 section.plantsec{
   display:flex;
   flex-direction: row;
   justify-content: space-evenly;
+
 }
-p.plaa,p.plab,p.plac{
-  margin:15px;
-  border:4px double black;
-  width:300px;
-  height:500px;
-  text-align: center;
+span{
+  font-style: italic;
+  font-size:80% ;
 }
 @media screen and (max-width: 768px) {
 main.plpg{
