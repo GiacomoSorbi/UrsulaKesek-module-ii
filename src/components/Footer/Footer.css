@@ -6,6 +6,10 @@
   bottom: 0;
   right: 0;
 }
+footer p {
+  margin: 0px 260px;
+}
+
 .sm {
   display: flex;
   flex-direction: row;
@@ -15,8 +19,8 @@
   top: 10px;
   width: 400px;
 }
-footer p {
-  margin: 0px 500px;
+.contact{
+  font-size:1.5em;
 }
 @media screen and (max-width: 768px) {
   .footer {

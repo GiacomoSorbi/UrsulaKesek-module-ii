@@ -7,6 +7,7 @@ import Bird from "./Images/bird200x200.gif";
 import Front2 from "./Images/aw-front2.png";
 import Chick from "./Images/smallbird.png";
 import BlueCat from "./Images/bluecat.png";
+import { NavLink } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
         <img className="green1" src={GreenCat} alt="green-cat" />
         <img className="chick" src={Chick} alt="small-robin-bird" />
         <img className="blue1" src={BlueCat} alt="blue-cat" />
+        <NavLink className="contact" to="/contact">CONTACT</NavLink>
       </div>
       <img className="front" src={Front} alt="andy-window" />
       <img className="front2" src={Front2} alt="andy-window2" />

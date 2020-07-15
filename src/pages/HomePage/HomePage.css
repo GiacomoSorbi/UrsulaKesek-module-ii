@@ -1,8 +1,12 @@
-.main {
-  display: flex;
-  flex-direction: row;
-  width: 1440px;
-  height: 560px;
+.bird {
+  margin: 20px;
+  position: relative;
+  top: 40px;
+  height: 200px;
+  visibility: visible;
+}
+.blue1,.chick {
+  visibility: hidden;
 }
 .box2 {
   display: flex;
@@ -21,6 +25,13 @@
   margin-top: 10px;
   visibility:visible;
 }
+.contact{
+  position: relative;
+  bottom:225px;
+  text-align: center;
+  color:white;
+  text-decoration:none ;
+}
 .front {
   position: relative;
   left: 5px;
@@ -37,17 +48,6 @@
   height: 200px;
   visibility: visible;
 }
-.bird {
-  margin: 20px;
-  position: relative;
-  top: 40px;
-  height: 200px;
-  visibility: visible;
-}
-.chick,
-.blue1 {
-  visibility: hidden;
-}
 h2.hph2 {
   padding: 6px;
   height: 30px;
@@ -56,6 +56,13 @@ h2.hph2 {
   background-color: rgb(55, 54, 56);
   text-align: center;
 }
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 560px;
+}
+
 @media screen and (max-width: 768px) {
   body {
     background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));

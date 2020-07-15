@@ -1,0 +1,24 @@
+.form {
+  position: relative;
+  top: 210px;
+  background: linear-gradient(rgb(111, 247, 44), rgba(44, 245, 218, 0.5));
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  width: 450px;
+  min-width: 30vmin;
+  min-height: 50vmin;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 30px;
+  color:black;
+}
+.bh{
+  position: relative;
+  top:90px;
+  background-color: chartreuse;
+  font-size:0.75em ;
+  padding:3px;
+  text-decoration:none ;
+}
