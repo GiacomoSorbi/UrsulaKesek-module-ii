@@ -63,15 +63,23 @@ h2.hph2 {
   width: 1440px;
   height: 560px;
 }
-
 @media screen and (max-width: 768px) {
+  .bird,
+  .front,  
+  .green1,
+  .pb75
+ {
+    visibility: hidden;
+  }
+  .blue1 {
+    margin: 10px;
+    visibility: visible;
+    position: relative;
+    bottom: 300px;
+  }
   body {
     background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
     width:768px;
-  }
-  h1 {
-    top: 60px;
-    left: 2px;
   }
   .box1 {
     position: relative;
@@ -88,6 +96,10 @@ h2.hph2 {
     z-index: 1;
     background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
   }
+  .bubble {
+    position: relative;
+    right: 1060px;
+  }
   .chick {
     margin: 10px;
     visibility: visible;
@@ -97,19 +109,6 @@ h2.hph2 {
     height:100px;
     width:100px;
   }
-  .blue1 {
-    margin: 10px;
-    visibility: visible;
-    position: relative;
-    bottom: 300px;
-  }
-
-  .pb75,
-  .green1,
-  .bird,
-  .front {
-    visibility: hidden;
-  }
   .front2 {
     margin: 10px;
     visibility: visible;
@@ -118,9 +117,9 @@ h2.hph2 {
     top: 10px;
     border: 4mm ridge rgb(241, 70, 8);
   }
-  .bubble {
-    position: relative;
-    right: 1060px;
+  h1 {
+    top: 60px;
+    left: 2px;
   }
 main{
   width:768px;
