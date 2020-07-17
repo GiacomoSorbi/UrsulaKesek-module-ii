@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/ursulakesek-module-ii/static/css/main.6c721f8c.chunk.css",
-    "main.js": "/ursulakesek-module-ii/static/js/main.cee478e2.chunk.js",
-    "main.js.map": "/ursulakesek-module-ii/static/js/main.cee478e2.chunk.js.map",
-    "runtime-main.js": "/ursulakesek-module-ii/static/js/runtime-main.88fc994a.js",
-    "runtime-main.js.map": "/ursulakesek-module-ii/static/js/runtime-main.88fc994a.js.map",
-    "static/js/2.f5311752.chunk.js": "/ursulakesek-module-ii/static/js/2.f5311752.chunk.js",
-    "static/js/2.f5311752.chunk.js.map": "/ursulakesek-module-ii/static/js/2.f5311752.chunk.js.map",
-    "index.html": "/ursulakesek-module-ii/index.html",
-    "precache-manifest.7a8c42558d66be8404e61643b34c710e.js": "/ursulakesek-module-ii/precache-manifest.7a8c42558d66be8404e61643b34c710e.js",
-    "service-worker.js": "/ursulakesek-module-ii/service-worker.js",
-    "static/css/main.6c721f8c.chunk.css.map": "/ursulakesek-module-ii/static/css/main.6c721f8c.chunk.css.map",
-    "static/js/2.f5311752.chunk.js.LICENSE.txt": "/ursulakesek-module-ii/static/js/2.f5311752.chunk.js.LICENSE.txt",
-    "static/media/Bluecat404.gif": "/ursulakesek-module-ii/static/media/Bluecat404.ae0063a7.gif",
-    "static/media/aw-front.png": "/ursulakesek-module-ii/static/media/aw-front.c614b6fd.png",
-    "static/media/aw-front2.png": "/ursulakesek-module-ii/static/media/aw-front2.1147d2a5.png",
-    "static/media/bluecat.png": "/ursulakesek-module-ii/static/media/bluecat.d8bed72e.png",
-    "static/media/bubble-iv.gif": "/ursulakesek-module-ii/static/media/bubble-iv.add639cc.gif",
-    "static/media/fragrance-wheel.png": "/ursulakesek-module-ii/static/media/fragrance-wheel.2e53694e.png",
-    "static/media/green1.png": "/ursulakesek-module-ii/static/media/green1.d72cabea.png",
-    "static/media/Header.css": "/ursulakesek-module-ii/static/media/ylang1.7c315d68.png"
+    "main.css": "/UrsulaKesek-module-ii/static/css/main.0c392b50.chunk.css",
+    "main.js": "/UrsulaKesek-module-ii/static/js/main.55837485.chunk.js",
+    "main.js.map": "/UrsulaKesek-module-ii/static/js/main.55837485.chunk.js.map",
+    "runtime-main.js": "/UrsulaKesek-module-ii/static/js/runtime-main.cb8a2077.js",
+    "runtime-main.js.map": "/UrsulaKesek-module-ii/static/js/runtime-main.cb8a2077.js.map",
+    "static/js/2.f5311752.chunk.js": "/UrsulaKesek-module-ii/static/js/2.f5311752.chunk.js",
+    "static/js/2.f5311752.chunk.js.map": "/UrsulaKesek-module-ii/static/js/2.f5311752.chunk.js.map",
+    "index.html": "/UrsulaKesek-module-ii/index.html",
+    "precache-manifest.227eb22423175c21d47a7e4eb524ad27.js": "/UrsulaKesek-module-ii/precache-manifest.227eb22423175c21d47a7e4eb524ad27.js",
+    "service-worker.js": "/UrsulaKesek-module-ii/service-worker.js",
+    "static/css/main.0c392b50.chunk.css.map": "/UrsulaKesek-module-ii/static/css/main.0c392b50.chunk.css.map",
+    "static/js/2.f5311752.chunk.js.LICENSE.txt": "/UrsulaKesek-module-ii/static/js/2.f5311752.chunk.js.LICENSE.txt",
+    "static/media/Bluecat404.gif": "/UrsulaKesek-module-ii/static/media/Bluecat404.ae0063a7.gif",
+    "static/media/aw-front.png": "/UrsulaKesek-module-ii/static/media/aw-front.c614b6fd.png",
+    "static/media/aw-front2.png": "/UrsulaKesek-module-ii/static/media/aw-front2.1147d2a5.png",
+    "static/media/bluecat.png": "/UrsulaKesek-module-ii/static/media/bluecat.d8bed72e.png",
+    "static/media/bubble-iv.gif": "/UrsulaKesek-module-ii/static/media/bubble-iv.add639cc.gif",
+    "static/media/fragrance-wheel.png": "/UrsulaKesek-module-ii/static/media/fragrance-wheel.2e53694e.png",
+    "static/media/green1.png": "/UrsulaKesek-module-ii/static/media/green1.d72cabea.png",
+    "static/media/Header.css": "/UrsulaKesek-module-ii/static/media/ylang1.7c315d68.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.88fc994a.js",
+    "static/js/runtime-main.cb8a2077.js",
     "static/js/2.f5311752.chunk.js",
-    "static/css/main.6c721f8c.chunk.css",
-    "static/js/main.cee478e2.chunk.js"
+    "static/css/main.0c392b50.chunk.css",
+    "static/js/main.55837485.chunk.js"
   ]
 }
