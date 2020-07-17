@@ -76,7 +76,7 @@ export const products = [
   {
     id: "7",
     name: "Scent 7",
-    title: "Noto Basso   ",
+    title: " In Noto Basso   ",
     desc: " Marsala cask whisky,sandalwood,vetiver and leather.",
     img: bottle5,
     prefix: "£",

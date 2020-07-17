@@ -15,12 +15,14 @@ const SingleProductPage = ({ match}) => {
   return (
     <>
       <main className="product">
+        <div className="pdesc">
         <h2 className="pn">
           {productId}-{productName}
         </h2>
         <h3 className="pt">
           {productTitle} - {productDesc}
         </h3>
+        </div>
         <div
           className="pimg"
           style={{ backgroundImage: `url(${productImg}` }}

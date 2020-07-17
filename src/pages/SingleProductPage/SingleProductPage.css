@@ -59,3 +59,20 @@ item-link{
   text-decoration:none ;
   cursor:pointer;
 }
+@media screen and (max-width: 768px) {
+
+.pdesc{
+  display: flex;
+  flex-direction: column;
+}
+.pn{
+  margin-top:10px ;
+  position: relative;
+  left:10px;
+  } 
+.pt{
+margin-top:10px ;
+position: relative;
+left:10px;
+} 
+}
