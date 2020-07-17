@@ -22,3 +22,16 @@
   padding:3px;
   text-decoration:none ;
 }
+@media screen and (max-width: 768px)
+ {
+
+  form.form{
+    width:450px;
+  }
+   .form{
+    position: relative;
+    top: 290px;
+    left:130px;
+     }
+
+}  

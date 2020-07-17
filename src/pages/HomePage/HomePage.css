@@ -96,6 +96,9 @@ h2.hph2 {
     z-index: 0;
     background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
   }
+  .box3{
+    visibility:hidden;
+  }
   .bubble {
     position: relative;
     right: 1060px;
