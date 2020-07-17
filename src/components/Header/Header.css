@@ -3,6 +3,7 @@
   flex-direction: row;
   background-image:url(Images/ylang1.png);
   height: 150px;
+  overflow:hidden;
 }
 .green {
   position: relative;
@@ -34,7 +35,6 @@ h1 {
   animation-direction: alternate;
   animation-delay:2s ;
   animation-timing-function: ease-in-out;
-  overflow:hidden;
 }
 @keyframes slide
   {
@@ -78,7 +78,6 @@ h1 {
     animation-direction: alternate;
     animation-delay:2s ;
     animation-timing-function: ease-in-out;
-    overflow:hidden;
   }
   @keyframes slide
   {
