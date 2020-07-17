@@ -72,6 +72,8 @@ img.sntwl {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height:100%vph;
+    width:768px;
   }
   .cbmain {
     width: 768px;

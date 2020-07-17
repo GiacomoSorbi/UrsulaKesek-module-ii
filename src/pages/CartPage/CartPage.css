@@ -107,8 +107,14 @@ h2.cp {
 
   .item-link {
     text-align: center;
-    width: 126px;
+    width: 135px;
     border-radius: 20px;
     margin: 5px;
+  }
+  .cpcards{
+    position:relative;
+    left:225px;
+    width:320px;
+    top:-20px;
   }
 }
