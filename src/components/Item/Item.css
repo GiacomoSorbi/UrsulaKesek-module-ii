@@ -1,8 +1,8 @@
 .item-one {
   margin: 30px;
   background-color: black;
-  width:200px;
-  height:200px;
+  width: 200px;
+  height: 200px;
 }
 .iimg {
   width: 200px;
@@ -12,16 +12,16 @@ h2.iid {
   padding: 4px;
   text-align: center;
 }
-p.ipt {
+h3.ipt {
   text-align: center;
-  font-size: 1.5em;
-  color:white;
+  font-size: 1.75em;
+  color: white;
 }
 h4.cost {
-  padding:5px;
+  padding: 5px;
   text-align: center;
   width: 200px;
   color: white;
-  font-size:1.5em ;
-  border:3px double white
+  font-size: 1.5em;
+  border: 3px double white;
 }

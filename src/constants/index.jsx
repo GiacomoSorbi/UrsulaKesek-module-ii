@@ -25,8 +25,8 @@ export const products = [
   {
     id: "2",
     name: "Scent 2",
-    title: "Colombo Fresh",
-    desc: "Blending Lemongrass,lavender,mandarin and peppermint",
+    title: "Colombo Cool",
+    desc: "Lemongrass,lavender,mandarin and peppermint",
     img: bottle1,
     prefix: "£",
     price: 145.0,

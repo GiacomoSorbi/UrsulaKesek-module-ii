@@ -46,9 +46,11 @@ item-link{
   width: auto;
 }
 .pt {
+  position: relative;
+  right:60px;
   padding:8px;
   border: 2px double darkorange;
-  width: 250px;
+  width: 300px;
 }
 .pp {
   padding:5px;
