@@ -1,5 +1,5 @@
 export{default as EmptyCart} from "./EmptyCart"; 
-export{default as Error} from "./Error";
+export{default as Lost} from "./Lost";
 export{default as Form} from "./Form";
 export{default as Footer} from "./Footer";
 export{default as Header} from "./Header";
