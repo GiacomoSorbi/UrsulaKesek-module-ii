@@ -109,6 +109,15 @@ h2.hph2 {
     height:100px;
     width:100px;
   }
+  .contact{
+    position: relative;
+    bottom:300px;
+    text-align: center;
+    color:white;
+    text-decoration:none ;
+    font-size:1.5em;
+    }
+  
   .front2 {
     margin: 10px;
     visibility: visible;

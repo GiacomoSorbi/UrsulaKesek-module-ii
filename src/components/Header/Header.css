@@ -3,7 +3,6 @@
   flex-direction: row;
   background-image:url(Images/ylang1.png);
   height: 150px;
-  overflow:hidden;
 }
 .green {
   position: relative;
@@ -39,10 +38,10 @@ h1 {
 @keyframes slide
   {
   from{
-      transform:translateX(-30px);
+      transform:translateX(-60px);
   }
   to{
-    transform: translateX(600px);
+    transform: translateX(170px);
   }
   }
 
@@ -65,27 +64,21 @@ h1 {
   @media screen and (max-width: 768px) {
     .box1{
     width:800px;
-    height:120px;
+    height:150px;
     background-color: rgba(78, 211, 12, 0.755);
     z-index: 0;
     border-radius:0px 170px 0px 170px ;
     position: relative;
     top:15px;
     left:90px;
-    animation-name:slide ;
-    animation-duration:5s ;
-    animation-iteration-count:4;
-    animation-direction: alternate;
-    animation-delay:2s ;
-    animation-timing-function: ease-in-out;
+    animation:none;
   }
-  @keyframes slide
-  {
-  from{
-      transform:translateX(-30px);
+  .exotic{
+    font-size:1.4em;
+    left:50px;
+
   }
-  to{
-    transform: translateX(200px);
-  }
+  .pb75{
+    visibility: hidden;
   }
   }

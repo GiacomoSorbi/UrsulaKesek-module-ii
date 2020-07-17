@@ -6,21 +6,21 @@
   bottom: 0;
   right: 0;
 }
- p {
-   position: relative;
+p {
+  position: relative;
   top: 10px;
-  left:500px;
+  left: 500px;
   width: 500px;
 }
-.contact{
-  font-size:1.5em;
+.contact {
+  font-size: 1.5em;
 }
-.icon{
-  margin-left:5px;
+.icon {
+  margin-left: 5px;
 }
-.sm{
+.sm {
   position: relative;
-  left:1050px;
+  left: 1050px;
 }
 @media screen and (max-width: 768px) {
   .footer {
@@ -30,8 +30,8 @@
     top: 10px;
   }
   footer p {
-    text-align: center;
-    margin: 0px 30px;
+    position: relative;
+    left: 220px;
   }
   .sm {
     top: 30px;
