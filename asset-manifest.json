@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/UrsulaKesek-module-ii/static/css/main.0c392b50.chunk.css",
-    "main.js": "/UrsulaKesek-module-ii/static/js/main.55837485.chunk.js",
-    "main.js.map": "/UrsulaKesek-module-ii/static/js/main.55837485.chunk.js.map",
+    "main.js": "/UrsulaKesek-module-ii/static/js/main.c769c8de.chunk.js",
+    "main.js.map": "/UrsulaKesek-module-ii/static/js/main.c769c8de.chunk.js.map",
     "runtime-main.js": "/UrsulaKesek-module-ii/static/js/runtime-main.cb8a2077.js",
     "runtime-main.js.map": "/UrsulaKesek-module-ii/static/js/runtime-main.cb8a2077.js.map",
     "static/js/2.f5311752.chunk.js": "/UrsulaKesek-module-ii/static/js/2.f5311752.chunk.js",
     "static/js/2.f5311752.chunk.js.map": "/UrsulaKesek-module-ii/static/js/2.f5311752.chunk.js.map",
     "index.html": "/UrsulaKesek-module-ii/index.html",
-    "precache-manifest.227eb22423175c21d47a7e4eb524ad27.js": "/UrsulaKesek-module-ii/precache-manifest.227eb22423175c21d47a7e4eb524ad27.js",
+    "precache-manifest.89e77fc8c3752fd8ef582c54750a6b93.js": "/UrsulaKesek-module-ii/precache-manifest.89e77fc8c3752fd8ef582c54750a6b93.js",
     "service-worker.js": "/UrsulaKesek-module-ii/service-worker.js",
     "static/css/main.0c392b50.chunk.css.map": "/UrsulaKesek-module-ii/static/css/main.0c392b50.chunk.css.map",
     "static/js/2.f5311752.chunk.js.LICENSE.txt": "/UrsulaKesek-module-ii/static/js/2.f5311752.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.cb8a2077.js",
     "static/js/2.f5311752.chunk.js",
     "static/css/main.0c392b50.chunk.css",
-    "static/js/main.55837485.chunk.js"
+    "static/js/main.c769c8de.chunk.js"
   ]
 }
