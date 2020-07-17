@@ -13,7 +13,7 @@
   flex-direction: column;
   height: 570px;
   width: 300px;
-  z-index: 1;
+  z-index: 0;
   background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
 }
 .box3 {
@@ -93,7 +93,7 @@ h2.hph2 {
     flex-direction: column;
     height: 570px;
     width: 150px;
-    z-index: 1;
+    z-index: 0;
     background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
   }
   .bubble {
