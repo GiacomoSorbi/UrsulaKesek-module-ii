@@ -1,6 +1,6 @@
 import React from 'react';
 import Cat404 from './Image/Bluecat404.gif';
-import "./Error.css";
+import "./Lost.css";
 const Lost =()=>
 <> 
 <div className="err">
