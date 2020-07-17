@@ -13,7 +13,7 @@ import {
   ShopPage,
   Woody,
 } from "./pages";
-import Error from "./components/Error";
+import Lost from "./components/Error";
 
 function App() {
 
@@ -30,7 +30,7 @@ function App() {
         <Route path="/cabinet" exact component={CabinetPage} />
         <Route path="/cartp" component={CartPage} />
         <Route path="/contact" component={ContactPage} />
-        <Route path="*" render={() => <Error />} />
+        <Route path="*" render={() => <Lost />} />
       </Switch>
     </>
   );
