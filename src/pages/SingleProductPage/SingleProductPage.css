@@ -40,6 +40,11 @@ item-link{
   height: 50px;
   border: 2px double darkorange;
 }
+.pdesc{
+  display: flex;
+  flex-direction: column;
+}
+  
 .pn {
   padding:10px 15px;
   border: 2px double darkorange;
@@ -47,7 +52,6 @@ item-link{
 }
 .pt {
   position: relative;
-  right:60px;
   padding:8px;
   border: 2px double darkorange;
   width: 300px;
@@ -61,10 +65,6 @@ item-link{
 }
 @media screen and (max-width: 768px) {
 
-.pdesc{
-  display: flex;
-  flex-direction: column;
-}
 .pn{
   margin-top:10px ;
   position: relative;
