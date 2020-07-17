@@ -13,7 +13,7 @@ import {
   ShopPage,
   Woody,
 } from "./pages";
-import Lost from "./components/Error";
+import Lost from "./components/Lost";
 
 function App() {
 
