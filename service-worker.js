@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/UrsulaKesek-module-ii/precache-manifest.c6ed6059ced501b915f5f3ae630d7f69.js"
+  "/UrsulaKesek-module-ii/precache-manifest.61d7c684eacec80bc7728ea8d7733fa1.js"
 );
 
 self.addEventListener('message', (event) => {
