@@ -47,12 +47,12 @@ h2.cbh2 {
   width: 500px;
   background-color: rgb(55, 54, 56);
 }
-p.fl,
-p.fr,
-p.or,
-p.wo {
-  margin-left: 50px;
+h2.fl,
+h2.fr,
+h2.or,
+h2.wo {
   text-align: left;
+  margin-left: 70px;
   font-size: 2em;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(241, 70, 8);
@@ -73,23 +73,22 @@ img.sntwl {
     flex-direction: column;
     justify-content: space-between;
   }
-.cbmain{
-  width:768px;
-  height:600px;
-  background-color: rgb(55, 54, 56);
-
+  .cbmain {
+    width: 768px;
+    height: 600px;
+    background-color: rgb(55, 54, 56);
+  }
+  h2.cbh2 {
+    color: rgb(127, 247, 68);
+    text-align: center;
+  }
+  .perfOne,
+  .perfTwo,
+  .perfThree,
+  .perfFour {
+    width: 768px;
+  }
+  .wheel {
+    width: 768px;
+  }
 }
-h2.cbh2 {
-  color: rgb(127, 247, 68);
-  text-align: center;
-}
-.perfOne,
-.perfTwo,
-.perfThree,
-.perfFour {
-  width:768px;
-}
-.wheel{
-  width:768px;
-}
-} 

@@ -9,7 +9,7 @@ const CabinetPage = () => (
       <main className="cbmain">
         <h2 className="cbh2">Cabinet Of Curiosities </h2>
         <div className="perfOne">
-          <p className="fl">Floral</p>
+          <h2 className="fl">Floral</h2>
           <NavLink className="floral" to="/floral">
             A
           </NavLink>
@@ -21,7 +21,7 @@ const CabinetPage = () => (
           </NavLink>
         </div>
         <div className="perfTwo">
-          <p className="fr">Fresh</p>
+          <h2 className="fr">Fresh</h2>
 
           <NavLink className="fresh" to="/fresh">
             D
@@ -34,7 +34,7 @@ const CabinetPage = () => (
           </NavLink>
         </div>
         <div className="perfThree">
-          <p className="or">Oriental</p>
+          <h2 className="or">Oriental</h2>
           <NavLink className="orient" to="/oriental">
             G
           </NavLink>
@@ -49,7 +49,7 @@ const CabinetPage = () => (
           </NavLink>
         </div>
         <div className="perfFour">
-          <p className="wo">Woody</p>
+          <h2 className="wo">Woody</h2>
           <NavLink className="woody" to="/woody">
             L
           </NavLink>

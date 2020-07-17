@@ -14,7 +14,7 @@ section.flosec{
     flex-direction: row;
     justify-content: space-evenly;
 }
-p.floa,p.flob,p.floc{
+h3.floa,h3.flob,h3.floc{
     margin:15px;
     border:4px double black;
     width:300px;
