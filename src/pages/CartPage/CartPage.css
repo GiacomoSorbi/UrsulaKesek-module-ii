@@ -90,6 +90,7 @@ h2.cp {
 @media screen and (max-width: 768px) {
   .cart {
     width: 768px;
+    background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
   }
   .cpitems {
     display: flex;
