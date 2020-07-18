@@ -57,7 +57,7 @@ h2.hph2 {
   background-color: rgb(55, 54, 56);
   text-align: center;
 }
-.main {
+section.main {
   display: flex;
   flex-direction: row;
   width: 1440px;
@@ -133,7 +133,7 @@ h2.hph2 {
     top: 60px;
     left: 2px;
   }
-main{
+section.main{
   width:768px;
 }  
 }
