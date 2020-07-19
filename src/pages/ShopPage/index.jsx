@@ -8,7 +8,7 @@ const ShopPage = () => (
   <>
     <header className="spheader">
       <h2 className="sph2">Choose your Scents Here</h2>
-      <h3 className="sppick">Click on any item P1 to P9</h3>
+      <h3 className="sppick">Click on any City or Island name.</h3>
     </header>
     <section className="spitems">
       {products.map((product) => (
