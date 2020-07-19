@@ -58,6 +58,8 @@ h2.wo {
   color: rgb(241, 70, 8);
 }
 img.sntwl {
+  position: relative;
+  right:50px;
   margin-top: 40px;
   margin-left: 120px;
   width: 500px;

@@ -34,6 +34,7 @@
   font-size:1.5em;
   }
 .front {
+  content:url(Images/aw-front.png);
   position: relative;
   left: 5px;
   top: 10px;
@@ -69,7 +70,7 @@ section.main {
   .green1,
   .pb75
  {
-    visibility: hidden;
+ visibility: hidden;
   }
   .blue1 {
     margin: 10px;
@@ -122,6 +123,7 @@ section.main {
     }
   
   .front2 {
+    content:url(Images/aw-front2.png);
     margin: 10px;
     visibility: visible;
     position: relative;

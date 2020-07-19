@@ -27,7 +27,6 @@
 }
 
 .cart {
-  width: 1440px;
   height: 575px;
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
 }
@@ -65,7 +64,7 @@ h2.cp {
   text-align: center;
   color: white;
   font-size: 1.5em;
-  background-color:black;
+  background-color: black;
   border: 3px solid rgb(245, 68, 3);
   text-decoration: none;
 }
@@ -90,7 +89,7 @@ h2.cp {
 @media screen and (max-width: 768px) {
   .cart {
     width: 768px;
-    background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
+    background: linear-gradient(rgb(241, 181, 159), rgb(241, 70, 8));
   }
   .cpitems {
     display: flex;
@@ -112,10 +111,10 @@ h2.cp {
     border-radius: 20px;
     margin: 5px;
   }
-  .cpcards{
-    position:relative;
-    left:225px;
-    width:320px;
-    top:-20px;
+  .cpcards {
+    position: relative;
+    left: 225px;
+    width: 320px;
+    top: -20px;
   }
 }
