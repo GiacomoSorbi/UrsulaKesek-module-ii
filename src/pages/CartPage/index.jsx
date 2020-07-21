@@ -13,7 +13,7 @@ const CartPage = () => {
     if (quantity - 1 >= 0) {
       setQuantity(quantity - 1);
     }
-    setQuantity((quantity) => quantity);
+    setQuantity((quantity) => (quantity));
   };
   return (
     <>
