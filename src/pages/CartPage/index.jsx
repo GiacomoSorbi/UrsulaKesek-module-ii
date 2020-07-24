@@ -9,7 +9,6 @@ const CartPage = () => {
   const [quantity, setQuantity] = useState(0);
   const increaseQty = () => setQuantity(quantity + 1);
   const decreaseQty = () => {
-    setQuantity(quantity - 1);
     if (quantity - 1 >= 0) {
       setQuantity(quantity - 1);
     }
