@@ -1,86 +1,84 @@
 .header {
   display: flex;
   flex-direction: row;
-  background-image:url(Images/ylang1.png);
+  background-image: url(Images/ylang1.png);
   height: 150px;
 }
 .green {
   position: relative;
-  left: 25px;
+  left: 250px;
   z-index: 1;
 }
 h1 {
   color: rgb(241, 70, 8);
-  font-size: 3em;
+  font-size: 4em;
   text-shadow: 3px 3px 3px #000;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   z-index: 1;
   position: relative;
-  top:85px;
-  left:40px;
+  top: 30px;
+  left: 180px;
 }
-.box1{
-  width:800px;
-  height:120px;
+.box1 {
+  width: 700px;
+  height: 120px;
   background-color: rgba(78, 211, 12, 0.755);
   z-index: 0;
-  border-radius:0px 170px 0px 170px ;
+  border-radius: 0px 170px 0px 170px;
   position: relative;
-  top:15px;
-  left:90px;
-  animation-name:slide ;
-  animation-duration:5s ;
-  animation-iteration-count:4;
+  top: 15px;
+  left: 90px;
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-iteration-count: 4;
   animation-direction: alternate;
-  animation-delay:2s ;
+  animation-delay: 2s;
   animation-timing-function: ease-in-out;
 }
-@keyframes slide
-  {
-  from{
-      transform:translateX(-60px);
+@keyframes slide {
+  from {
+    transform: translateX(-60px);
   }
-  to{
-    transform: translateX(170px);
+  to {
+    transform: translateX(150px);
   }
-  }
+}
 
-.pb75{
+.pb75 {
   position: relative;
-  left:640px;
-  bottom:20px;
+  left: 550px;
+  bottom: 20px;
   z-index: 1;
 }
-  .exotic{
-    color: rgb(241, 70, 8);
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-size:2em ;
-    text-shadow: 3px 3px 3px #000;
-    position: relative;
-    left:100px;
-    top:35px;
-
-  }
-  @media screen and (max-width: 768px) {
-    .box1{
-    width:768px;
-    height:150px;
+.exotic {
+  color: rgb(241, 70, 8);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2em;
+  text-shadow: 3px 3px 3px #000;
+  position: relative;
+  left: 100px;
+  top: 35px;
+}
+@media screen and (max-width: 768px) {
+  .box1 {
+    width: 768px;
+    height: 150px;
     background-color: rgba(78, 211, 12, 0.755);
     z-index: 0;
-    border-radius:0px 170px 0px 170px ;
+    border-radius: 0px 170px 0px 170px;
     position: relative;
-    top:15px;
-    left:90px;
-    animation:none;
+    top: 15px;
+    left: 90px;
+    animation: none;
   }
-  .exotic{
-    font-size:1.4em;
-    left:50px;
+  .exotic {
+    font-size: 1.4em;
+    left: 50px;
   }
-  .header{
-    width:768px;
+  .header {
+    width: 768px;
   }
-  .pb75{
+  .pb75 {
     visibility: hidden;
   }
-  }
+}

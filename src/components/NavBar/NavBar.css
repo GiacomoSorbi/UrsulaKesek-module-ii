@@ -6,12 +6,13 @@ nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(241, 70, 8);
-  height: 100px;
+  background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
+  height: 60px;
   padding-inline-start: 0px;
 }
 nav ul li {
   display: flex;
+  border:none;
 }
 .home,
 .shop,
@@ -29,7 +30,7 @@ nav ul li {
   text-decoration: none;
   text-shadow: 2px 2px 1px #000;
   border: 6px double black;
-  background-color: rgb(78, 211, 12);
+  background-color: rgb(119, 241, 57);
   background-image: linear-gradient(
     to top left,
     rgba(0, 0, 0, 0.2),
