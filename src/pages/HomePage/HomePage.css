@@ -28,7 +28,7 @@
   left: 15px;
   visibility: visible;
 }
-.contact {
+.contact1 {
   position: relative;
   bottom: 130px;
   text-align: center;
@@ -36,6 +36,10 @@
   text-decoration: none;
   font-size: 1.25em;
   font-weight: bold;
+}
+.contact1:hover{
+  background-color:rgb(255,111,0);
+  color:darkslateblue;
 }
 .front {
   content: url(Images/aw-front.png);

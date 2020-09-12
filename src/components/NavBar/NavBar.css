@@ -6,13 +6,13 @@ nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
+  background: linear-gradient(#f5511f, rgb(243, 64, 213));
   height: 60px;
   padding-inline-start: 0px;
 }
 nav ul li {
   display: flex;
-  border:none;
+  border: none;
 }
 .home,
 .shop,

@@ -16,7 +16,7 @@ function HomePage() {
         <h2 className="hph2">COOL CHICKS AND CATS ROAM THE WORLD</h2>
         <img className="bird" src={Bird} alt="robin-bird" />
         <img className="green1" src={GreenCat} alt="green-cat" />
-        <NavLink className="contact" to="/contact">
+        <NavLink className="contact1" to="/contact">
           YOUR CONTACT DETAILS
         </NavLink>
         <img className="chick" src={Chick} alt="small-robin-bird" />

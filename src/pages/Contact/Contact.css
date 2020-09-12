@@ -1,6 +1,6 @@
 .form {
   position: relative;
-  top: 140px;
+  top: 40px;
   background: linear-gradient(rgb(111, 247, 44), rgba(44, 245, 218, 0.5));
   border: 3px solid black;
   border-radius: 5px;
@@ -17,17 +17,22 @@
 .bh{
   position: relative;
   top:90px;
+  left:120px;
   background-color: chartreuse;
   font-size:0.75em ;
   padding:3px;
   text-decoration:none ;
 }
+.contact{
+  color: rgb(241, 70, 8);
+  height:520px;
+  position: relative;
+  top:-30px;
+}
+
 @media screen and (max-width: 768px)
  {
 
-  form.form{
-    width:450px;
-  }
    .form{
     position: relative;
     top: 290px;
