@@ -35,6 +35,7 @@ function Contact() {
           label="Your email:"
           onChange={onChangeInput}
           type="email"
+          minLength={3}
           placeholder="Your Email - such as username@blah-blah.co.uk"
           value={userData.email}
         />

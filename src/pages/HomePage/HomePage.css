@@ -10,6 +10,9 @@
 .chick {
   visibility: hidden;
 }
+body{
+  background-color:darkslategray ;
+}
 .box2 {
   display: flex;
   flex-direction: column;
