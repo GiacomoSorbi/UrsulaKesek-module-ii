@@ -1,5 +1,7 @@
 .submit{
-    background-color: rgb(4, 114, 13);
+    position: relative;
+    bottom:30px;
+    background-color: rgb(6, 54, 10);
     width:200px;
     height:30px;
     margin:20px auto; 
