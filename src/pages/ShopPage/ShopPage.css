@@ -14,6 +14,9 @@ h3.sppick {
   color: white;
   text-align: center;
 }
+main.product {
+  height: 420px;
+}
 .product-link {
   display: flex;
   flex-direction: row;
@@ -36,14 +39,15 @@ h3.sppick {
     inset -4px -4px 3px rgba(0, 0, 0, 0.6);
   outline: none;
 }
-.product-link:hover{
-  color:red;
+.product-link:hover {
+  color: red;
 }
 
 .prodp {
   background-color: rgb(241, 88, 6);
   color: white;
-  height: 60px;
+  height: 30px;
+  padding: 5px;
 }
 .spcards {
   display: flex;
@@ -51,7 +55,10 @@ h3.sppick {
   justify-content: space-around;
 }
 header.spheader {
-  height: 70px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .spitems {
   display: flex;
@@ -59,16 +66,19 @@ header.spheader {
   justify-content: space-evenly;
   margin: 20px;
 }
+.spp {
+  height: 430px;
+}
 @media screen and (max-width: 768px) {
- .spitems{
-   width:768px;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content:space-evenly ;
-margin:0px;
- }
- main.product{
-   width:768px;
- } 
+  .spitems {
+    width: 768px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+  }
+  main.product {
+    width: 768px;
+  }
 }

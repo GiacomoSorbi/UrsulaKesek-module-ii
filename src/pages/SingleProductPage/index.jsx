@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { products } from "../../constants";
 import "./SingleProductPage.css";
 
-const SingleProductPage = ({ match}) => {
+const SingleProductPage = ({ match }) => {
   const productId = match.params.id;
   const productName = products.find((elem) => elem.id === productId).name;
   const productTitle = products.find((elem) => elem.id === productId).title;
@@ -16,12 +16,12 @@ const SingleProductPage = ({ match}) => {
     <>
       <main className="product">
         <div className="pdesc">
-        <h2 className="pn">
-          {productId}-{productName}
-        </h2>
-        <h3 className="pt">
-          {productTitle} - {productDesc}
-        </h3>
+          <h2 className="pn">
+            {productId} - {productName}
+          </h2>
+          <h3 className="pt">
+            {productTitle} - {productDesc}
+          </h3>
         </div>
         <div
           className="pimg"
@@ -32,14 +32,14 @@ const SingleProductPage = ({ match}) => {
           {productPrice.toFixed(2)}
         </h4>
         <div className="links">
-        <NavLink
-                key={productId}
-                className="item-link"
-                to={`/cartp/${productId}`}
-              >
-               {productTitle} 
-              </NavLink>
-              <h4>Add</h4>
+          <NavLink
+            key={productId}
+            className="item-link"
+            to={`/cartp/${productId}`}
+          >
+            {productTitle}
+          </NavLink>
+          <h4>Add</h4>
         </div>
       </main>
     </>

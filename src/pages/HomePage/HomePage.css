@@ -28,7 +28,7 @@ body{
 .bubble {
   height: 520px;
   position: relative;
-  left: 15px;
+  left: 10px;
   visibility: visible;
 }
 .contact1 {

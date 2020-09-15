@@ -11,7 +11,7 @@ import bottle8 from "./Images/blue2.png";
 export const products = [
   {
     id: "1",
-    name: "Scent 1",
+    name:"Scent 1",
     title: "Seychelles Floral",
     desc: "A blend of ylang ylang,bergamot and blackpepper",
     img: bottle,
@@ -24,7 +24,7 @@ export const products = [
   },
   {
     id: "2",
-    name: "Scent 2",
+    name:"Scent 2",
     title: "Colombo Cool",
     desc: "Lemongrass,lavender,mandarin and peppermint",
     img: bottle1,
@@ -35,7 +35,7 @@ export const products = [
   },
   {
     id: "3",
-    name: "Scent 3",
+    name:"Scent 3",
     title: "Rio City Garden",
     img: bottle3,
     desc:"Exciting cocktail of gardenia,ylang-ylang,passion-fruit and lime",
@@ -46,7 +46,7 @@ export const products = [
   },
   {
     id: "4",
-    name: "Scent 4",
+    name:"Scent 4",
     title: "Cuenca Rose",
     img: bottle6,
     desc:"Sensational tuberose,cedar,vetiver and violets",
@@ -55,7 +55,7 @@ export const products = [
   },
   {
     id: "5",
-    name: "Scent 5",
+    name:"Scent 5",
     title: "Paris Mimosa",
     img: bottle4,
     desc: "Mesmerising mimosa,cardamom, sandalwood,damask rose and tonka",
@@ -64,7 +64,7 @@ export const products = [
   },
   {
     id: "6",
-    name: "Scent 6",
+    name:"Scent 6",
     title: "Poets of Berlin",
     desc: "Blending  lemon,vanilla,vetiver,wild green orris and blueberry.",
     img: bottle2,
@@ -75,7 +75,7 @@ export const products = [
   },
   {
     id: "7",
-    name: "Scent 7",
+    name:"Scent 7",
     title: " In Noto Basso   ",
     desc: " Marsala cask whisky,sandalwood,vetiver and leather.",
     img: bottle5,
@@ -86,7 +86,7 @@ export const products = [
   },
   {
     id: "8",
-    name: "Scent 8",
+    name:"Scent 8",
     title: "Toamasina Cocktail",
     desc: "Blending Grapefruit,cardomom,vetiver and vanilla.",
     img: bottle7,
@@ -97,7 +97,7 @@ export const products = [
   },
   {
     id: "9",
-    name: "Scent 9",
+    name:"Scent 9",
     title: "Jazz New York",
     desc: "A classic blend of Patchouli,Cedar and Lime.",
     img: bottle8,

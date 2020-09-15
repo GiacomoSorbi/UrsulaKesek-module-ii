@@ -63,9 +63,10 @@ img.sntwl {
   margin-top: 40px;
   margin-left: 120px;
   width: 500px;
+  height:500px;
 }
 .wheel {
-  height: 575px;
+  height: 520px;
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
 }
 @media screen and (max-width: 768px) {

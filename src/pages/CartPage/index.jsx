@@ -6,8 +6,10 @@ import { Item } from "../../components";
 import "./CartPage.css";
 
 const CartPage = () => {
-  const [quantity, setQuantity] = useState(0);
-  const increaseQty = () => setQuantity(quantity + 1);
+  const [quantity, setQuantity] = useState(1);
+  function increaseQty() {
+    return setQuantity(quantity + 1);
+  }
   const decreaseQty = () => {
     if (quantity - 1 >= 0) {
       setQuantity(quantity - 1);
