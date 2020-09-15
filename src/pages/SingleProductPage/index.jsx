@@ -38,8 +38,8 @@ const SingleProductPage = ({ match }) => {
             to={`/cartp/${productId}`}
           >
             {productTitle}
+            <button className="addP">Add To Cart</button>
           </NavLink>
-          <h4>Add</h4>
         </div>
       </main>
     </>

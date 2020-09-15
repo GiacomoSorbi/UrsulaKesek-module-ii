@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+.addP{
+  cursor:pointer;
+}
 .cp{
   paddinG:5px;
   width: 120px;
@@ -13,9 +16,12 @@ h4{
 color:greenyellow;
 text-align: center;
 }
-item-link{
+a.item-link{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin:10px;
-  width:300px;
+  width:400px;
   border: 2px double darkorange;
  }
 .product {

@@ -55,6 +55,8 @@ const CartPage = () => {
                 +
               </button>
             </div>
+            
+
             <div className="cpl">
               <NavLink className="pp" to="/shop">
                 BACK TO SHOP
