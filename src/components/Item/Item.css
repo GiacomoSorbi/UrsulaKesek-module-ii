@@ -6,7 +6,7 @@
 }
 .iimg {
   width: 200px;
-  height: 190px;
+  height: 180px;
 }
 h2.iid {
   padding: 4px;
@@ -18,10 +18,11 @@ h3.ipt {
   color: white;
 }
 h4.cost {
+  background-color:black ;
   padding: 5px;
   text-align: center;
   width: 200px;
-  color: black;
-  font-size: 1.5em;
+  color: white;
+  font-size: 1.25em;
   border: 3px double white;
 }

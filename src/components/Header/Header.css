@@ -2,43 +2,35 @@
   display: flex;
   flex-direction: row;
   background-image: url(Images/ylang1.png);
-  height: 120px;
+  height: 7.5em;
 }
 .green {
-  height:100px;
+  height: 100px;
   position: relative;
-  top:10px;
-  left:70px;
+  top: 0.7em;
+  left: 5em;
   z-index: 1;
 }
 h1 {
+  position: relative;
+  top: 0.2em;
+  left: 5em;
   color: rgb(241, 68, 4);
   font-size: 5em;
   text-shadow: 3px 3px 3px yellow;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   z-index: 1;
-  position: relative;
-  top: 10px;
-  left: 100px;
-}
-.exotic {
-  color: rgb(241, 70, 8);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 2em;
-  text-shadow: 3px 3px 3px #000;
-  position: relative;
-  left: 100px;
-  top: 35px;
 }
 @media screen and (max-width: 768px) {
-  .exotic {
-    font-size: 1.4em;
-    left: 50px;
-  }
   .header {
-    width: 768px;
+    display: flex;
+    flex-direction: row;
+    width: 48em;
+    height: 7.5em;
   }
-  .pb75 {
-    visibility: hidden;
+  h1 {
+    position: relative;
+    left: 3em;
+    font-size: 4.5em;
   }
 }

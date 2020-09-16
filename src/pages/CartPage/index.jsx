@@ -39,12 +39,15 @@ const CartPage = () => {
             path="/cartp"
             render={() => (
               <div>
-                <h3 className="cptitle"> </h3>
+                <h3 className="cptitle">Cart Page </h3>
               </div>
             )}
           />
           <div className="cpi">
             <Route path="/cartp/:id" component={Item} />
+            <div className="cartItem">
+              
+              </div>
             <div className="btns">
               <button className="less" onClick={decreaseQty}>
                 -

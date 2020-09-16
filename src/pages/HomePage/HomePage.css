@@ -86,7 +86,7 @@ section.main {
     margin: 10px;
     visibility: visible;
     position: relative;
-    bottom: 300px;
+    bottom: 200px;
   }
   body {
     background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
@@ -110,9 +110,9 @@ section.main {
   .box3 {
     visibility: hidden;
   }
-  .bubble {
+  img.bubble {
     position: relative;
-    right: 1060px;
+    left:5em;
   }
   .chick {
     margin: 10px;

@@ -1,5 +1,5 @@
 article.plaa,article.plab,article.plac{
-  margin:25px;
+  margin:20px;
   border:4px double black;
   width:300px;
   height:400px;
@@ -27,7 +27,7 @@ main.plpg {
   background: linear-gradient(rgb(2, 131, 60), rgb(6, 240, 26));
 }
 ol{
-  margin:15px;
+  margin:10px;
 }
 .plant{
   text-decoration:none ;

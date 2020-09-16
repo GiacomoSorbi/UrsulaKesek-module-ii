@@ -6,7 +6,6 @@ const Header = () => (
     <div className="header">
       <img className="green" src={GreenCat} alt="green-cat" />
       <h1>UK PERFUMES</h1>
-
     </div>
   </>
 );

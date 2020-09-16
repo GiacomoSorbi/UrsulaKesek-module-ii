@@ -26,14 +26,18 @@ const ShopPage = ()=>{
       </section>
       <section className="spcards">
         <Route
-          path="/shop"
+          path="/shop/"
           render={() => (
             <div className="prodp">
               <h3 className="pptitle">CITY SCENTS RANGE </h3>
             </div>
           )} />
         <div className="spp1">
-          <Route path="/shop/:id" component={SingleProductPage} />
+          <Route path="/shop/:id" component={SingleProductPage}/>
+          <Route path="/shop/:id" component={SingleProductPage}/>
+          <Route path="/shop/:id" component={SingleProductPage}/>
+          <Route path="/shop/:id" component={SingleProductPage}/>
+          <Route path="/shop/:id" component={SingleProductPage}/>
         </div>
       </section>
     </>
