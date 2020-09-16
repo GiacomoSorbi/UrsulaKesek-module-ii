@@ -5,9 +5,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: rgb(187, 202, 112);
 }
 h2.cbh2 {
-  color: rgb(127, 247, 68);
+  color: rgb(27, 77, 2);
   text-align: end;
 }
 .curios {
@@ -19,8 +20,8 @@ h2.cbh2 {
 .orient,
 .woody {
   position: relative;
-  top: 40px;
-  left: 260px;
+  top: 15px;
+  left: 200px;
   padding: 32px 26.5px 15px;
   font-size: 1.5rem;
   text-align: center;
@@ -43,30 +44,32 @@ h2.cbh2 {
 .perfTwo,
 .perfThree,
 .perfFour {
-  height: 130px;
+  height: 100px;
   width: 500px;
-  background-color: rgb(55, 54, 56);
 }
 h2.fl,
 h2.fr,
 h2.or,
 h2.wo {
+  position: relative;
+  top:35px;
   text-align: left;
   margin-left: 70px;
   font-size: 2em;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(241, 70, 8);
+  text-shadow:3px 3px 3px yellow ;
 }
 img.sntwl {
   position: relative;
-  right:50px;
+  right:320px;
   margin-top: 40px;
   margin-left: 120px;
-  width: 500px;
-  height:500px;
+  width: 400px;
+  height:400px;
 }
 .wheel {
-  height: 520px;
+  height: 480px;
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
 }
 @media screen and (max-width: 768px) {

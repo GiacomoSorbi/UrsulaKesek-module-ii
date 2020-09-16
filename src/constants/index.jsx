@@ -50,6 +50,9 @@ export const products = [
     desc: "Sensational tuberose,cedar,vetiver and violets",
     prefix: "£",
     price: 165.0,
+    quantity:"1",
+    subTotal: 165.00,
+
   },
   {
     id: "5",
@@ -59,6 +62,9 @@ export const products = [
     desc: "Mesmerising mimosa,cardamom, sandalwood,damask rose and tonka",
     prefix: "£",
     price: 125.0,
+    quantity:"1",
+    subTotal: 125.00,
+
   },
   {
     id: "6",
@@ -68,8 +74,8 @@ export const products = [
     img: bottle2,
     prefix: "£",
     price: 185.0,
-    quantity: 0,
-    subTotal: 0,
+    quantity:"1",
+    subTotal: 185.00,
   },
   {
     id: "7",
@@ -79,8 +85,8 @@ export const products = [
     img: bottle5,
     prefix: "£",
     price: 145.0,
-    quantity: 0,
-    subTotal: 0,
+    quantity:"1",
+    subTotal: 145.00,
   },
   {
     id: "8",
@@ -90,8 +96,8 @@ export const products = [
     img: bottle7,
     prefix: "£",
     price: 160.0,
-    quantity: 0,
-    subTotal: 0,
+    quantity:"1",
+    subTotal: 160.00,
   },
   {
     id: "9",
@@ -101,8 +107,8 @@ export const products = [
     img: bottle8,
     prefix: "£",
     price: 150.0,
-    quantity: 0,
-    subTotal: 0,
+    quantity:"1",
+    subTotal: 150.00,
   },
 ];
 export const items = [

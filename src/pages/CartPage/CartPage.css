@@ -29,18 +29,13 @@
 }
 
 .cart {
-  height: 590px;
+  height: 530px;
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
-}
-.cpcards {
-  height: 485px;
 }
 .cptitle {
   position: relative;
   left: 110px;
-  padding: 5px;
   color: white;
-  text-align: left;
 }
 h2.cp {
   width: 1440px;
@@ -54,10 +49,9 @@ h2.cp {
   justify-content: left;
   position: relative;
   left: 80px;
-  top: 10px;
   background-color: rgba(244, 228, 8, 0.5);
   width:1300px;
-  height: 400px;
+  height: 370px;
 }
 .cpitems {
   display: flex;

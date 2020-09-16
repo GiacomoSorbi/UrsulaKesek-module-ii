@@ -15,7 +15,7 @@ const Item = ({ match }) => {
         <main className="item-one">
           <h2 className="iid">{itemId}</h2>
           <h3 className="ipt">{itemTitle}</h3>
-        
+
           <div
             className="iimg"
             style={{ backgroundImage: `url(${itemImg}` }}

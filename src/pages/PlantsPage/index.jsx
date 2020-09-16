@@ -1,6 +1,7 @@
 import React from "react";
 import "./PlantsPage.css";
 import { NavLink } from "react-router-dom";
+
 const PlantsPage = () => (
   <main className="plpg">
     <h2>

@@ -20,7 +20,7 @@ h3.floc {
   margin: 15px;
   border: 4px double black;
   width: 300px;
-  height: 500px;
+  height: 390px;
   text-align: center;
 }
 @media screen and (max-width: 768px) {
