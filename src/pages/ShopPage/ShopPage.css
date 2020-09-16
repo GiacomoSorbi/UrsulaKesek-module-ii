@@ -17,7 +17,10 @@ h3.sppick {
 main.product {
   height: 420px;
 }
-.product-link {
+.item-link{
+height:50px;
+}
+.product-link,.item-link {
   display: flex;
   flex-direction: row;
   line-height: 1;

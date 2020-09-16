@@ -2,7 +2,13 @@
   box-sizing: border-box;
 }
 .addP{
+  position: relative;
+  top:5px;
   cursor:pointer;
+  border-radius:20px;
+  height:22px;
+  outline:none;
+  box-shadow:3px 3px 3px darkgreen ; 
 }
 .cp{
   paddinG:5px;
@@ -16,13 +22,13 @@ h4{
 color:greenyellow;
 text-align: center;
 }
-a.item-link{
+.item-link{
   display:flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin:10px;
   width:400px;
-  border: 2px double darkorange;
+  border: 2px double black;
  }
 .product {
   display: flex;

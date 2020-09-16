@@ -2,53 +2,24 @@
   display: flex;
   flex-direction: row;
   background-image: url(Images/ylang1.png);
-  height: 150px;
+  height: 120px;
 }
 .green {
+  height:100px;
   position: relative;
-  left: 250px;
+  top:10px;
+  left:70px;
   z-index: 1;
 }
 h1 {
-  color: rgb(241, 70, 8);
-  font-size: 4em;
-  text-shadow: 3px 3px 3px #000;
+  color: rgb(241, 68, 4);
+  font-size: 5em;
+  text-shadow: 3px 3px 3px yellow;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   z-index: 1;
   position: relative;
-  top: 30px;
-  left: 180px;
-}
-.box1 {
-  width: 700px;
-  height: 120px;
-  background-color: rgba(78, 211, 12, 0.755);
-  z-index: 0;
-  border-radius: 0px 170px 0px 170px;
-  position: relative;
-  top: 15px;
-  left: 90px;
-  animation-name: slide;
-  animation-duration: 5s;
-  animation-iteration-count: 4;
-  animation-direction: alternate;
-  animation-delay: 2s;
-  animation-timing-function: ease-in-out;
-}
-@keyframes slide {
-  from {
-    transform: translateX(-60px);
-  }
-  to {
-    transform: translateX(150px);
-  }
-}
-
-.pb75 {
-  position: relative;
-  left: 550px;
-  bottom: 20px;
-  z-index: 1;
+  top: 10px;
+  left: 100px;
 }
 .exotic {
   color: rgb(241, 70, 8);
@@ -60,17 +31,6 @@ h1 {
   top: 35px;
 }
 @media screen and (max-width: 768px) {
-  .box1 {
-    width: 768px;
-    height: 150px;
-    background-color: rgba(78, 211, 12, 0.755);
-    z-index: 0;
-    border-radius: 0px 170px 0px 170px;
-    position: relative;
-    top: 15px;
-    left: 90px;
-    animation: none;
-  }
   .exotic {
     font-size: 1.4em;
     left: 50px;

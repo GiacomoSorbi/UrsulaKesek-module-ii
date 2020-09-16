@@ -14,7 +14,7 @@ const CartPage = () => {
     if (quantity - 1 >= 0) {
       setQuantity(quantity - 1);
     }
-    setQuantity((quantity) => (quantity));
+    setQuantity((quantity) => quantity);
   };
   return (
     <>
@@ -26,7 +26,7 @@ const CartPage = () => {
             {items.map((item) => (
               <NavLink
                 key={item.id}
-                className="item-link"
+                className="cartItem-link"
                 to={`/cartp/${item.id}`}
               >
                 {item.title}
@@ -39,13 +39,12 @@ const CartPage = () => {
             path="/cartp"
             render={() => (
               <div>
-                <h2 className="cptitle">ITEMS</h2>
+                <h3 className="cptitle"> </h3>
               </div>
             )}
           />
           <div className="cpi">
             <Route path="/cartp/:id" component={Item} />
-
             <div className="btns">
               <button className="less" onClick={decreaseQty}>
                 -
@@ -55,8 +54,6 @@ const CartPage = () => {
                 +
               </button>
             </div>
-            
-
             <div className="cpl">
               <NavLink className="pp" to="/shop">
                 BACK TO SHOP
@@ -67,5 +64,6 @@ const CartPage = () => {
       </section>
     </>
   );
-};
+
+          };
 export default CartPage;

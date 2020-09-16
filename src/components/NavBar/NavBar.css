@@ -4,9 +4,9 @@
 }
 nav ul {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
-  background: linear-gradient(#f5511f, rgb(243, 64, 213));
+  background: linear-gradient( green,yellow,green);
   height: 60px;
   padding-inline-start: 0px;
 }
@@ -19,8 +19,7 @@ nav ul li {
 .plants,
 .cabinet,
 .cartp {
-  position: relative;
-  width: 235px;
+  width: 255px;
   height: 60px;
   line-height: 1.5;
   padding: 5px;

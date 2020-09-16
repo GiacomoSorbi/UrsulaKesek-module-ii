@@ -5,7 +5,6 @@ import { products } from "../../constants";
 import SingleProductPage from "../SingleProductPage";
 
 
-
 const ShopPage = ()=>{ 
 
   return (
@@ -26,7 +25,6 @@ const ShopPage = ()=>{
         ))}
       </section>
       <section className="spcards">
-
         <Route
           path="/shop"
           render={() => (

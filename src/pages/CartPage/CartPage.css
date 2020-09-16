@@ -4,12 +4,13 @@
   justify-content: space-evenly;
   width: 260px;
   position: relative;
-  top: 75px;
-  padding: 5px;
+  top: 155px;
+  padding: 15px;
 }
 .add {
   width: 50px;
   height: 50px;
+  margin-left:20px;
   font-size: 2em;
   outline: none;
 }
@@ -22,12 +23,13 @@
 .less {
   width: 50px;
   height: 50px;
+  margin-right:20px;
   font-size: 2em;
   outline: none;
 }
 
 .cart {
-  height: 575px;
+  height: 590px;
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
 }
 .cpcards {
@@ -35,8 +37,10 @@
 }
 .cptitle {
   position: relative;
-  top: 35px;
-  text-align: center;
+  left: 110px;
+  padding: 5px;
+  color: white;
+  text-align: left;
 }
 h2.cp {
   width: 1440px;
@@ -45,46 +49,68 @@ h2.cp {
   text-align: center;
 }
 .cpi {
-  margin: 20px;
-  background-color: black;
-  width: 260px;
-  height: 440px;
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  position: relative;
+  left: 80px;
+  top: 10px;
+  background-color: rgba(244, 228, 8, 0.5);
+  width:1300px;
+  height: 400px;
 }
 .cpitems {
   display: flex;
   flex-direction: row;
   width: 1440px;
-  height: 20px;
+  height: 90px;
 }
-.item-link {
-  padding: 10px;
-  width: 157px;
-  height: 50px;
-  border-radius: 30px;
+.cartItem-link {
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+  line-height: 1;
+  padding: 7px;
+  font-size: 1.5rem;
   text-align: center;
   color: white;
-  font-size: 1.5em;
-  background-color: black;
-  border: 3px solid rgb(245, 68, 3);
   text-decoration: none;
+  text-shadow: 2px 2px 1px #000;
+  border: 6px double black;
+  background-color: rgb(78, 211, 12);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(214, 233, 11, 0.885)
+  );
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+  outline: none;
 }
-.item-link:hover {
-  background-color: rgb(226, 226, 5);
-  color: black;
+a.item-link:hover {
+  color: red;
 }
 .qty {
   color: white;
   font-size: 2em;
 }
-.pp {
+a.pp{
   position: relative;
-  top: 90px;
-  left: 60px;
-  border: 4px double darkorange;
+  top:190px;
+  border: 4px double white;
   background-color: rgb(19, 1, 15);
 }
-.pp:hover {
-  background-color: rgb(243, 4, 191);
+a.pp:hover {
+  background-color: white;
+  border: 4px double black;
+  color: black;
+}
+h2.subtotal{
+  position: relative;
+  left:200px;
+  top:165px;
+  color:black;
 }
 @media screen and (max-width: 768px) {
   .cart {
