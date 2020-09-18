@@ -1,0 +1,39 @@
+.footer1 {
+  height: 60px;
+  background-color: rgba(78, 211, 12, 1);
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+}
+p {
+  position: relative;
+  top: 10px;
+  left: 440px;
+  width: 420px;
+}
+.icon {
+  margin-left: 5px;
+}
+.sm {
+  width: 400px;
+  position: relative;
+  left: 1040px;
+  bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 768px;
+    height: 120px;
+    position: relative;
+    top: 10px;
+  }
+  footer p {
+    position: relative;
+    left: 220px;
+  }
+  .sm {
+    top: 30px;
+    left: 256px;
+  }
+}

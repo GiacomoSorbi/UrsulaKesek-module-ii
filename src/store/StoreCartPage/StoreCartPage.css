@@ -1,0 +1,47 @@
+.storepage {
+  background-color: rgb(75, 121, 7);
+}
+.minus {
+  width: 30px;
+  height: 40px;
+  outline: none;
+}
+span.count {
+  width: 35px;
+  height: 40px;
+  position: relative;
+  border: 3px double black;
+  color: black;
+  font-size: 2em;
+}
+.plus {
+  width: 30px;
+  height: 40px;
+  outline: none;
+}
+.cpmanage {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 30px;
+}
+.cpitems {
+  margin: 0 auto;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cpitem {
+  margin: 30px;
+  width: 400px;
+  height: 250px;
+  border: 2px solid orange;
+}
+
+.total {
+  background-color: greenyellow;
+  margin: 30px;
+  font-size: 2em;
+}

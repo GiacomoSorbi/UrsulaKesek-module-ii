@@ -1,0 +1,10 @@
+.storepage{
+    background-color: rgb(3, 177, 32);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer{
+    position:relative;
+    top:0px;
+}

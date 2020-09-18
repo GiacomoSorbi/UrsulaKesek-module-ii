@@ -1,0 +1,41 @@
+.storenav {
+  margin: 0 auto;
+  width: 800px;
+  margin: 15px 320px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.storenav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sh,
+.ca {
+  position: relative;
+  top: 0px;
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  border: 6px double black;
+  background-color: rgb(119, 241, 57);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(214, 233, 11, 0.885)
+  );
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+  outline: none;
+  cursor: pointer;
+}
+.sh:hover,
+.ca:hover {
+  background-color: yellow;
+  color: red;
+
+}

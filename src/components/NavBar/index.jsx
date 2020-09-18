@@ -11,13 +11,8 @@ const NavBar = () => (
         </Link>
       </li>
       <li>
-        <Link className="shop" to="/shop">
-          Shop
-        </Link>
-      </li>
-      <li>
-        <Link className="cartp" to="/cartp">
-          Cart
+        <Link className="store" to="/store">
+          Store
         </Link>
       </li>
       <li>

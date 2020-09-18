@@ -4,6 +4,7 @@
   left: 40px;
   height: 150px;
   width: 150px;
+  border:2px solid yellow;
   visibility: visible;
 }
 .blue1,
@@ -53,17 +54,22 @@ img.front {
   width: 0px;
   visibility: hidden;
 }
+footer{
+  visibility: visible;
+}
 .green1 {
   position: relative;
   top: 130px;
   left: 40px;
   height: 150px;
   width: 150px;
+  border:2px solid yellow;
   visibility: visible;
 }
-h2.hph2 {
+.hph2 {
   position: relative;
   left: 10px;
+  top:0px;
   padding: 10px;
   height: 30px;
   width: 200px;
@@ -90,6 +96,7 @@ section.main {
     visibility: visible;
     position: relative;
     bottom: 200px;
+    border:2px solid yellow;
   }
   body {
     background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
@@ -123,6 +130,7 @@ section.main {
     left: 20px;
     height: 100px;
     width: 100px;
+    border:2px solid yellow;
   }
   .contact {
     position: relative;

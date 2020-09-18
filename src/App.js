@@ -3,20 +3,17 @@ import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import {
   CabinetPage,
-  CartPage,
   ContactPage,
   Floral,
   Fresh,
   HomePage,
   Oriental,
   PlantsPage,
-  ShopPage,
   Woody,
 } from "./pages";
 import Lost from "./components/Lost";
-
+import StoreContent from "./store";
 function App() {
-
   return (
     <>
       <Switch>
@@ -25,10 +22,9 @@ function App() {
         <Route path="/oriental" exact component={Oriental} />
         <Route path="/woody" exact component={Woody} />
         <Route path="/" exact component={HomePage} />
-        <Route path="/shop" component={ShopPage} />
+        <Route path="/store" component={StoreContent} />
         <Route path="/plants" exact component={PlantsPage} />
         <Route path="/cabinet" exact component={CabinetPage} />
-        <Route path="/cartp" component={CartPage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="*" render={() => <Lost />} />
       </Switch>

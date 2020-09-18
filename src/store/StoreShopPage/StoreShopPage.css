@@ -1,0 +1,22 @@
+.atc{
+    width:100px;
+    height:30px;
+    border-radius:15px;
+    position: relative;
+    left:20px;
+    background-color:greenyellow;
+    outline:none;
+    font-size:1.3em ; 
+}
+.content{
+    width:1440px;
+    display: flex;
+    flex-direction: row;
+
+}
+.spitems{
+    list-style-type:none;
+}
+.storepage{
+    background-color:greenyellow;
+}

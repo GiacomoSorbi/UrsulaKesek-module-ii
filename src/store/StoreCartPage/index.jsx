@@ -1,0 +1,34 @@
+import React from "react";
+import Item from "../Item";
+import EmptyCart from "../StoreEmptyCart";
+import "./StoreCartPage.css";
+
+const StoreCartPage = ({ items, onPlusOne, onMinusOne }) =>
+  items.length === 0 ? (
+    <EmptyCart />
+  ) : (
+    <section className="cpitems">
+      {items.map((item) => {
+        return (
+          <div key={item.id} className="cpitem">
+            <Item item={item}>
+              <div className="cpmanage">
+                <button className="minus" onClick={() => onMinusOne(item)}>
+                  &#45;
+                </button>
+                <span className="count">{item.count}</span>
+                <button className="plus" onClick={() => onPlusOne(item)}>
+                  &#43;
+                </button>
+              </div>
+            </Item>
+          </div>
+        );
+      })}
+      <div className="total">
+        Total: £{items.reduce((sum, item) => sum + item.price * item.count,0)}
+      </div>
+    </section>
+  );
+
+export default StoreCartPage;
