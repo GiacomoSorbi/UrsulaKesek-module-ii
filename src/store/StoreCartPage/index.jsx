@@ -3,7 +3,7 @@ import Item from "../Item";
 import EmptyCart from "../StoreEmptyCart";
 import "./StoreCartPage.css";
 
-const StoreCartPage = ({ items, onPlusOne, onMinusOne }) =>
+const StoreCartPage = ({ items, onPlus, onMinus }) =>
   items.length === 0 ? (
     <EmptyCart />
   ) : (
@@ -13,11 +13,11 @@ const StoreCartPage = ({ items, onPlusOne, onMinusOne }) =>
           <div key={item.id} className="cpitem">
             <Item item={item}>
               <div className="cpmanage">
-                <button className="minus" onClick={() => onMinusOne(item)}>
+                <button className="minus" onClick={() => onMinus(item)}>
                   &#45;
                 </button>
                 <span className="count">{item.count}</span>
-                <button className="plus" onClick={() => onPlusOne(item)}>
+                <button className="plus" onClick={() => onPlus(item)}>
                   &#43;
                 </button>
               </div>
@@ -26,7 +26,7 @@ const StoreCartPage = ({ items, onPlusOne, onMinusOne }) =>
         );
       })}
       <div className="total">
-        Total: £{items.reduce((sum, item) => sum + item.price * item.count,0)}
+        Total to Pay: £{items.reduce((sum, item) => sum + item.price * item.count,0)}
       </div>
     </section>
   );

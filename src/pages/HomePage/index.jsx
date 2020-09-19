@@ -1,13 +1,14 @@
 import React from "react";
-import Front from "./Images/aw-front.png";
-import Bubble from "./Images/bubble-iv.gif";
-import "./HomePage.css";
-import GreenCat from "./Images/green1.png";
+
 import Bird from "./Images/bird200x200.gif";
-import Front2 from "./Images/aw-front2.png";
-import Chick from "./Images/smallbird.png";
 import BlueCat from "./Images/bluecat.png";
+import Bubble from "./Images/bubble-iv.gif";
+import Chick from "./Images/smallbird.png";
+import Front from "./Images/aw-front.png";
+import Front2 from "./Images/aw-front2.png";
+import GreenCat from "./Images/green1.png";
 import { NavLink } from "react-router-dom";
+import "./HomePage.css";
 
 function HomePage() {
   return (

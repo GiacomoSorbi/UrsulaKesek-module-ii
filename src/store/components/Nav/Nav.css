@@ -14,7 +14,8 @@
 }
 
 .sh,
-.ca {
+.ca,
+.we {
   position: relative;
   top: 0px;
   width: 150px;

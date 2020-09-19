@@ -1,0 +1,47 @@
+.city {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  background: linear-gradient(white 10%, cornflowerblue);
+  width: 400px;
+  height: 60px;
+}
+
+.input {
+  background-color: white;
+  border: 6px double #f50eee;
+  width: 250px;
+  padding: 10px;
+  font-size: 1em;
+}
+.label {
+  background-color: white;
+  border: 6px double #f50eee;
+  width: 120px;
+  padding: 5px;
+  font-size: 1em;
+  color: black;
+}
+@media screen and (max-width: 375px) {
+  .city {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(white 10%, cornflowerblue);
+    width: 300px;
+    margin: 5px;
+  }
+  .input {
+    margin: 15px;
+    width: 240px;
+    height: 50px;
+  }
+  label.label {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    width: 100px;
+    height: 50px;
+  }
+}

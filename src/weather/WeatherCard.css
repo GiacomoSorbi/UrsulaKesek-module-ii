@@ -1,0 +1,32 @@
+.weapp {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left:500px;
+  width: 500px;
+  text-align: center;
+  background-color: rgb(81, 134, 233);
+  padding: 10px;
+  font-size: 1em;
+  color: white;
+}
+.stormy {
+  position: relative;
+  right: 50px;
+  background-color: darkslateblue;
+}
+.stormy1 {
+  position: relative;
+  left: 50px;
+  background-color: darkslateblue;
+}
+@media screen and (max-width: 375px) {
+  .search {
+    position: relative;
+    bottom: 150px;
+    left: 80px;
+    height: 50px;
+    font-size: 0.75rem;
+    line-height: 1.75;
+  }
+}

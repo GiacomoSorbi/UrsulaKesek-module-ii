@@ -1,0 +1,15 @@
+.formw {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left:20px;
+  border-radius: 30px;
+  width: 450px;
+}
+@media screen and (max-width: 375px) {
+  .formw {
+    width: 320px;
+  }
+}
