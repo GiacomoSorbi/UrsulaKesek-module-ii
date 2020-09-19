@@ -1,5 +1,5 @@
 .emptycart{
-  height:500px;
+  height:470px;
   margin:0 auto;
   background-color:rgb(75, 121, 7) ;
 }
@@ -9,8 +9,15 @@ h1 {
   text-align:center;
   color: white;
 }
-.emptycart h2 {
+h2.ecc {
   position: relative;
   top: 147px;
+  text-align:center;
+  color: white;
+}
+h2.ecw{
+  position: relative;
+  top: 157px;
+  text-align:center;
   color: white;
 }

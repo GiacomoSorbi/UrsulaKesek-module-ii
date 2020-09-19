@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(187, 202, 112);
+  height:520px;
 }
 h2.cbh2 {
   color: rgb(27, 77, 2);
@@ -71,13 +72,14 @@ img.sntwl {
 .wheel {
   height: 480px;
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
+height:520px;
 }
 @media screen and (max-width: 768px) {
   .aroma {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height:100%vph;
+    height:520px;
     width:768px;
   }
   .cbmain {
@@ -88,10 +90,6 @@ img.sntwl {
   h2.cbh2 {
     color: rgb(127, 247, 68);
     text-align: center;
-  }
-  .pb75{
-    display:none;
-
   }
   .perfOne,
   .perfTwo,

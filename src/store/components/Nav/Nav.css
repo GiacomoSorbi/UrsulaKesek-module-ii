@@ -35,8 +35,11 @@
   cursor: pointer;
 }
 .sh:hover,
-.ca:hover {
+.ca:hover,
+.we:hover {
   background-color: yellow;
   color: red;
-
+}
+.we:hover{
+  color:blue;
 }
