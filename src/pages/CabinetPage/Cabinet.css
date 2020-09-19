@@ -6,7 +6,7 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(187, 202, 112);
-  height:520px;
+  height: 530px;
 }
 h2.cbh2 {
   color: rgb(27, 77, 2);
@@ -53,34 +53,34 @@ h2.fr,
 h2.or,
 h2.wo {
   position: relative;
-  top:35px;
+  top: 35px;
   text-align: left;
   margin-left: 70px;
   font-size: 2em;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(241, 70, 8);
-  text-shadow:3px 3px 3px yellow ;
+  text-shadow: 3px 3px 3px yellow;
 }
 img.sntwl {
   position: relative;
-  right:320px;
+  right: 320px;
   margin-top: 40px;
   margin-left: 120px;
   width: 400px;
-  height:400px;
+  height: 400px;
 }
 .wheel {
   height: 480px;
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
-height:520px;
+  height: 530px;
 }
 @media screen and (max-width: 768px) {
   .aroma {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height:520px;
-    width:768px;
+    height: 520px;
+    width: 768px;
   }
   .cbmain {
     width: 768px;
