@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5095484848ebe132988c85945baec78",
+    "revision": "7dcbd787a66d63b181a3018a2fc4311b",
     "url": "/UrsulaKesek-module-ii/index.html"
   },
   {
-    "revision": "fb010b2c6afd1523d18a",
+    "revision": "95039a67f3000f517ca1",
     "url": "/UrsulaKesek-module-ii/static/css/main.03fb0c5d.chunk.css"
   },
   {
-    "revision": "427e9f3db8b8f3c910e8",
-    "url": "/UrsulaKesek-module-ii/static/js/2.f02cc982.chunk.js"
+    "revision": "63aadb89e2f752e1ac08",
+    "url": "/UrsulaKesek-module-ii/static/js/2.76c89263.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/UrsulaKesek-module-ii/static/js/2.f02cc982.chunk.js.LICENSE.txt"
+    "url": "/UrsulaKesek-module-ii/static/js/2.76c89263.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb010b2c6afd1523d18a",
-    "url": "/UrsulaKesek-module-ii/static/js/main.a5338bdb.chunk.js"
+    "revision": "95039a67f3000f517ca1",
+    "url": "/UrsulaKesek-module-ii/static/js/main.f6c97571.chunk.js"
   },
   {
     "revision": "68444fc4ec1b4b92ba93",
@@ -48,12 +48,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrsulaKesek-module-ii/static/media/bubble-iv.add639cc.gif"
   },
   {
+    "revision": "94db1c593aef3803000a80bfe6472935",
+    "url": "/UrsulaKesek-module-ii/static/media/clarysage.94db1c59.png"
+  },
+  {
     "revision": "2e53694e4e8d589ab44aaf409edc96c1",
     "url": "/UrsulaKesek-module-ii/static/media/fragrance-wheel.2e53694e.png"
   },
   {
+    "revision": "5f40d3f8674e183ebcdc73fc3dff5e30",
+    "url": "/UrsulaKesek-module-ii/static/media/frankincense.5f40d3f8.png"
+  },
+  {
     "revision": "d72cabeac7145f2e757571f70996cc5f",
     "url": "/UrsulaKesek-module-ii/static/media/green1.d72cabea.png"
+  },
+  {
+    "revision": "6aab70739446d045c6a6494f74b99059",
+    "url": "/UrsulaKesek-module-ii/static/media/heliotrope.6aab7073.png"
+  },
+  {
+    "revision": "da2e47bd91a43828755a6ad730a47d47",
+    "url": "/UrsulaKesek-module-ii/static/media/jasmine.da2e47bd.png"
+  },
+  {
+    "revision": "b950297dd098f75ef2ec226c627f4422",
+    "url": "/UrsulaKesek-module-ii/static/media/rockrose.b950297d.png"
   },
   {
     "revision": "7c315d687598012a4ac6aede22b943c3",
