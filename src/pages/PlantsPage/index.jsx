@@ -8,10 +8,10 @@ const PlantsPage = () => (
       {" "}
       Some of the plants and <span>minerals</span> used in perfume creation
     </h2>
-    <h3>Links to plant details:work in progress.A-J in place.</h3>
+    <h3>Links to plant details:work in progress.A-L in place.M-Z go to homepage</h3>
     <section className="plantsec">
       <article className="plaa">
-        A-J
+        A-L
         <ol>
           <li>
             <NavLink className="plant" to="/plantdisplay">
@@ -53,16 +53,16 @@ const PlantsPage = () => (
               Jasmine
             </NavLink>
           </li>
-        </ol>
-      </article>
-      <article className="plab">
-        K-O
-        <ol>
           <li>
-            <NavLink className="plant" to="/">
+            <NavLink className="plant" to="/plantdisplay">
               Labdanum
             </NavLink>
           </li>
+        </ol>
+      </article>
+      <article className="plab">
+        M-P
+        <ol>
           <li>
             <NavLink className="plant" to="/">
               Monoi
@@ -103,16 +103,16 @@ const PlantsPage = () => (
               Oud
             </NavLink>
           </li>
-        </ol>
-      </article>
-      <article className="plac">
-        P-Z
-        <ol>
           <li>
             <NavLink className="plant" to="/">
               Patchouli
             </NavLink>
           </li>
+        </ol>
+      </article>
+      <article className="plac">
+        Q-Z
+        <ol>
           <li>
             <NavLink className="plant" to="/">
               Rose
