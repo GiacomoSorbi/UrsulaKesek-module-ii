@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Store.css";
 import Nav from "./components/Nav";
 import StoreContent from "./StoreContent";
+
 const Store = () => {
   const [activeTab, setActiveTab] = useState("shop");
 

@@ -50,8 +50,8 @@ img.front {
   position: relative;
   left: 5px;
 }
-.front2 {
-  width: 0px;
+img.front2 {
+  width:0px;
   visibility: hidden;
 }
 footer{
@@ -87,20 +87,22 @@ section.main {
 @media screen and (max-width: 768px) {
   .bird,
   .front,
-  .green1,
-  .pb75 {
+  .green1
+   {
     visibility: hidden;
   }
   .blue1 {
+    width:130px;
+    height:150px;
     margin: 10px;
     visibility: visible;
     position: relative;
-    bottom: 200px;
+    bottom: 170px;
+    left:25px;
     border:2px solid yellow;
   }
-  body {
-    background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
-    width: 768px;
+  body{
+    width:768px;
   }
   .box1 {
     position: relative;
@@ -110,47 +112,61 @@ section.main {
     height: 80px;
   }
   .box2 {
-    width: 0px;
+    width: 230px;
   }
   .box3 {
     position: relative;
-    right: 66.75em;
-    top: 0.7em;
-    visibility: hidden;
+    visibility: visible;
   }
   img.bubble {
     position: relative;
-    right: 24em;
+    left:5.5em;
   }
   .chick {
     margin: 10px;
     visibility: visible;
     position: relative;
-    bottom: 360px;
-    left: 20px;
-    height: 100px;
-    width: 100px;
+    bottom:250px;
+    left: 30px;
+    height: 120px;
+    width: 120px;
     border:2px solid yellow;
   }
-  .contact {
-    position: relative;
-    bottom: 300px;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
+  img.front{
+    width:0px;
+    visibility:hidden;
   }
 
-  .front2 {
+  img.front2 {
     content: url(Images/aw-front2.png);
+    width:350px;
     margin: 10px;
     visibility: visible;
     position: relative;
-    right: 1080px;
+    left:45px;
     top: 10px;
-    border: 4mm ridge rgb(241, 70, 8);
+    border: 4mm ridge rgba(85, 76, 88, 0.5);
   }
   section.main {
     width: 768px;
   }
+}
+@media screen and (max-width: 375px) {
+section.main{
+  display:flex;
+  flex-direction:column;
+}
+.box2{
+  width:375px;
+}
+.hph2{
+  position: relative;
+  left:90px;
+}
+.chick{
+  left:180px;
+}
+.blue1{
+  left:60px;
+}
 }

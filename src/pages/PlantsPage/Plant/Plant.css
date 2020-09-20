@@ -1,0 +1,17 @@
+.img {
+  position: relative;
+  top: 5px;
+  margin-left: 50px;
+}
+.desc1 {
+  position: absolute;
+  top: 210px;
+  left:20px;
+  height: 230px;
+  width: 360px;
+  padding:10px;
+  background-color: rgb(195, 155, 231);
+  color:black;
+  font-family: Arial Black, Helvetica, sans-serif;
+text-align: center;
+}

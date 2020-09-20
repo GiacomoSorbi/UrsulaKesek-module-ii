@@ -8,48 +8,48 @@ const PlantsPage = () => (
       {" "}
       Some of the plants and <span>minerals</span> used in perfume creation
     </h2>
-    <h3>Links to plant details:currently go to homepage.(no plants yet!)</h3>
+    <h3>Links to plant details:work in progress.A-J in place.</h3>
     <section className="plantsec">
       <article className="plaa">
         A-J
         <ol>
           <li>
-            <NavLink className="plant" to="/">
+            <NavLink className="plant" to="/plantdisplay">
               Amyris
             </NavLink>
           </li>
           <li>
-            <NavLink className="plant" to="/">
+            <NavLink className="plant" to="/plantdisplay">
               Bergamot
             </NavLink>
           </li>
           <li>
-            <NavLink className="plant" to="/">
+            <NavLink className="plant" to="/plantdisplay">
               Citron
             </NavLink>
           </li>
           <li>
-            <NavLink className="plant" to="/">
+            <NavLink className="plant" to="/plantdisplay">
               Clary Sage
             </NavLink>
           </li>
           <li>
-            <NavLink className="plant" to="/">
+            <NavLink className="plant" to="/plantdisplay">
               Frangipani
             </NavLink>
           </li>
           <li>
-            <NavLink className="plant" to="/">
+            <NavLink className="plant" to="/plantdisplay">
               Frankincense
             </NavLink>
           </li>
           <li>
-            <NavLink className="plant" to="/">
+            <NavLink className="plant" to="/plantdisplay">
               Heliotrope
             </NavLink>
           </li>
           <li>
-            <NavLink className="plant" to="/">
+            <NavLink className="plant" to="/plantdisplay">
               Jasmine
             </NavLink>
           </li>

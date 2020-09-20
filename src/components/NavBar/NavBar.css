@@ -7,7 +7,7 @@ nav ul {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient( green,yellow,green);
+  background: linear-gradient(green, yellow, green);
   height: 60px;
   padding-inline-start: 0px;
 }
@@ -15,22 +15,21 @@ nav ul li {
   display: flex;
   border: none;
 }
-a.store{
+a.store {
   min-height: 0px;
-  font-size:1. ;
+  font-size: 1;
 }
 .cabinet,
 .home,
 .plants,
-.store
- {
+.store {
   width: 300px;
   height: 60px;
   line-height: 1.5;
   padding: 5px;
   font-size: 1.5rem;
   font-weight: bold;
-  letter-spacing:5px ;
+  letter-spacing: 5px;
   text-align: center;
   color: white;
   text-decoration: none;
@@ -50,19 +49,37 @@ a.store{
 .home:hover,
 .store:hover,
 .plants:hover,
-.cabinet:hover
- {
+.cabinet:hover {
   color: red;
 }
 
 @media screen and (max-width: 768px) {
+  .cabinet,
   .home,
-  .store,
   .plants,
-  .cabinet
-   {
-    position: relative;
-    width: 125px;
+  .store {
+    width: 150px;
     height: 60px;
+    letter-spacing: 2px;
+  }
+  nav {
+    width: 768px;
+  }
+}
+@media screen and (max-width: 375px) {
+  nav {
+    width: 375px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(crimson, rgb(255, 94, 0), crimson);
+    height: 350px;
+  }
+  .cabinet,
+  .home,
+  .plants,
+  .store {
+    width: 300px;
   }
 }

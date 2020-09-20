@@ -13,6 +13,7 @@ import {
 } from "./pages";
 import Lost from "./components/Lost";
 import StoreContent from "./store";
+import PlantDisplay from "./pages/PlantsPage/PlantDisplay";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" exact component={HomePage} />
         <Route path="/store" component={StoreContent} />
         <Route path="/plants" exact component={PlantsPage} />
+        <Route path="/plantdisplay" exact component={PlantDisplay}/>
         <Route path="/cabinet" exact component={CabinetPage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="*" render={() => <Lost />} />

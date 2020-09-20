@@ -37,3 +37,18 @@ p {
     left: 256px;
   }
 }
+@media screen and (max-width: 375px){
+.footer{
+  display:flex;
+  flex-direction: column;
+  width:375px;
+}
+.footer p{
+  position: relative;
+  left: 10px;
+}
+.sm{
+  width:180px;
+  left:110px
+}
+}
