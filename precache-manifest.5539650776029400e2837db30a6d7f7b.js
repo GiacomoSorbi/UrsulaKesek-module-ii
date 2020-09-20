@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ece8188acf41552edf3f28279515128",
+    "revision": "f5095484848ebe132988c85945baec78",
     "url": "/UrsulaKesek-module-ii/index.html"
   },
   {
-    "revision": "a2e3609e2bb8bd14fa32",
-    "url": "/UrsulaKesek-module-ii/static/css/main.ee9338fb.chunk.css"
+    "revision": "fb010b2c6afd1523d18a",
+    "url": "/UrsulaKesek-module-ii/static/css/main.03fb0c5d.chunk.css"
   },
   {
-    "revision": "1a455dd437949f93a73f",
-    "url": "/UrsulaKesek-module-ii/static/js/2.cd10b90c.chunk.js"
+    "revision": "427e9f3db8b8f3c910e8",
+    "url": "/UrsulaKesek-module-ii/static/js/2.f02cc982.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/UrsulaKesek-module-ii/static/js/2.cd10b90c.chunk.js.LICENSE.txt"
+    "url": "/UrsulaKesek-module-ii/static/js/2.f02cc982.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2e3609e2bb8bd14fa32",
-    "url": "/UrsulaKesek-module-ii/static/js/main.4db7579a.chunk.js"
+    "revision": "fb010b2c6afd1523d18a",
+    "url": "/UrsulaKesek-module-ii/static/js/main.a5338bdb.chunk.js"
   },
   {
     "revision": "68444fc4ec1b4b92ba93",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ae0063a7f5bbb3dfb19129b9b242e967",
     "url": "/UrsulaKesek-module-ii/static/media/Bluecat404.ae0063a7.gif"
+  },
+  {
+    "revision": "80366b0861afb45ac71cbd909165890f",
+    "url": "/UrsulaKesek-module-ii/static/media/amyris-oil.80366b08.png"
   },
   {
     "revision": "c614b6fda053d703bcbf00c0a0562047",
