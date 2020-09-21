@@ -7,7 +7,9 @@ import frankincense from "./Images/frankincense.png";
 import heliotrope from "./Images/heliotrope.png";
 import jasmine from "./Images/jasmine.png";
 import labdanum from "./Images/rockrose.png";
-const plants = [
+
+const plants = 
+[
   {
     id: "1",
     img: amyris,
@@ -67,3 +69,4 @@ const plants = [
   },
 ];
 export default plants;
+
