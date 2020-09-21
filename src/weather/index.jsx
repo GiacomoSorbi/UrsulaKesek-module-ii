@@ -34,7 +34,7 @@ function WeatherCard() {
           city: query.city,
           weatherData,
           loading: false,
-          error: null,
+          error:null,
         });
       });
     });

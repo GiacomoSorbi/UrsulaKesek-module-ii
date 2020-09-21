@@ -1,5 +1,4 @@
 import React from "react";
-
 import Bird from "./Images/bird200x200.gif";
 import BlueCat from "./Images/bluecat.png";
 import Bubble from "./Images/bubble-iv.gif";
@@ -32,4 +31,3 @@ function HomePage() {
   );
 }
 export default HomePage;
-

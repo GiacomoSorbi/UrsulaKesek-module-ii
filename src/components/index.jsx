@@ -1,4 +1,3 @@
-export{default as EmptyCart} from "./EmptyCart"; 
 export{default as Lost} from "./Lost";
 export{default as Form} from "./Form";
 export{default as Footer} from "./Footer";

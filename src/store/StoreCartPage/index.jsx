@@ -3,7 +3,7 @@ import Item from "../Item";
 import EmptyCart from "../StoreEmptyCart";
 import "./StoreCartPage.css";
 
-const StoreCartPage = ({ items, onPlus, onMinus }) =>
+const StoreCartPage = ({items, onPlus, onMinus }) =>
   items.length === 0 ? (
     <EmptyCart />
   ) : (

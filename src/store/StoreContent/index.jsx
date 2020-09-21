@@ -4,7 +4,7 @@ import StoreCartPage from "../StoreCartPage";
 import WeatherCard from "../../weather";
 import items from "../constants";
 
-const StoreContent = ({ tab, onAddToCart, onRemoveItem, cart }) => {
+const StoreContent = ({ cart, onAddToCart, onRemoveItem,tab }) => {
   switch (tab) {
     default:
     case "shop":

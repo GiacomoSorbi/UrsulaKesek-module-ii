@@ -9,7 +9,7 @@ const Store = () => {
   const [cart, setCart] = useState([]);
 
   const addToCart = (item) => {
-    setCart((previousCart) => [...previousCart, item]);
+    setCart((oldCart) => [...oldCart, item]);
   };
 
   const totalCart = (cart) => {
