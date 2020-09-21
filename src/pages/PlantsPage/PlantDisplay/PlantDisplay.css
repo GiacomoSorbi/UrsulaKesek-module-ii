@@ -1,6 +1,6 @@
 section.display {
   background-color: rgb(15, 138, 4);
-  height: 1500px;
+  height: 1600px;
   width:1440px;
 }
 h1.dis {
@@ -8,7 +8,7 @@ h1.dis {
   padding: 5px;
   background-color: rgb(195, 155, 231);
   color: black;
-  width: 200px;
+  width: 300px;
 }
 .img {
   position: relative;
@@ -30,6 +30,7 @@ h1.dis {
   color: black;
 }
 .plantcard {
+  margin:15px;
   background-color: rgb(252, 241, 159);
   width: 400px;
   height: 450px;

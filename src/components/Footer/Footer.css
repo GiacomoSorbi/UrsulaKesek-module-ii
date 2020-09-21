@@ -24,7 +24,7 @@ p {
 @media screen and (max-width: 768px) {
   .footer {
     width: 768px;
-    height: 120px;
+    height: 140px;
     position: relative;
     top: 10px;
   }
@@ -39,13 +39,17 @@ p {
 }
 @media screen and (max-width: 375px){
 .footer{
+  position: relative;
+  top:950px;
   display:flex;
   flex-direction: column;
   width:375px;
 }
 .footer p{
+  width:240px;
   position: relative;
-  left: 10px;
+  left:90px;
+  text-align: center;
 }
 .sm{
   width:180px;

@@ -101,9 +101,12 @@ section.main {
     left:25px;
     border:2px solid yellow;
   }
-  body{
-    width:768px;
+  body {
+    width: 768px;
+    height:1024px;
+    background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
   }
+  
   .box1 {
     position: relative;
     top: 20px;
@@ -152,11 +155,15 @@ section.main {
   }
 }
 @media screen and (max-width: 375px) {
-section.main{
-  display:flex;
-  flex-direction:column;
+body{
+  width:375px;
+  height:2200px;
+  background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
 }
-.box2{
+  .box2{
+  width:375px;
+}
+.box3{
   width:375px;
 }
 .hph2{
@@ -169,4 +176,19 @@ section.main{
 .blue1{
   left:60px;
 }
+img.bubble{
+  position: relative;
+  left:10em;
+  top:10px;
+}
+img.front2{
+  position: relative;
+  left:3.5px;
+}
+section.main{
+  display:flex;
+  flex-direction:column;
+  width:375px;
+}
+
 }

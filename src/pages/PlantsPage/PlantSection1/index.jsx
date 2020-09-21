@@ -6,7 +6,7 @@ const PlantSection1=({ plants })=> {
   return (
     <section className="plantitems">
       {plants.map((plants) => (
-        <div key={plants.id} className="plant">
+        <div key={plants.id}>
           <Plant plants={plants} />
         </div>
       ))}
