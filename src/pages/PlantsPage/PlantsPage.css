@@ -1,24 +1,26 @@
-article.plaa,article.plab,article.plac{
-  margin:20px;
-  border:4px double black;
-  width:300px;
-  height:400px;
+article.plaa,
+article.plab,
+article.plac {
+  margin: 20px;
+  border: 4px double black;
+  width: 300px;
+  height: 400px;
   text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-color:white;
+  color: white;
 }
 
 .plpg h2 {
   color: white;
   text-align: center;
 }
-h3{
+h3 {
   color: white;
   text-align: center;
 }
-li{
-  margin:15px;
-  border:2px solid orange;
+li {
+  margin: 15px;
+  border: 2px solid orange;
 }
 
 main.plpg {
@@ -26,28 +28,26 @@ main.plpg {
   height: 550px;
   background: linear-gradient(rgb(2, 131, 60), rgb(6, 240, 26));
 }
-ol{
-  margin:10px;
+ol {
+  margin: 10px;
 }
-.plant{
-  text-decoration:none ;
-  color:white;
-  cursor:pointer;
+.plant {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
-section.plantsec{
-  display:flex;
+section.plantsec {
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
-span{
+span {
   font-style: italic;
-  font-size:80% ;
+  font-size: 80%;
 }
 @media screen and (max-width: 768px) {
-main.plpg{
-  width:768px;
-}
-
+  main.plpg {
+    width: 768px;
+  }
 }

@@ -6,8 +6,9 @@ section.display {
 h1.dis {
   margin: 0 auto;
   padding: 5px;
-  background-color: rgb(195, 155, 231);
-  color: black;
+  background-color: rgb(112, 32, 3);
+  border:3px solid rgb(245,151,10) ; 
+  color: white;
   width: 300px;
 }
 .img {
@@ -27,13 +28,13 @@ h1.dis {
   top: 25px;
   left: 25px;
   font-family: Arial Black, Helvetica, sans-serif;
-  color: black;
+  color: white;
 }
 .plantcard {
-  margin:15px;
-  background-color: rgb(252, 241, 159);
-  width: 400px;
-  height: 450px;
+  margin:25px;
+  border:3px solid rgb(245,151,10);
+  width: 380px;
+  height: 430px;
   position: relative;
   top: 30px;
 }

@@ -4,7 +4,7 @@
   left: 40px;
   height: 150px;
   width: 150px;
-  border:2px solid yellow;
+  border: 2px solid yellow;
   visibility: visible;
 }
 .blue1,
@@ -28,7 +28,7 @@ body {
 }
 .bubble {
   position: relative;
-  left:35px;
+  left: 35px;
   height: 520px;
   visibility: visible;
 }
@@ -51,10 +51,10 @@ img.front {
   left: 5px;
 }
 img.front2 {
-  width:0px;
+  width: 0px;
   visibility: hidden;
 }
-footer{
+footer {
   visibility: visible;
 }
 .green1 {
@@ -63,13 +63,13 @@ footer{
   left: 40px;
   height: 150px;
   width: 150px;
-  border:2px solid yellow;
+  border: 2px solid yellow;
   visibility: visible;
 }
 .hph2 {
   position: relative;
   left: 10px;
-  top:0px;
+  top: 0px;
   padding: 10px;
   height: 30px;
   width: 200px;
@@ -87,26 +87,25 @@ section.main {
 @media screen and (max-width: 768px) {
   .bird,
   .front,
-  .green1
-   {
+  .green1 {
     visibility: hidden;
   }
   .blue1 {
-    width:130px;
-    height:150px;
+    width: 130px;
+    height: 150px;
     margin: 10px;
     visibility: visible;
     position: relative;
     bottom: 170px;
-    left:25px;
-    border:2px solid yellow;
+    left: 25px;
+    border: 2px solid yellow;
   }
   body {
     width: 768px;
-    height:1024px;
+    height: 842px;
     background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
   }
-  
+
   .box1 {
     position: relative;
     top: 20px;
@@ -121,32 +120,32 @@ section.main {
     position: relative;
     visibility: visible;
   }
-  img.bubble {
-    position: relative;
-    left:5.5em;
-  }
   .chick {
     margin: 10px;
     visibility: visible;
     position: relative;
-    bottom:250px;
+    bottom: 250px;
     left: 30px;
     height: 120px;
     width: 120px;
-    border:2px solid yellow;
-  }
-  img.front{
-    width:0px;
-    visibility:hidden;
+    border: 2px solid yellow;
   }
 
+  img.bubble {
+    position: relative;
+    left: 5.5em;
+  }
+  img.front {
+    width: 0px;
+    visibility: hidden;
+  }
   img.front2 {
     content: url(Images/aw-front2.png);
-    width:350px;
+    width: 350px;
     margin: 10px;
     visibility: visible;
     position: relative;
-    left:45px;
+    left: 45px;
     top: 10px;
     border: 4mm ridge rgba(85, 76, 88, 0.5);
   }
@@ -155,40 +154,40 @@ section.main {
   }
 }
 @media screen and (max-width: 375px) {
-body{
-  width:375px;
-  height:2200px;
-  background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
-}
-  .box2{
-  width:375px;
-}
-.box3{
-  width:375px;
-}
-.hph2{
-  position: relative;
-  left:90px;
-}
-.chick{
-  left:180px;
-}
-.blue1{
-  left:60px;
-}
-img.bubble{
-  position: relative;
-  left:10em;
-  top:10px;
-}
-img.front2{
-  position: relative;
-  left:3.5px;
-}
-section.main{
-  display:flex;
-  flex-direction:column;
-  width:375px;
-}
-
+  body {
+    width: 375px;
+    height: 1500px;
+    background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
+  }
+  .box2 {
+    width: 375px;
+  }
+  .box3 {
+    width: 375px;
+  }
+  .hph2 {
+    position: relative;
+    left: 90px;
+  }
+  .chick {
+    left: 180px;
+  }
+  .blue1 {
+    left: 60px;
+  }
+  img.bubble {
+    border:3px solid yellow;
+    position: relative;
+    left: 9.5em;
+    top: 10px;
+  }
+  img.front2 {
+    position: relative;
+    left: 3.5px;
+  }
+  section.main {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+  }
 }
