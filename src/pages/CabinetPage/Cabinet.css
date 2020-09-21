@@ -6,7 +6,7 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(187, 202, 112);
-  height: 550px;
+  height: 530px;
 }
 h2.cbh2 {
   position: relative;
@@ -73,7 +73,7 @@ img.sntwl {
 }
 .wheel {
   background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
-  height: 550px;
+  height: 530px;
 }
 @media screen and (max-width: 768px) {
   .aroma {

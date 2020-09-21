@@ -133,7 +133,7 @@ section.main {
 
   img.bubble {
     position: relative;
-    left: 5.5em;
+    left: 5.8em;
   }
   img.front {
     width: 0px;
@@ -179,9 +179,10 @@ section.main {
     border:3px solid yellow;
     position: relative;
     left: 9.5em;
-    top: 10px;
+    top: 1.25em;
   }
   img.front2 {
+    height:360px;
     position: relative;
     left: 3.5px;
   }
