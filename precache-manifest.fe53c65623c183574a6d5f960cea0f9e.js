@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7dab4288cb376bd4aaa5bcc5ec6aa070",
+    "revision": "feabc9929df8739b2d3e024224ecb52b",
     "url": "/UrsulaKesek-module-ii/index.html"
   },
   {
-    "revision": "1eb869e84c146072849a",
-    "url": "/UrsulaKesek-module-ii/static/css/main.8c3b8b7d.chunk.css"
+    "revision": "70ac11fb3edbcea52726",
+    "url": "/UrsulaKesek-module-ii/static/css/main.89c4e2c3.chunk.css"
   },
   {
     "revision": "0934babba980ee46e1c4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrsulaKesek-module-ii/static/js/2.882df807.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1eb869e84c146072849a",
-    "url": "/UrsulaKesek-module-ii/static/js/main.11a7773c.chunk.js"
+    "revision": "70ac11fb3edbcea52726",
+    "url": "/UrsulaKesek-module-ii/static/js/main.07229093.chunk.js"
   },
   {
     "revision": "68444fc4ec1b4b92ba93",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "94db1c593aef3803000a80bfe6472935",
     "url": "/UrsulaKesek-module-ii/static/media/clarysage.94db1c59.png"
+  },
+  {
+    "revision": "77df1521b3fb7debc65234352191d301",
+    "url": "/UrsulaKesek-module-ii/static/media/floral1.77df1521.png"
   },
   {
     "revision": "2e53694e4e8d589ab44aaf409edc96c1",
