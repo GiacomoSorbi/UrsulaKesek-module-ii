@@ -32,12 +32,12 @@ const CabinetPage = () => (
           <NavLink className="fresh" to="/fresh">
             F
           </NavLink>
+          <NavLink className="fresh" to="/fresh">
+            G
+          </NavLink>
         </div>
         <div className="perfThree">
           <h2 className="or">Oriental</h2>
-          <NavLink className="orient" to="/oriental">
-            G
-          </NavLink>
           <NavLink className="orient" to="/oriental">
             H
           </NavLink>

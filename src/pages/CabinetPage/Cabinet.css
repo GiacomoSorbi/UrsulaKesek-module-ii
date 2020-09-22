@@ -5,13 +5,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(187, 202, 112);
+  background: linear-gradient(rgb(27, 238, 224),rgb(78, 211, 12));
   height: 530px;
 }
 h2.cbh2 {
   position: relative;
-  top:20px;
-  left:200px;
+  top: 20px;
+  left: 200px;
   color: rgb(27, 77, 2);
 }
 .curios {
@@ -72,7 +72,7 @@ img.sntwl {
   height: 400px;
 }
 .wheel {
-  background: linear-gradient(rgb(235, 143, 110), rgb(241, 70, 8));
+  background: linear-gradient(rgb(69, 138, 242), rgb(206, 75, 233));
   height: 530px;
 }
 @media screen and (max-width: 768px) {

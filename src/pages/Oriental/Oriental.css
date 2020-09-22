@@ -1,3 +1,33 @@
-.or{
-    color:white;
-}
+h2.woo {
+    padding: 5px;
+    color: black;
+    text-align: center;
+  }
+  main.ori {
+    background: linear-gradient( rgb(69, 138, 242), rgb(138, 3, 165));
+    width: 1440px;
+    height: 550px;
+  }
+  section.flosec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  h2.olfa{
+    text-align: center;
+    padding:10px;
+  }
+  h3.floa
+  {
+    margin: 15px;
+    border: 4px double black;
+    width: 300px;
+    height: 390px;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    main.flo {
+      width: 768px;
+    }
+  }
+  
