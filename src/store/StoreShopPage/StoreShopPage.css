@@ -1,4 +1,4 @@
-.atc{
+.atc,.rtc{
     width:100px;
     height:30px;
     border-radius:15px;
@@ -12,7 +12,7 @@
     width:1440px;
     display: flex;
     flex-direction: row;
-
+    flex-wrap: wrap;
 }
 .spitems{
     list-style-type:none;

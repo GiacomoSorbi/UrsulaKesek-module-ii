@@ -26,10 +26,10 @@ span.count {
   left: 30px;
 }
 .cpitems {
-  width: 1000px;
-  height: 800px;
+  width: 1440px;
+  height: 1000px;
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
   flex-wrap: wrap;
 }
 .cpitem {
@@ -37,6 +37,14 @@ span.count {
   width: 400px;
   height: 220px;
   border: 2px solid orange;
+}
+.rfc{
+  widows: 8em;
+  height:2em;
+  position: relative;
+  left:10px;
+  background-color: red;
+  color:white;
 }
 
 .total {
@@ -46,7 +54,7 @@ span.count {
   width:200px;
   background-color: greenyellow;
   border:2px solid black;
-  margin: 30px;
-  padding:8px;
+  margin: 2em;
+  padding:0.5em;
   font-size: 1.7em;
 }

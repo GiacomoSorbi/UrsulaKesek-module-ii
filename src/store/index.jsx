@@ -12,17 +12,17 @@ const Store = () => {
     setCart((oldCart) => [...oldCart, item]);
   };
 
-  const totalCart = (cart) => {
-    const totalItems = cart.reduce((summary, item) => {
-      summary[item.id] = summary[item.id] || {
-        ...item,
-        count: 0,
-      };
-      summary[item.id].count++;
-      return summary;
-    }, {});
-    return Object.values(totalItems);
-  };
+  const totalCart =(cart)=> {
+      const totalItems = cart.reduce((summary, item) => {
+        summary[item.id] = summary[item.id] || {
+          ...item,
+          count: 0,
+        };
+        summary[item.id].count++;
+        return summary;
+      }, {});
+      return Object.values(totalItems);
+    }
 
   const removeItem = (item) => {
     let index = cart.findIndex((i) => i.id === item.id);
@@ -36,17 +36,17 @@ const Store = () => {
   };
 
   return (
-    <div className="storepage">
+    <section className="storepage">
       <Nav activeTab={activeTab} onTabChange={setActiveTab} />
-      <section className="content">
+      <div className="content">
         <StoreContent
           tab={activeTab}
           onAddToCart={addToCart}
           onRemoveItem={removeItem}
           cart={totalCart(cart)}
         />
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

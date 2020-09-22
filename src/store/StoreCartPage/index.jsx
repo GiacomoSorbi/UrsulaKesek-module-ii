@@ -21,6 +21,9 @@ const StoreCartPage = ({items, onPlus, onMinus }) =>
                   &#43;
                 </button>
               </div>
+              <button className="rfc" onClick = {()=> onMinus(item)}>
+              Remove Item
+            </button>
             </Item>
           </div>
         );
