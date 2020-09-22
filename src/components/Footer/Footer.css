@@ -9,8 +9,8 @@
 p {
   position: relative;
   top: 10px;
-  left: 440px;
-  width: 420px;
+  left: 240px;
+  width: 720px;
 }
 .icon {
   margin-left: 5px;
@@ -30,7 +30,7 @@ p {
   }
   footer p {
     position: relative;
-    left: 220px;
+    left: 40px;
   }
   .sm {
     top: 30px;
@@ -46,13 +46,14 @@ p {
   width:375px;
 }
 .footer p{
-  width:240px;
+  width:280px;
   position: relative;
-  left:90px;
+  left:50px;
   text-align: center;
 }
 .sm{
   width:180px;
+  top:15px;
   left:110px
 }
 }

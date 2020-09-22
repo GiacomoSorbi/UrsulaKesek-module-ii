@@ -3,29 +3,30 @@ h2.flo {
   color: black;
   text-align: center;
 }
+.floa,.flob,.floc {
+  border: 4px double black;
+  width: 308px;
+  height: 398px;
+}
+.floa{
+  background-image: url(Images/floral1.png);
+}
 main.flo {
   background: linear-gradient(rgb(238, 99, 203), rgb(241, 70, 8));
   width: 1440px;
-  height: 550px;
+  height: 530px;
+  display:flex;
+  flex-direction:column;
 }
 section.flosec {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-h2.olfa{
-  text-align: center;
-  padding:10px;
-}
-h3.floa
-{
-  margin: 15px;
-  border: 4px double black;
-  width: 300px;
-  height: 390px;
-  text-align: center;
-}
 @media screen and (max-width: 768px) {
+  .floa {
+    width: 220px;
+  }
   main.flo {
     width: 768px;
   }
