@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b31088f87dc456d6e7e21d976f9f95f2",
+    "revision": "dd42789229a9595c7ae359479974a3f9",
     "url": "/UrsulaKesek-module-ii/index.html"
   },
   {
-    "revision": "242525bbf2882b458f23",
-    "url": "/UrsulaKesek-module-ii/static/css/main.23c37c43.chunk.css"
+    "revision": "d80b527712574ca4093a",
+    "url": "/UrsulaKesek-module-ii/static/css/main.162436a9.chunk.css"
   },
   {
     "revision": "0934babba980ee46e1c4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrsulaKesek-module-ii/static/js/2.882df807.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "242525bbf2882b458f23",
-    "url": "/UrsulaKesek-module-ii/static/js/main.c42c28be.chunk.js"
+    "revision": "d80b527712574ca4093a",
+    "url": "/UrsulaKesek-module-ii/static/js/main.10affd61.chunk.js"
   },
   {
     "revision": "68444fc4ec1b4b92ba93",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrsulaKesek-module-ii/static/media/bubble-iv.add639cc.gif"
   },
   {
+    "revision": "7653fd515c2877d23fdb0bbfe131e799",
+    "url": "/UrsulaKesek-module-ii/static/media/citrus1.7653fd51.png"
+  },
+  {
     "revision": "94db1c593aef3803000a80bfe6472935",
     "url": "/UrsulaKesek-module-ii/static/media/clarysage.94db1c59.png"
   },
@@ -70,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5f40d3f8674e183ebcdc73fc3dff5e30",
     "url": "/UrsulaKesek-module-ii/static/media/frankincense.5f40d3f8.png"
+  },
+  {
+    "revision": "ce42746f58de595a13432a718223d821",
+    "url": "/UrsulaKesek-module-ii/static/media/green1.ce42746f.png"
   },
   {
     "revision": "d72cabeac7145f2e757571f70996cc5f",
@@ -106,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a696589ab1930ae9a9e5b622f02612a1",
     "url": "/UrsulaKesek-module-ii/static/media/vetiver.a696589a.png"
+  },
+  {
+    "revision": "d12a9fe806526f70b432a06ff80376ac",
+    "url": "/UrsulaKesek-module-ii/static/media/water1.d12a9fe8.png"
   },
   {
     "revision": "db049f5abb06411c9cc6408d281e8f2d",

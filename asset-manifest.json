@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/UrsulaKesek-module-ii/static/css/main.23c37c43.chunk.css",
-    "main.js": "/UrsulaKesek-module-ii/static/js/main.c42c28be.chunk.js",
-    "main.js.map": "/UrsulaKesek-module-ii/static/js/main.c42c28be.chunk.js.map",
+    "main.css": "/UrsulaKesek-module-ii/static/css/main.162436a9.chunk.css",
+    "main.js": "/UrsulaKesek-module-ii/static/js/main.10affd61.chunk.js",
+    "main.js.map": "/UrsulaKesek-module-ii/static/js/main.10affd61.chunk.js.map",
     "runtime-main.js": "/UrsulaKesek-module-ii/static/js/runtime-main.5b5af6e1.js",
     "runtime-main.js.map": "/UrsulaKesek-module-ii/static/js/runtime-main.5b5af6e1.js.map",
     "static/js/2.882df807.chunk.js": "/UrsulaKesek-module-ii/static/js/2.882df807.chunk.js",
     "static/js/2.882df807.chunk.js.map": "/UrsulaKesek-module-ii/static/js/2.882df807.chunk.js.map",
     "index.html": "/UrsulaKesek-module-ii/index.html",
-    "precache-manifest.1673ce99cc8aa3f2ad36dc83d0aefb26.js": "/UrsulaKesek-module-ii/precache-manifest.1673ce99cc8aa3f2ad36dc83d0aefb26.js",
+    "precache-manifest.01007e3cfa8fd71b0e57562617c367e4.js": "/UrsulaKesek-module-ii/precache-manifest.01007e3cfa8fd71b0e57562617c367e4.js",
     "service-worker.js": "/UrsulaKesek-module-ii/service-worker.js",
-    "static/css/main.23c37c43.chunk.css.map": "/UrsulaKesek-module-ii/static/css/main.23c37c43.chunk.css.map",
+    "static/css/main.162436a9.chunk.css.map": "/UrsulaKesek-module-ii/static/css/main.162436a9.chunk.css.map",
     "static/js/2.882df807.chunk.js.LICENSE.txt": "/UrsulaKesek-module-ii/static/js/2.882df807.chunk.js.LICENSE.txt",
     "static/media/Bluecat404.gif": "/UrsulaKesek-module-ii/static/media/Bluecat404.ae0063a7.gif",
     "static/media/amyris-oil.png": "/UrsulaKesek-module-ii/static/media/amyris-oil.80366b08.png",
     "static/media/HomePage.css": "/UrsulaKesek-module-ii/static/media/aw-front2.1147d2a5.png",
     "static/media/bluecat.png": "/UrsulaKesek-module-ii/static/media/bluecat.d8bed72e.png",
     "static/media/bubble-iv.gif": "/UrsulaKesek-module-ii/static/media/bubble-iv.add639cc.gif",
+    "static/media/Fresh.css": "/UrsulaKesek-module-ii/static/media/water1.d12a9fe8.png",
     "static/media/clarysage.png": "/UrsulaKesek-module-ii/static/media/clarysage.94db1c59.png",
     "static/media/Floral.css": "/UrsulaKesek-module-ii/static/media/floral4.3fd8fe09.png",
     "static/media/fragrance-wheel.png": "/UrsulaKesek-module-ii/static/media/fragrance-wheel.2e53694e.png",
@@ -35,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.5b5af6e1.js",
     "static/js/2.882df807.chunk.js",
-    "static/css/main.23c37c43.chunk.css",
-    "static/js/main.c42c28be.chunk.js"
+    "static/css/main.162436a9.chunk.css",
+    "static/js/main.10affd61.chunk.js"
   ]
 }
