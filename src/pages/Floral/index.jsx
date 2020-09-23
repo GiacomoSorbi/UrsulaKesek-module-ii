@@ -9,7 +9,7 @@ const Floral = () => (
     <h3>Hover on images for more information</h3>
     <section className="flosec">
       <div>
-        <h2 className="olfa">Floral</h2>
+        <h2 className="olfa">A-Floral</h2>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
@@ -30,7 +30,7 @@ const Floral = () => (
         </div>
       </div>
       <div>
-        <h2 className="olfa">SoftFloral</h2>
+        <h2 className="olfa">B-SoftFloral</h2>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
@@ -51,7 +51,7 @@ const Floral = () => (
         </div>
       </div>
       <div>
-        <h2 className="olfa">Floral Oriental</h2>
+        <h2 className="olfa">C-Floral Oriental</h2>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
