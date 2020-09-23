@@ -1,28 +1,68 @@
 h2.olfa {
+  position: relative;
+  top: 5px;
   padding: 5px;
   color: black;
   text-align: center;
 }
-h3{
-  margin:15px;
-}
 .floa,.flob,.floc {
+  background-color: khaki;
+  position: relative;
+  top: 10px;
   border: 4px double black;
   width: 300px;
   height: 390px;
 }
-.floa{
+.floa {
   background-image: url(Images/floral1.png);
 }
-.flob{
+.flob {
   background-image: url(Images/floral4.png);
 }
-.floc{
+.floc {
   background-image: url(Images/floral3.png);
+}
+.flip-card{
+  background-color:transparent ;
+  perspective:1000px;
+}
+.flip-card-inner{
+  position: relative;
+  width:300px;
+  height:390px;
+  text-align: center;
+  transition:transform 2s ;
+  transform-style:preserve-3d;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card:hover .flip-card-inner{
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back{
+  position: absolute;
+  width:300px;
+  height:390px;
+  -webkit-backface-visibility:hidden ;
+  backface-visibility:hidden ;
+}
+.flip-card-front{
+  background-color: #bbb;
+  color:black;
+}
+.flip-card-back{
+  display:flex;
+  flex-direction:column;
+  background-color:darkorange ;
+  color:black;
+  transform: rotateY(180deg);
+}
+p.fcb{
+  position:relative ;
+  left:-210px;;
 }
 section.flosec {
   width: 1440px;
-  height: 500px;
+  height: 470px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

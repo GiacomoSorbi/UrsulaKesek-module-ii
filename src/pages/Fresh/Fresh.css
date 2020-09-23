@@ -1,4 +1,18 @@
+.fd,.fe,.ff,.fg{
+  position: relative;
+  left:260px;
+  top:350px;
+font-size: 1.5em;
+font-weight: bold;
+color:yellow;
+}
+
+.flip{
+  text-align: center;
+}
 .fred,.free,.fref,.freg {
+  position: relative;
+  top:10px;
   border: 4px double black;
   width: 300px;
   height: 390px;
@@ -21,10 +35,14 @@
     color: black;
     text-align: center;
   }
+  h3{
+    position: relative;
+    top:5px;
+  }
   main.fre {
     background: linear-gradient(rgb(110, 196, 235), rgb(3, 143, 59));
     width: 1440px;
-    height: 530px;
+    height: 540px;
   }
   section.fresec {
     display: flex;

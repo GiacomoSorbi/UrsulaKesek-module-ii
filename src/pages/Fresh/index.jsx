@@ -4,23 +4,24 @@ import './Fresh.css';
 const Fresh = () => (
     <main className="fre">
       <h2 className="fre"> FRESH PAGE</h2>
+      <h3 className="flip">Flip the card for information.</h3>
       <section className="fresec">
-        <div>
+      <div>
         <h2 className="olfa">Fruity</h2>
-        <h3 className="fred">D</h3>
-        </div>
-        <div>
+        <div className="fred"><span className="fd">D</span></div>
+      </div>
+      <div>
         <h2 className="olfa">Green</h2>
-        <h3 className="free">E</h3>
-        </div>
-        <div>
+        <div className="free"><span className="fe">E</span></div>
+      </div>
+      <div>
         <h2 className="olfa">Water</h2>
-        <h3 className="fref">F</h3>
-        </div>
-        <div>
+        <div className="fref"><span className="ff">F</span></div>
+      </div>
+      <div>
         <h2 className="olfa">Citrus</h2>
-        <h3 className="freg">G</h3>
-        </div>
+        <div className="freg"><span className="fg">G</span></div>
+      </div>
 
       </section>
     </main>
