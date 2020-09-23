@@ -1,4 +1,22 @@
-h2.fre {
+.fred,.free,.fref,.freg {
+  border: 4px double black;
+  width: 300px;
+  height: 390px;
+}
+.fred{
+  background-image: url(Images/citrus1.png);
+}
+.free{
+  background-image: url(Images/green1.png);
+}
+.fref{
+  background-image: url(Images/water1.png);
+}
+.freg{
+  background-image: url(Images/citrus1.png);
+}
+ 
+ h2.fre {
     padding: 5px;
     color: black;
     text-align: center;
@@ -6,7 +24,7 @@ h2.fre {
   main.fre {
     background: linear-gradient(rgb(110, 196, 235), rgb(3, 143, 59));
     width: 1440px;
-    height: 550px;
+    height: 530px;
   }
   section.fresec {
     display: flex;
@@ -16,14 +34,6 @@ h2.fre {
   h2.olfa{
     text-align: center;
     padding:10px;
-  }
-  h3.frea
-  {
-    margin: 15px;
-    border: 4px double black;
-    width: 300px;
-    height: 390px;
-    text-align: center;
   }
   @media screen and (max-width: 768px) {
     main.flo {
