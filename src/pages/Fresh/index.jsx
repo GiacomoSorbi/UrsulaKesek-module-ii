@@ -21,7 +21,13 @@ const Fresh = () => (
                 <h2>Olfactory Group</h2>
               </div>
               <div>
-                <p className="fcb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloribus delectus, incidunt quisquam quidem reiciendis minus illum necessitatibus nam animi veritatis voluptas consequuntur natus maxime minima molestias ratione! Amet, dignissimos.</p>
+                <p className="fcb">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis doloribus delectus, incidunt quisquam quidem
+                  reiciendis minus illum necessitatibus nam animi veritatis
+                  voluptas consequuntur natus maxime minima molestias ratione!
+                  Amet, dignissimos.
+                </p>
               </div>
             </div>
           </div>
@@ -39,7 +45,13 @@ const Fresh = () => (
                 <h2>Olfactory Group </h2>
               </div>
               <div>
-              <p className="fcb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloribus delectus, incidunt quisquam quidem reiciendis minus illum necessitatibus nam animi veritatis voluptas consequuntur natus maxime minima molestias ratione! Amet, dignissimos.</p>
+                <p className="fcb">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis doloribus delectus, incidunt quisquam quidem
+                  reiciendis minus illum necessitatibus nam animi veritatis
+                  voluptas consequuntur natus maxime minima molestias ratione!
+                  Amet, dignissimos.
+                </p>
               </div>
             </div>
           </div>
@@ -57,7 +69,13 @@ const Fresh = () => (
                 <h2>Olfactory Group</h2>
               </div>
               <div>
-              <p className="fcb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloribus delectus, incidunt quisquam quidem reiciendis minus illum necessitatibus nam animi veritatis voluptas consequuntur natus maxime minima molestias ratione! Amet, dignissimos.</p>
+                <p className="fcb">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis doloribus delectus, incidunt quisquam quidem
+                  reiciendis minus illum necessitatibus nam animi veritatis
+                  voluptas consequuntur natus maxime minima molestias ratione!
+                  Amet, dignissimos.
+                </p>
               </div>
             </div>
           </div>
@@ -75,7 +93,13 @@ const Fresh = () => (
                 <h2>Olfactory Group</h2>
               </div>
               <div>
-              <p className="fcb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloribus delectus, incidunt quisquam quidem reiciendis minus illum necessitatibus nam animi veritatis voluptas consequuntur natus maxime minima molestias ratione! Amet, dignissimos.</p>
+                <p className="fcb">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis doloribus delectus, incidunt quisquam quidem
+                  reiciendis minus illum necessitatibus nam animi veritatis
+                  voluptas consequuntur natus maxime minima molestias ratione!
+                  Amet, dignissimos.
+                </p>
               </div>
             </div>
           </div>

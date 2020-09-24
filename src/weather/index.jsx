@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./WeatherCard.css";
+import "./Weather.css";
 import { Input, Form, SingleWeatherCard } from "./components";
 import { API_KEY } from "./constants";
   
