@@ -1,11 +1,12 @@
 h2.olfa {
   position: relative;
   top: 5px;
-  padding: 5px;
   color: black;
   text-align: center;
 }
-.floa,.flob,.floc {
+.floa,
+.flob,
+.floc {
   background-color: khaki;
   position: relative;
   top: 10px;
@@ -22,44 +23,50 @@ h2.olfa {
 .floc {
   background-image: url(Images/floral3.png);
 }
-.flip-card{
-  background-color:transparent ;
-  perspective:1000px;
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
 }
-.flip-card-inner{
+.flip-card-inner {
   position: relative;
-  width:300px;
-  height:390px;
+  width: 300px;
+  height: 390px;
   text-align: center;
-  transition:transform 2s ;
-  transform-style:preserve-3d;
-  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.flip-card:hover .flip-card-inner{
+.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
   cursor: pointer;
 }
-.flip-card-front, .flip-card-back{
+.flip-card-front,
+.flip-card-back {
   position: absolute;
-  width:300px;
-  height:390px;
-  -webkit-backface-visibility:hidden ;
-  backface-visibility:hidden ;
+  width: 300px;
+  height: 390px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
-.flip-card-front{
+.flip-card-front {
   background-color: #bbb;
-  color:black;
+  color: black;
 }
-.flip-card-back{
-  display:flex;
-  flex-direction:column;
-  background-color:darkorange ;
-  color:black;
+.flip-card-back {
+  display: flex;
+  flex-direction: column;
+  background-color: darkorange;
+  color: black;
   transform: rotateY(180deg);
 }
-p.fcb{
-  position:relative ;
-  left:-210px;;
+main.flo{
+  background: linear-gradient(rgb(233, 97, 238), rgb(83, 2, 66));
+}
+
+p.fcb {
+  position: relative;
+  width: 250px;
+  left: 25px;
 }
 section.flosec {
   width: 1440px;
