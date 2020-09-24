@@ -28,7 +28,7 @@ body {
 }
 .bubble {
   position: relative;
-  left: 2.3em;
+  left: 1.75em;
   height:32.5em;
   visibility: visible;
 }
@@ -159,31 +159,48 @@ section.main {
     height: 1500px;
     background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
   }
+  .bird,
+  .front,
+  .green1 {
+    visibility: hidden;
+  }
   .box2 {
     width: 375px;
+    height:35em;
   }
   .box3 {
     width: 375px;
   }
+  .contact1 {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  
   .hph2 {
     position: relative;
     left: 90px;
   }
   .chick {
-    left: 180px;
+    width:8em;
+    height:8em;
+    left:8.5em;
   }
   .blue1 {
-    left: 60px;
+    align-self: center;
+    position: relative;
+    width:8em;
+    height:10em;
   }
   img.bubble {
     border:3px solid yellow;
     position: relative;
     left: 9.5em;
-    top: 1.25em;
+    top: 2.9em;
   }
   img.front2 {
-    height:360px;
-    position: relative;
     left: 3.5px;
   }
   section.main {
