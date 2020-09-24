@@ -1,10 +1,10 @@
 .bird {
   position: relative;
-  top:4.375em;
-  left:2.5em;
+  top: 4.375em;
+  left: 2.5em;
   height: 10em;
   width: 10em;
-  border:0.25em solid yellow;
+  border: 0.25em solid yellow;
   visibility: visible;
 }
 .blue1,
@@ -12,30 +12,29 @@
   visibility: hidden;
 }
 body {
-  width:90em;
+  width: 90em;
   background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
 }
 .box2 {
   display: flex;
   flex-direction: column;
-  height:32.5em;
-  width:18.75em;
-  background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
+  height: 32.5em;
+  width: 18.75em;
 }
 .box3 {
-  height:32.5em;
-  width:9.375em;
+  height: 32.5em;
+  width: 9.375em;
 }
-.bubble {
+img.bubble {
   position: relative;
   left: 1.75em;
-  height:32.5em;
+  height: 32.5em;
   visibility: visible;
 }
 .contact1 {
   position: relative;
-  bottom:3.6em;
-  left:2em;
+  bottom: 3.6em;
+  left: 2em;
   color: white;
   text-decoration: none;
   font-size: 1.25em;
@@ -48,7 +47,7 @@ body {
 img.front {
   content: url(Images/aw-front.png);
   position: relative;
-  left:1em;
+  left: 1em;
 }
 img.front2 {
   width: 0em;
@@ -60,19 +59,19 @@ footer {
 .green1 {
   position: relative;
   top: 8.125em;
-  left:2.5em;
-  height:9.375em;
-  width:10em;
-  border:0.25em solid yellow;
+  left: 2.5em;
+  height: 9.375em;
+  width: 10em;
+  border: 0.25em solid yellow;
   visibility: visible;
 }
-.hph2 {
+h2.hph2 {
   position: relative;
-  left:1em;
+  left: 1em;
   top: 0;
-  padding:0.6em;
-  height:1.9em;
-  width:10em;
+  padding: 0.6em;
+  height: 1.9em;
+  width: 10em;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: white;
   align-items: center;
@@ -81,31 +80,32 @@ section.main {
   display: flex;
   flex-direction: row;
   width: 90em;
-  height:32.5em;
+  height: 32.5em;
 }
 
 @media screen and (max-width: 768px) {
   .bird,
   .front,
   .green1 {
+    width: 0em;
+    height: 0em;
     visibility: hidden;
   }
   .blue1 {
-    width: 130px;
-    height: 150px;
-    margin: 10px;
+    width: 9em;
+    height: 9em;
+    margin: 0.5em;
     visibility: visible;
     position: relative;
-    bottom: 170px;
-    left: 25px;
-    border: 2px solid yellow;
+    top: 5em;
+    left: 1.5em;
+    border: 0.25em solid yellow;
   }
   body {
     width: 768px;
     height: 842px;
     background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
   }
-
   .box1 {
     position: relative;
     top: 20px;
@@ -115,25 +115,32 @@ section.main {
   }
   .box2 {
     width: 230px;
+    height: 33.2em;
   }
   .box3 {
     position: relative;
     visibility: visible;
+    height: 33.2em;
   }
   .chick {
-    margin: 10px;
     visibility: visible;
     position: relative;
-    bottom: 250px;
-    left: 30px;
-    height: 120px;
-    width: 120px;
-    border: 2px solid yellow;
+    left: 2em;
+    height: 8.5em;
+    width: 8.5em;
+    border: 0.25em solid yellow;
   }
-
+  .contact1 {
+    position: relative;
+    top: 10em;
+  }
+  h2.hph2 {
+    width: 8.75em;
+  }
   img.bubble {
     position: relative;
-    left: 5.8em;
+    left: 5em;
+    height: 33.2em;
   }
   img.front {
     width: 0px;
@@ -141,12 +148,9 @@ section.main {
   }
   img.front2 {
     content: url(Images/aw-front2.png);
-    width: 350px;
-    margin: 10px;
+    width: 24em;
     visibility: visible;
     position: relative;
-    left: 45px;
-    top: 10px;
     border: 4mm ridge rgba(85, 76, 88, 0.5);
   }
   section.main {
@@ -155,21 +159,25 @@ section.main {
 }
 @media screen and (max-width: 375px) {
   body {
-    width: 375px;
-    height: 1500px;
+    width: 23.4em;
+    height: 138em;
     background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
   }
   .bird,
   .front,
   .green1 {
+    width: 0em;
+    height: 0em;
+    border: none;
     visibility: hidden;
   }
   .box2 {
-    width: 375px;
-    height:35em;
+    width: 23.4em;
+    height: 30em;
   }
   .box3 {
-    width: 375px;
+    width: 23.4em;
+    height: 40em;
   }
   .contact1 {
     text-align: center;
@@ -177,31 +185,34 @@ section.main {
     text-decoration: none;
     font-size: 1.25em;
     font-weight: bold;
+    left: 0em;
   }
-  
-  .hph2 {
-    position: relative;
-    left: 90px;
+
+  h2.hph2 {
+    text-align: center;
+    width:14em;
   }
   .chick {
-    width:8em;
-    height:8em;
-    left:8.5em;
+    width: 8em;
+    height: 8em;
+    left: 9em;
+    top: 2em;
   }
   .blue1 {
     align-self: center;
-    position: relative;
-    width:8em;
-    height:10em;
+    width: 8em;
+    height: 10em;
   }
   img.bubble {
-    border:3px solid yellow;
+    border: 0.25em solid yellow;
     position: relative;
     left: 9.5em;
-    top: 2.9em;
+    top: 7.5em;
   }
   img.front2 {
-    left: 3.5px;
+    width:23.25em;
+    position: relative;
+    top: 6em;
   }
   section.main {
     display: flex;
