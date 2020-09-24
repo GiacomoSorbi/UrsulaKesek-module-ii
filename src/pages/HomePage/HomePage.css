@@ -1,10 +1,10 @@
 .bird {
   position: relative;
-  top: 70px;
-  left: 40px;
-  height: 150px;
-  width: 150px;
-  border: 2px solid yellow;
+  top:4.375em;
+  left:2.5em;
+  height: 10em;
+  width: 10em;
+  border:0.25em solid yellow;
   visibility: visible;
 }
 .blue1,
@@ -12,30 +12,30 @@
   visibility: hidden;
 }
 body {
-  width: 1440px;
+  width:90em;
   background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
 }
 .box2 {
   display: flex;
   flex-direction: column;
-  height: 520px;
-  width: 300px;
+  height:32.5em;
+  width:18.75em;
   background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
 }
 .box3 {
-  height: 520px;
-  width: 150px;
+  height:32.5em;
+  width:9.375em;
 }
 .bubble {
   position: relative;
-  left: 35px;
-  height: 520px;
+  left: 2.3em;
+  height:32.5em;
   visibility: visible;
 }
 .contact1 {
   position: relative;
-  bottom: 70px;
-  text-align: center;
+  bottom:3.6em;
+  left:2em;
   color: white;
   text-decoration: none;
   font-size: 1.25em;
@@ -48,10 +48,10 @@ body {
 img.front {
   content: url(Images/aw-front.png);
   position: relative;
-  left: 5px;
+  left:1em;
 }
 img.front2 {
-  width: 0px;
+  width: 0em;
   visibility: hidden;
 }
 footer {
@@ -59,20 +59,20 @@ footer {
 }
 .green1 {
   position: relative;
-  top: 130px;
-  left: 40px;
-  height: 150px;
-  width: 150px;
-  border: 2px solid yellow;
+  top: 8.125em;
+  left:2.5em;
+  height:9.375em;
+  width:10em;
+  border:0.25em solid yellow;
   visibility: visible;
 }
 .hph2 {
   position: relative;
-  left: 10px;
-  top: 0px;
-  padding: 10px;
-  height: 30px;
-  width: 200px;
+  left:1em;
+  top: 0;
+  padding:0.6em;
+  height:1.9em;
+  width:10em;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: white;
   align-items: center;
@@ -80,8 +80,8 @@ footer {
 section.main {
   display: flex;
   flex-direction: row;
-  width: 1440px;
-  height: 510px;
+  width: 90em;
+  height:32.5em;
 }
 
 @media screen and (max-width: 768px) {
