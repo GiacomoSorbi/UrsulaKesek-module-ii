@@ -1,7 +1,7 @@
 .footer {
-  height: 60px;
+  height: 4em;
   background-color: rgba(78, 211, 12, 1);
-  position:relative;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -37,23 +37,23 @@ p {
     left: 256px;
   }
 }
-@media screen and (max-width: 375px){
-.footer{
-  position: relative;
-  top:950px;
-  display:flex;
-  flex-direction: column;
-  width:375px;
-}
-.footer p{
-  width:280px;
-  position: relative;
-  left:50px;
-  text-align: center;
-}
-.sm{
-  width:180px;
-  top:15px;
-  left:110px
-}
+@media screen and (max-width: 375px) {
+  .footer {
+    position: relative;
+    top: 970px;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+  }
+  .footer p {
+    width: 280px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+  }
+  .sm {
+    width: 180px;
+    top: 15px;
+    left: 110px;
+  }
 }
