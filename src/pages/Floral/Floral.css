@@ -1,8 +1,12 @@
 h2.olfa {
+  margin:0px;
   position: relative;
   top: 5px;
   color: black;
   text-align: center;
+}
+h2.flo{
+  margin:0px;
 }
 .floa,
 .flob,

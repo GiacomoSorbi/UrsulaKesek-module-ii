@@ -1,8 +1,7 @@
 .storenav {
-  margin: 0 auto;
   width: 800px;
-  margin: 15px 320px;
-  padding: 10px;
+  height: 90px;
+  margin: 10px 320px;
   border: 2px solid black;
 }
 
@@ -12,13 +11,12 @@
   flex-direction: row;
   justify-content: space-around;
 }
-
 .sh,
 .ca,
 .we {
   position: relative;
   top: 0px;
-  width: 150px;
+  width: 190px;
   height: 50px;
   font-size: 1.5em;
   border: 6px double black;
@@ -40,6 +38,31 @@
   background-color: yellow;
   color: red;
 }
-.we:hover{
-  color:blue;
+.we:hover {
+  color: blue;
+}
+@media screen and (max-width: 768px) {
+  .storenav {
+    width: 48em;
+    margin: 10px 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .storenav {
+    width: 375px;
+    border:none;
+  }
+  .storenav ul {
+    height:14em;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .sh,
+  .ca,
+  .we {
+    height:50px;
+    width: 150px;
+  }
 }

@@ -1,23 +1,23 @@
 .emptycart{
-  height:410px;
+  height:590px;
   margin:0 auto;
   background-color:rgb(75, 121, 7) ;
 }
 h1 {
   position: relative;
-  top: 27px;
+  top: 7px;
   text-align:center;
   color: white;
 }
 h2.ecc {
   position: relative;
-  top: 147px;
+  top: 10px;
   text-align:center;
   color: white;
 }
 h2.ecw{
   position: relative;
-  top: 157px;
+  top: 15px;
   text-align:center;
   color: white;
 }

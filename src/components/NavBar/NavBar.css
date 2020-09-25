@@ -76,15 +76,17 @@ a.store {
     width: 23.4em;
   }
   nav ul {
+    position:relative;
     display: flex;
     flex-direction: column;
     background: linear-gradient(crimson, rgb(255, 94, 0), crimson);
-    height: 26em;
+    height: 29em;
   }
   .cabinet,
   .home,
   .plants,
   .store {
-    width: 12em;
+    width: 13em;
+    height:3em;
   }
 }

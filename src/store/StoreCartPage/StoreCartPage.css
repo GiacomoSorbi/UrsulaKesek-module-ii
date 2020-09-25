@@ -29,7 +29,7 @@ span.count {
   width: 1440px;
   height: 1000px;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .cpitem {
@@ -38,23 +38,33 @@ span.count {
   height: 220px;
   border: 2px solid orange;
 }
-.rfc{
+.rfc {
   widows: 8em;
-  height:2em;
+  height: 2em;
   position: relative;
-  left:10px;
+  left: 10px;
   background-color: red;
-  color:white;
+  color: white;
 }
 
 .total {
-  position:absolute;
-  top:170px;
-  left:1150px;
-  width:200px;
+  position: absolute;
+  top: 170px;
+  left: 1150px;
+  width: 200px;
   background-color: yellow;
-  border:6px  double black;
+  border: 6px double black;
   margin: 2em;
-  padding:0.5em;
+  padding: 0.5em;
   font-size: 1.7em;
+}
+@media screen and (max-width: 768px) {
+  .storepage {
+    height: 1765px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .storepage {
+    height: 3200px;
+  }
 }

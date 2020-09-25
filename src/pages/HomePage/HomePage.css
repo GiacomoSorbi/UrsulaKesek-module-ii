@@ -2,7 +2,7 @@
   position: relative;
   top: 3em;
   left: 2.5em;
-  height: 10em;
+  height: 9em;
   width: 10em;
   border: 0.25em solid yellow;
   visibility: visible;
@@ -18,24 +18,20 @@ body {
 .box2 {
   display: flex;
   flex-direction: column;
-  height: 32em;
   width: 18.75em;
+  height: 32em;
+  background-image: linear-gradient(red, yellow);
 }
 .box3 {
   height: 32em;
   width: 9.375em;
-}
-img.bubble {
-  position: relative;
-  left: 3em;
-  height: 32em;
-  visibility: visible;
+  background-image: linear-gradient(red, yellow);
 }
 .contact1 {
   position: relative;
   bottom: 3.9em;
-  left: 2em;
-  color: white;
+  color: black;
+  text-align: center;
   text-decoration: none;
   font-size: 1.25em;
   font-weight: bold;
@@ -43,19 +39,6 @@ img.bubble {
 .contact1:hover {
   background-color: rgb(255, 111, 0);
   color: darkslateblue;
-}
-img.front {
-  content: url(Images/aw-front.png);
-  position: relative;
-  left: 1em;
-  height: 32em;
-}
-img.front2 {
-  width: 0em;
-  visibility: hidden;
-}
-footer {
-  visibility: visible;
 }
 .green1 {
   position: relative;
@@ -76,13 +59,29 @@ h2.hph2 {
   color: white;
   align-items: center;
 }
+img.bubble {
+  position: relative;
+  left: 3em;
+  height: 32em;
+  visibility: visible;
+}
+
+img.front {
+  content: url(Images/aw-front.png);
+  position: relative;
+  left: 1em;
+  height: 32em;
+}
+img.front2 {
+  width: 0em;
+  visibility: hidden;
+}
 section.main {
   display: flex;
   flex-direction: row;
   width: 90em;
   height: 31em;
 }
-
 @media screen and (max-width: 768px) {
   .bird,
   .front,
@@ -97,14 +96,12 @@ section.main {
     margin: 0.5em;
     visibility: visible;
     position: relative;
-    top: 5em;
     left: 1.5em;
+    top: 4em;
     border: 0.25em solid yellow;
   }
   body {
     width: 48em;
-    height: 52em;
-    background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
   }
   .box2 {
     width: 14.375em;
@@ -112,6 +109,8 @@ section.main {
   }
   .box3 {
     position: relative;
+    width: 7em;
+    left: 2em;
     visibility: visible;
     height: 33.2em;
   }
@@ -126,14 +125,16 @@ section.main {
   .contact1 {
     position: relative;
     top: 10em;
+    color: black;
   }
   h2.hph2 {
     width: 8.75em;
+    height: 1em;
   }
   img.bubble {
     position: relative;
-    left: 5em;
-    height: 32.5em;
+    left: 1.2em;
+    height: 33.2em;
   }
   img.front {
     width: 0px;
@@ -144,20 +145,16 @@ section.main {
     width: 24em;
     visibility: visible;
     position: relative;
-    left: 2em;
+    left: 1em;
     top: 1em;
-    border: 4mm ridge rgba(85, 76, 88, 0.5);
+    border: 6px double black;
   }
   section.main {
-    width: 768px;
+    width: 48em;
+    height: 31.5em;
   }
 }
 @media screen and (max-width: 375px) {
-  body {
-    width: 23.4em;
-    height: 144em;
-    background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
-  }
   .bird,
   .front,
   .green1 {
@@ -166,42 +163,58 @@ section.main {
     border: none;
     visibility: hidden;
   }
-  .box2 {
+  .blue1 {
+    position: relative;
+    top: 6em;
+    left: 6.5em;
+    width: 8em;
+    height: 9em;
+  }
+  body {
     width: 23.4em;
-    height: 30em;
+  }
+  .box2 {
+    width: 22em;
+    position: relative;
+    top: 1em;
+    left: 0.75em;
   }
   .box3 {
-    width: 23.4em;
-    height: 40em;
-  }
-  .contact1 {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-size: 1.25em;
-    font-weight: bold;
-    left: 0em;
-  }
-  h2.hph2 {
-    text-align: center;
-    width: 14em;
+    width: 22em;
+    height:36em;
+    position: relative;
+    top: 4em;
+    left: 0.75em;
+    background: linear-gradient(crimson, rgb(255, 94, 0), crimson);
   }
   .chick {
     width: 8em;
     height: 8em;
-    left: 9em;
+    position: relative;
+    left: 7em;
     top: 2em;
   }
-  .blue1 {
-    align-self: center;
-    width: 8em;
-    height: 10em;
+  .contact1 {
+    height: 2em;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+    position: trelative;
+    left: 0em;
+    top: 11em;
+  }
+  h2.hph2 {
+    text-align: center;
+    width: 14em;
+    height: 1em;
   }
   img.bubble {
-    border: 0.25em solid yellow;
+    border: 0.3em solid yellow;
     position: relative;
     left: 9.5em;
-    top: 6.5em;
+    top:0em;
   }
   img.front {
     visibility: hidden;
@@ -209,13 +222,16 @@ section.main {
   }
   img.front2 {
     width: 23.25em;
+    height: 33em;
     position: relative;
-    top: 6em;
-    left: 0.2em;
+    top: 2.5em;
+    left: 0.1em;
+    border: 1em double rgb(250, 222, 7);
   }
   section.main {
     display: flex;
     flex-direction: column;
     width: 23.4em;
+    height: 105em;
   }
 }

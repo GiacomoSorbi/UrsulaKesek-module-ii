@@ -1,59 +1,57 @@
 .footer {
-  height: 4em;
-  background-color: rgba(78, 211, 12, 1);
+  height: 5rem;
   position: relative;
+  background-color: rgb(45, 224, 45);
   top: 0;
   left: 0;
   right: 0;
 }
 p {
   position: relative;
-  top: 0.5em;
-  left: 15em;
-  width: 45em;
+  top: 0.5rem;
+  left: 15rem;
+  width: 45rem;
 }
 .icon {
-  margin-left: 0.25em;
+  margin-left: 0.25rem;
 }
 .sm {
-  width: 25em;
+  width: 25rem;
   position: relative;
-  left: 65em;
-  bottom: 0.25em;
+  left: 65rem;
+  bottom: 0.25rem;
 }
 @media screen and (max-width: 768px) {
   .footer {
-    width: 48em;
-    height: 8.75em;
-    position: relative;
-    top: 0.6em;
+    width: 48rem;
+    height:8rem;
   }
   footer p {
     position: relative;
-    left: 2.5em;
+    left: 2.5rem;
   }
   .sm {
-    top: 1.875em;
-    left: 16em;
+    top: 1.875rem;
+    left: 16rem;
   }
 }
 @media screen and (max-width: 375px) {
   .footer {
     position: relative;
-    top: 60.625em;
     display: flex;
     flex-direction: column;
-    width: 23.4em;
+    width: 23.45rem;
+    height:12rem;
   }
   .footer p {
-    width: 17.5em;
+    width: 17.5rem;
     position: relative;
-    left: 3.125em;
+    left: 3.125rem;
     text-align: center;
   }
   .sm {
-    width: 10em;
-    top: 0.2em;
-    left: 7em;
+    width: 10rem;
+    top: 0.2rem;
+    left: 7rem;
   }
 }
