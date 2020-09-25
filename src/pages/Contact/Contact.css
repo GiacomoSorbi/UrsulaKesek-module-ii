@@ -1,6 +1,3 @@
-body {
-  background-color: tomato;
-}
 .form {
   position: relative;
   top: 30px;
@@ -10,13 +7,13 @@ body {
   border-radius: 5px;
   box-shadow: 5px 5px 5px black;
   width: 450px;
-  min-width: 30vmin;
-  min-height: 50vmin;
+  height: 470px;
   display: flex;
   flex-direction: column;
-  margin: 30px;
+  margin: 20px;
   padding: 30px;
   color: black;
+  font-weight: bold;
 }
 .bh {
   position: relative;
@@ -29,19 +26,50 @@ body {
 }
 .contact {
   color: rgb(241, 70, 8);
-  height: 520px;
+  height: 510px;
   position: relative;
   top: -30px;
 }
 input {
-  border: 3px solid green;
-  height: 2.5em;
+  border: 3px double green;
+  height: 50px;
+  width: 300px;
 }
 
 @media screen and (max-width: 768px) {
   .form {
     position: relative;
-    top: 290px;
-    left: 130px;
+    top: 40px;
+    left: 150px;
+    align-items: center;
+  }
+  .bh {
+    position: relative;
+    top: 80px;
+    left: 0px;
+    background-color: chartreuse;
+    font-size: 0.75em;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px black;
+  }
+}
+@media screen and (max-width: 375px) {
+  .form {
+    width: 340px;
+    position: relative;
+    top: 40px;
+    left: -5px;
+    align-items: center;
+  }
+  .bh {
+    position: relative;
+    top: 80px;
+    left: 0px;
+    background-color: rgb(241, 70, 8);
+    font-size: 0.75em;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
   }
 }
