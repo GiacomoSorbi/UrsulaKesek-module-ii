@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/UrsulaKesek-module-ii/static/css/main.d26d55e2.chunk.css",
+    "main.css": "/UrsulaKesek-module-ii/static/css/main.84dc8f7e.chunk.css",
     "main.js": "/UrsulaKesek-module-ii/static/js/main.e7b23aca.chunk.js",
     "main.js.map": "/UrsulaKesek-module-ii/static/js/main.e7b23aca.chunk.js.map",
     "runtime-main.js": "/UrsulaKesek-module-ii/static/js/runtime-main.cb8a2077.js",
@@ -8,9 +8,9 @@
     "static/js/2.29893b98.chunk.js": "/UrsulaKesek-module-ii/static/js/2.29893b98.chunk.js",
     "static/js/2.29893b98.chunk.js.map": "/UrsulaKesek-module-ii/static/js/2.29893b98.chunk.js.map",
     "index.html": "/UrsulaKesek-module-ii/index.html",
-    "precache-manifest.bc86d866bfb6ec932ae0559f8dcfb65c.js": "/UrsulaKesek-module-ii/precache-manifest.bc86d866bfb6ec932ae0559f8dcfb65c.js",
+    "precache-manifest.bf42a51180b0f1f57b3ba228ca52b903.js": "/UrsulaKesek-module-ii/precache-manifest.bf42a51180b0f1f57b3ba228ca52b903.js",
     "service-worker.js": "/UrsulaKesek-module-ii/service-worker.js",
-    "static/css/main.d26d55e2.chunk.css.map": "/UrsulaKesek-module-ii/static/css/main.d26d55e2.chunk.css.map",
+    "static/css/main.84dc8f7e.chunk.css.map": "/UrsulaKesek-module-ii/static/css/main.84dc8f7e.chunk.css.map",
     "static/js/2.29893b98.chunk.js.LICENSE.txt": "/UrsulaKesek-module-ii/static/js/2.29893b98.chunk.js.LICENSE.txt",
     "static/media/Bluecat404.gif": "/UrsulaKesek-module-ii/static/media/Bluecat404.ae0063a7.gif",
     "static/media/amyris-oil.png": "/UrsulaKesek-module-ii/static/media/amyris-oil.80366b08.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.cb8a2077.js",
     "static/js/2.29893b98.chunk.js",
-    "static/css/main.d26d55e2.chunk.css",
+    "static/css/main.84dc8f7e.chunk.css",
     "static/js/main.e7b23aca.chunk.js"
   ]
 }
