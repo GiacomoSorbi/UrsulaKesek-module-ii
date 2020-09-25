@@ -73,7 +73,7 @@
 @media screen and (max-width: 375px) {
   .item {
     width: 200px;
-    height: 280px;
+    height: 275px;
     display: flex;
     flex-direction: column;
   }

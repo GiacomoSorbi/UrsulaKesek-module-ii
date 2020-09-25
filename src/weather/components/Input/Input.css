@@ -3,16 +3,19 @@
   flex-direction: row;
   justify-content: space-around;
   position: relative;
-  top:10px;
+  top: 10px;
   padding: 10px;
   background: linear-gradient(white 10%, cornflowerblue);
   width: 400px;
-  height: 60px;
+  height: 70px;
 }
 .input {
+  position: relative;
+  left: 0.5em;
+  top: 0.1em;
   background-color: white;
   border: 6px double #f50eee;
-  width: 250px;
+  width: 220px;
   padding: 10px;
   font-size: 1em;
 }

@@ -1,8 +1,8 @@
 .storenav {
-  width: 800px;
-  height: 90px;
-  margin: 10px 320px;
-  border: 2px solid black;
+  width: 52em;
+  height: 6em;
+  margin: 0.625em 20em;
+  border:0.25em solid black;
 }
 
 .storenav ul {
@@ -16,10 +16,10 @@
 .we {
   position: relative;
   top: 0px;
-  width: 190px;
-  height: 50px;
+  width: 10em;
+  height:2.75em;
   font-size: 1.5em;
-  border: 6px double black;
+  border: 0.375em double black;
   background-color: rgb(119, 241, 57);
   background-image: linear-gradient(
     to top left,
@@ -44,16 +44,19 @@
 @media screen and (max-width: 768px) {
   .storenav {
     width: 48em;
-    margin: 10px 10px;
+    margin: 0.375em 0.375em;
+  }
+  .sh,.ca,.we{
+    width:9em;
   }
 }
 @media screen and (max-width: 375px) {
   .storenav {
-    width: 375px;
+    width: 23.43em;
     border:none;
   }
   .storenav ul {
-    height:14em;
+    height:19em;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -62,7 +65,8 @@
   .sh,
   .ca,
   .we {
-    height:50px;
-    width: 150px;
+    position: relative;
+    height:3em;
+    width: 13em;
   }
 }

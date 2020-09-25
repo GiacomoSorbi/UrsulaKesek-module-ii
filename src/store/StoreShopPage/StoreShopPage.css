@@ -43,9 +43,9 @@ ul.spitems {
 @media screen and (max-width: 375px) {
   ul.spitems {
     position: relative;
-    top: 8em;
+    top: 14em;
     width: 20.4em;
-    height: 159em;
+    height: 195em;
     display: flex;
     flex-direction: column;
     align-items: center;
