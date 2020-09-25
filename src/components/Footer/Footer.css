@@ -8,52 +8,52 @@
 }
 p {
   position: relative;
-  top: 10px;
-  left: 240px;
-  width: 720px;
+  top: 0.5em;
+  left: 15em;
+  width: 45em;
 }
 .icon {
-  margin-left: 5px;
+  margin-left: 0.25em;
 }
 .sm {
-  width: 400px;
+  width: 25em;
   position: relative;
-  left: 1040px;
-  bottom: 5px;
+  left: 65em;
+  bottom: 0.25em;
 }
 @media screen and (max-width: 768px) {
   .footer {
-    width: 768px;
-    height: 140px;
+    width: 48em;
+    height: 8.75em;
     position: relative;
-    top: 10px;
+    top: 0.6em;
   }
   footer p {
     position: relative;
-    left: 40px;
+    left: 2.5em;
   }
   .sm {
-    top: 30px;
-    left: 256px;
+    top: 1.875em;
+    left: 16em;
   }
 }
 @media screen and (max-width: 375px) {
   .footer {
     position: relative;
-    top: 970px;
+    top: 60.625em;
     display: flex;
     flex-direction: column;
-    width: 375px;
+    width: 23.4em;
   }
   .footer p {
-    width: 280px;
+    width: 17.5em;
     position: relative;
-    left: 50px;
+    left: 3.125em;
     text-align: center;
   }
   .sm {
-    width: 180px;
-    top: 15px;
-    left: 110px;
+    width: 10em;
+    top: 0.2em;
+    left: 7em;
   }
 }
