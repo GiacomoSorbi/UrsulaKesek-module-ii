@@ -1,12 +1,11 @@
 
 .weather-card {
   position: relative;
-  top:25px;
-  left:50px;
+  right:15em;
+  top:-16.5em;
   background: linear-gradient(#f574f1, #04abf3);
   width: 400px;
-  height: 490px;
-  padding: 20px;
+  height: 440px;
   color: black;
   border: 6px double black;
 }

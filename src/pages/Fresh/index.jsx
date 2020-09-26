@@ -6,8 +6,11 @@ import water1 from "./Images/water1.png";
 import fruity1 from "./Images/fruity1.png";
 const Fresh = () => (
   <main className="fre">
-    <h2 className="fre"> FRESH PAGE</h2>
-    <h3 className="flip">Flip the card for information.</h3>
+    <h2 className="fre">
+      {" "}
+      FRESH PAGE{" "}
+      <span className="flip">(Flip the card for more information.)</span>
+    </h2>
     <section className="fresec">
       <div>
         <h2 className="olfa">D-Fruity</h2>

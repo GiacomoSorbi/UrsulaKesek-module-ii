@@ -1,20 +1,20 @@
-
 .weapp {
   display: flex;
   flex-direction: column;
   position: relative;
-  left:500px;
-  top:-12em;
+  left:840px;
+  align-items: flex-end;
   width: 500px;
-  height:470px;
+  height: 470px;
   text-align: center;
   padding: 10px;
   font-size: 1em;
   color: white;
 }
-.search{
+.search {
   position: relative;
-  top:20px;
+  top: 20px;
+  left:5.5em;
   width: 150px;
   height: 50px;
   font-size: 1.5em;
@@ -34,12 +34,12 @@
 
 .stormy {
   position: relative;
-  right: 50px;
+  right: 30px;
   background-color: darkslateblue;
 }
 .stormy1 {
   position: relative;
-  left: 50px;
+  left: 30px;
   background-color: darkslateblue;
 }
 

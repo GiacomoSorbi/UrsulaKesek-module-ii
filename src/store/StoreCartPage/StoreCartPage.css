@@ -27,7 +27,7 @@ span.count {
 }
 .cpitems {
   width: 1440px;
-  height: 1000px;
+  height: 400px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
