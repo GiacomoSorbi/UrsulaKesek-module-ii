@@ -5,7 +5,7 @@ import plants2  from "../constants2";
 
 const PlantDisplay3 = () => (
   <section className="display3">
-    <h1 className="dis"> Plant Directory Q-Z</h1>
+    <h1 className="dis"> Plant Directory O-Z</h1>
     <PlantSection3 plants ={plants2}/>
   </section>
 );

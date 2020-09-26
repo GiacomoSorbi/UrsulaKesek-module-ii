@@ -61,8 +61,28 @@ const PlantsPage = () => (
         </ol>
       </article>
       <article className="plab">
-        M-P
+        L-O
         <ol>
+          <li>
+            <NavLink className="plant" to="/plantdisplay2">
+              Lavender
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="plant" to="/plantdisplay2">
+              Lemongrass
+            </NavLink>
+          </li>
+          <li>
+          <NavLink className="plant" to="/plantdisplay2">
+              Magnolia
+            </NavLink>
+          </li>
+          <li> 
+            <NavLink className="plant" to="/plantdisplay2">
+              Mimosa
+            </NavLink>
+          </li>
           <li>
             <NavLink className="plant" to="/plantdisplay2">
               Monoi
@@ -88,31 +108,26 @@ const PlantsPage = () => (
               Oakmoss
             </NavLink>
           </li>
+          </ol>
+      </article>
+      <article className="plac">
+        O-Z
+        <ol>
           <li>
-            <NavLink className="plant" to="/plantdisplay2">
-              Opopanaz
-            </NavLink>
-          </li>
-          <li>
-            <NavLink className="plant" to="/plantdisplay2">
+            <NavLink className="plant" to="/plantdisplay3">
               Osmanthus
             </NavLink>
           </li>
           <li>
-            <NavLink className="plant" to="/plantdisplay2">
+            <NavLink className="plant" to="/plantdisplay3">
               Oud
             </NavLink>
           </li>
           <li>
-            <NavLink className="plant" to="/plantdisplay2">
+            <NavLink className="plant" to="/plantdisplay3">
               Patchouli
             </NavLink>
           </li>
-        </ol>
-      </article>
-      <article className="plac">
-        Q-Z
-        <ol>
           <li>
             <NavLink className="plant" to="/plantdisplay3">
               Rose
@@ -126,6 +141,11 @@ const PlantsPage = () => (
           <li>
             <NavLink className="plant" to="plantdisplay3/">
               Vanilla
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="plant" to="/plantdisplay3">
+              Verveine
             </NavLink>
           </li>
           <li>

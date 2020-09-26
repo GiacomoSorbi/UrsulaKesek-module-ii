@@ -42,6 +42,7 @@ section.plantsec {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  height:440px;
 }
 span {
   font-style: italic;

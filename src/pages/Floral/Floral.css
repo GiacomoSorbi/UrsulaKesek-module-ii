@@ -2,11 +2,17 @@ h2.olfa {
   margin:0px;
   position: relative;
   top: 5px;
-  color: black;
+  color: rgb(102, 57, 2);
   text-align: center;
 }
-h2.flo{
-  margin:0px;
+h2.flor{
+  margin-top:0px ;
+  text-align: center;
+
+  color: white;
+}
+h2.olfac{
+ color:white; 
 }
 .floa,
 .flob,
@@ -26,6 +32,9 @@ h2.flo{
 }
 .floc {
   background-image: url(Images/floral3.png);
+}
+.flip{
+  color:white;
 }
 .flip-card {
   background-color: transparent;
@@ -63,16 +72,13 @@ h2.flo{
   color: black;
   transform: rotateY(180deg);
 }
-main.flo{
-  background: linear-gradient(rgb(233, 97, 238), rgb(83, 2, 66));
-}
 
 p.fcb {
   position: relative;
   width: 250px;
   left: 25px;
 }
-section.flosec {
+main.flosec {
   width: 1440px;
   height: 470px;
   display: flex;

@@ -4,12 +4,15 @@ import floral1 from "./Images/floral1.png";
 import floral2 from "./Images/floral4.png";
 import floral3 from "./Images/floral3.png";
 const Floral = () => (
-  <main className="flo">
-    <h2 className="flo"> FLORAL PAGE</h2>
-    <h3>Flip the card for more information</h3>
-    <section className="flosec">
+  <section className="flo">
+    <h2 className="flor">
+      {" "}
+      FLORAL PAGE{" "}
+      <span className="flip">(Flip the card for more information.)</span>
+    </h2>
+    <main className="flosec">
       <div>
-        <h2 className="olfa">A-Floral</h2>
+        <h2 className="f">A-Floral</h2>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
@@ -17,7 +20,7 @@ const Floral = () => (
             </div>
             <div className="flip-card-back">
               <div>
-                <h2>Olfactory Group</h2>
+                <h2 className="olfa">Olfactory Group</h2>
               </div>
               <div>
                 <p className="fcb">
@@ -33,7 +36,7 @@ const Floral = () => (
         </div>
       </div>
       <div>
-        <h2 className="olfa">B-SoftFloral</h2>
+        <h2 className="f">B-SoftFloral</h2>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
@@ -41,7 +44,7 @@ const Floral = () => (
             </div>
             <div className="flip-card-back">
               <div>
-                <h2>Olfactory Group</h2>
+                <h2 className="olfa">Olfactory Group</h2>
               </div>
               <div>
                 <p className="fcb">
@@ -57,7 +60,7 @@ const Floral = () => (
         </div>
       </div>
       <div>
-        <h2 className="olfa">C-Floral Oriental</h2>
+        <h2 className="f">C-Floral Oriental</h2>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
@@ -65,7 +68,7 @@ const Floral = () => (
             </div>
             <div className="flip-card-back">
               <div>
-                <h2>Olfactory Group</h2>
+                <h2 className="olfa">Olfactory Group</h2>
               </div>
               <div>
                 <p className="fcb">
@@ -80,8 +83,8 @@ const Floral = () => (
           </div>
         </div>
       </div>
-    </section>
-  </main>
+    </main>
+  </section>
 );
 
 export default Floral;
