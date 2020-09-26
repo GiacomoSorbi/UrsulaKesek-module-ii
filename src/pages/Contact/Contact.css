@@ -7,7 +7,7 @@
   border-radius: 5px;
   box-shadow: 5px 5px 5px black;
   width: 550px;
-  height: 470px;
+  height: 480px;
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -17,8 +17,8 @@
 }
 .bh {
   position: relative;
-  top: 80px;
-  left: 250px;
+  top:6em;
+  left: 21.5em;
   background-color: chartreuse;
   font-size: 0.75em;
   padding: 5px;
@@ -31,10 +31,14 @@
   position: relative;
   top: -30px;
 }
+h1{
+  margin-block-start: 0em;
+  margin-block-end: 0.67em;
+  }
 input {
   position: relative;
   left: 160px;
-  top: -10px;
+  top: -1.5em;
   border: 6px double green;
   height: 50px;
   width: 300px;
@@ -61,18 +65,18 @@ input {
 @media screen and (max-width: 375px) {
   .form {
     width: 340px;
-    height: 470px;
+    height: 480px;
     position: relative;
-    top: 20px;
+    top: 10px;
     left: -5px;
     align-items: center;
   }
   .bh {
     position: relative;
-    top: 80px;
-    left: 0px;
+    top: 5em;
+    left:0.75em;
     background-color: rgb(241, 70, 8);
-    font-size: 0.75em;
+    font-size: 0.6em;
     padding: 5px;
     text-decoration: none;
     color: white;

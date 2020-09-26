@@ -19,6 +19,7 @@
 }
 .desc {
   width: 200px;
+  height: 100px;
 }
 .price {
   position: relative;
@@ -73,7 +74,7 @@
 @media screen and (max-width: 375px) {
   .item {
     width: 200px;
-    height: 275px;
+    height: 280px;
     display: flex;
     flex-direction: column;
   }

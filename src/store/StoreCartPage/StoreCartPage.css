@@ -1,6 +1,9 @@
 .storepage {
   background-color: rgb(75, 121, 7);
 }
+.content{
+  height:850px;
+}
 .minus {
   width: 30px;
   height: 40px;
@@ -27,7 +30,7 @@ span.count {
 }
 .cpitems {
   width: 1440px;
-  height: 400px;
+  height: 600px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -48,23 +51,36 @@ span.count {
 }
 
 .total {
-  position: absolute;
-  top: 170px;
-  left: 1150px;
-  width: 200px;
   background-color: yellow;
-  border: 6px double black;
-  margin: 2em;
-  padding: 0.5em;
-  font-size: 1.7em;
+  height:30px;
+  margin-left:30px;
+  margin-top:30px;
+  padding:5px;
 }
 @media screen and (max-width: 768px) {
-  .storepage {
-    height: 1765px;
+  .content{
+    width:768px;
+    height:2300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+  .cpitems {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .cpitem {
+    margin: 10px;
+    width: 280px;
+    height: 380px;
+    border: 2px solid orange;
+  }
+  
 }
 @media screen and (max-width: 375px) {
   .storepage {
-    height: 3200px;
+    height: 3300px;
   }
 }

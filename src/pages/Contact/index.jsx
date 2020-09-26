@@ -19,8 +19,7 @@ function Contact() {
   return (
     <main className="contact">
       <Form onSubmit={validateForm() ? onFormSubmit : null}>
-        <header className="h">Your Contact Details</header>
-
+        <h1 className="h">Your Contact Details</h1>
         <Input
           id="name"
           label="Your Name:"

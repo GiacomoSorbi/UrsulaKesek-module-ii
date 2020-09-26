@@ -1,5 +1,5 @@
 body {
-  width:90em;
+  width: 90em;
 }
 .header {
   display: flex;
@@ -8,16 +8,16 @@ body {
   height: 7.5em;
 }
 .green {
-  height:6.25em;
+  height: 6.25em;
   position: relative;
   top: 0.7em;
   left: 5em;
   z-index: 1;
-  border:0.25em solid yellow;
+  border: 0.25em solid yellow;
 }
-.header h1 {
+h1.header1 {
   position: relative;
-  top:-0.5em;
+  top: 0.2em;
   left: 5em;
   color: rgb(241, 68, 4);
   font-size: 5em;
@@ -32,10 +32,10 @@ body {
   .header {
     width: 48em;
   }
-  .header h1 {
+  h1.header1 {
     position: relative;
     left: 3em;
-    top:-0.3em;
+    top: 0.3em;
     font-size: 4em;
   }
 }
@@ -44,24 +44,24 @@ body {
     width: 23.4em;
   }
   .header {
-    background-image: url(Images/ylang-1.png);
-    height: 13em;
-    width: 23.43em;
     display: flex;
     flex-direction: column;
-  }
-
+    background-image: url(Images/ylang1.png);
+    height: 9.5em;
+    width:23.4em;
+    }
+    h1.header1{
+      position: relative;
+      top:-1.6em;
+      left:0.25em;
+      width:2em;
+      font-size:3em ;
+      z-index:1;
+    }
   .green {
     width: 7em;
     position: relative;
     left: 15em;
     top: 2em;
-  }
-  .header h1 {
-    position: relative;
-    left: 0px;
-  }
-  section.main {
-    width: 23.4em;
-  }
+}
 }

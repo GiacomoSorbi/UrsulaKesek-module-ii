@@ -38,14 +38,14 @@ const Store = () => {
   return (
     <section className="storepage">
       <Nav activeTab={activeTab} onTabChange={setActiveTab} />
-      <div className="content">
+      <main className="content">
         <StoreContent
           tab={activeTab}
           onAddToCart={addToCart}
           onRemoveItem={removeItem}
           cart={totalCart(cart)}
         />
-      </div>
+      </main>
     </section>
   );
 };
