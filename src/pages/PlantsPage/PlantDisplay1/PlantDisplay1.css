@@ -1,13 +1,13 @@
 section.display {
   background-color: rgb(15, 138, 4);
   height: 1630px;
-  width:1440px;
+  width: 1440px;
 }
 h1.dis {
   margin: 0 auto;
   padding: 5px;
   background-color: rgb(112, 32, 3);
-  border:3px solid rgb(245,151,10) ; 
+  border: 3px solid rgb(245, 151, 10);
   color: white;
   width: 300px;
 }
@@ -31,10 +31,42 @@ h1.dis {
   color: white;
 }
 .plantcard {
-  margin:25px;
-  border:3px solid rgb(245,151,10);
+  margin: 25px;
+  border: 3px solid rgb(245, 151, 10);
   width: 380px;
-  height: 440px;
+  height: 465px;
   position: relative;
   top: 30px;
+}
+@media screen and (max-width: 768px) {
+  section.display {
+    width: 768px;
+    height: 4800px;
+  }
+  section.plantcard {
+    width: 330px;
+  }
+  div.name {
+    width: 200px;
+  }
+  div.desc1 {
+    width: 324px;
+    height: 265px;
+  }
+}
+@media screen and (max-width: 375px) {
+  section.display {
+    width: 375px;
+    height: 4800px;
+  }
+  section.plantcard {
+    width: 330px;
+  }
+  div.name {
+    width: 200px;
+  }
+  div.desc1 {
+    width: 324px;
+    height: 265px;
+  }
 }
