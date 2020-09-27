@@ -1,6 +1,6 @@
 section.display {
   background-color: rgb(15, 138, 4);
-  height: 1630px;
+  height: 1670px;
   width: 1440px;
 }
 h1.dis {
@@ -11,6 +11,11 @@ h1.dis {
   color: white;
   width: 300px;
 }
+div.desc1 {
+  width: 373px;
+  height: 265px;
+}
+
 .img {
   position: relative;
   top: 25px;
