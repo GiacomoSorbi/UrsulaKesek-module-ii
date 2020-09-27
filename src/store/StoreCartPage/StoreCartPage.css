@@ -1,8 +1,8 @@
 .storepage {
   background-color: rgb(75, 121, 7);
 }
-.content{
-  height:850px;
+.content {
+  height: 850px;
 }
 .minus {
   width: 30px;
@@ -42,45 +42,108 @@ span.count {
   border: 2px solid orange;
 }
 .rfc {
-  widows: 8em;
-  height: 2em;
+  width: 130px;
+  height: 32px;
   position: relative;
   left: 10px;
+  top: 15px;
   background-color: red;
   color: white;
 }
 
 .total {
+  position: relative;
+  top: 10px;
   background-color: yellow;
-  height:30px;
-  margin-left:30px;
-  margin-top:30px;
-  padding:5px;
+  height: 50px;
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+  border: 4px double black;
 }
 @media screen and (max-width: 768px) {
-  .content{
-    width:768px;
-    height:2300px;
+  .content {
+    width: 768px;
+    height: 2300px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   .cpitems {
     width: 768px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
   .cpitem {
+    position: relative;
+    left: 40px;
     margin: 10px;
     width: 280px;
     height: 380px;
     border: 2px solid orange;
   }
-  
+  .cpmanage {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 18px;
+    top: 10px;
+  }
+
+  .total {
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: yellow;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 4px double black;
+  }
+  .rfc {
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
 }
 @media screen and (max-width: 375px) {
   .storepage {
-    height: 3300px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 220px;
+  }
+  .cpitems {
+    width: 375px;
+    height: 3700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .cpmanage {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 25px;
+    top: 25px;
+  }
+  .rfc {
+    position: relative;
+    left: 25px;
+    top: 35px;
+  }
+  .total {
+    position: relative;
+    left: 75px;
   }
 }

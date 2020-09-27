@@ -51,7 +51,7 @@
 }
 @media screen and (max-width: 375px) {
   .storenav {
-    width: 23.43em;
+    width: 23em;
     border:none;
   }
   .storenav ul {

@@ -6,6 +6,16 @@
   position: relative;
   width: 450px;
 }
+@media screen and (max-width: 768px) {
+  .formw {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 450px;
+  }
+}
 @media screen and (max-width: 375px) {
   .formw {
     width: 320px;

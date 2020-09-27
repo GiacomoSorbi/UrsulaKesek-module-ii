@@ -28,8 +28,16 @@
   font-size: 1em;
   color: black;
 }
+@media screen and (max-width: 768px) {
+  .city {
+    position: relative;
+    left:-30px;
+  }
+} 
 @media screen and (max-width: 375px) {
   .city {
+    position: relative;
+    left:5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -40,13 +48,13 @@
   .input {
     margin: 15px;
     width: 240px;
-    height: 50px;
+    height: 60px;
   }
   label.label {
     position: relative;
     top: 10px;
     left: 15px;
     width: 100px;
-    height: 50px;
+    height: 60px;
   }
 }

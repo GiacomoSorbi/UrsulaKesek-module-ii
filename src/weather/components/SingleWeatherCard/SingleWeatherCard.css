@@ -9,3 +9,28 @@
   color: black;
   border: 6px double black;
 }
+@media screen and (max-width: 768px) {
+  .weather-card {
+    position: relative;
+    left:300px;
+    top:-220px;
+    background: linear-gradient(#f574f1, #04abf3);
+    width: 400px;
+    height: 440px;
+    color: black;
+    border: 6px double black;
+  }
+  }
+  @media screen and (max-width: 375px) {
+    .weather-card {
+      position: relative;
+      left:30px;
+      top:40px;
+      background: linear-gradient(#f574f1, #04abf3);
+      width: 380px;
+      height: 440px;
+      color: black;
+      border: 6px double black;
+    }
+    }
+  

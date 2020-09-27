@@ -20,7 +20,7 @@ function WeatherCard() {
   };
   const onSubmit = (event) => {
     event.preventDefault();
-    setData({ ...data, city: query.city, loading: true });
+    setData({ ...data, city: query.city, loading: true, error:""});
     fetch(
       `${window.location.protocol}//api.openweathermap.org/data/2.5/weather?q=${query.city}&appid=${API_KEY}&units=${query.units}`
     ).then((res) => {
@@ -70,7 +70,7 @@ function WeatherCard() {
           onClick={onClick}
         />
       )}
-      {data.error && <div>{JSON.stringify(data.error)}</div>}
+      {data.error && <div className="lost">{JSON.stringify(data.error)}</div>}
     </div>
   );
 }
