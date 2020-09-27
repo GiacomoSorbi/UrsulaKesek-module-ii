@@ -11,7 +11,7 @@ article.plac {
 }
 
 .plpg h2 {
-  margin:0px;
+  margin: 0px;
   color: white;
   text-align: center;
 }
@@ -42,14 +42,45 @@ section.plantsec {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height:440px;
+  height: 440px;
 }
 span {
   font-style: italic;
   font-size: 80%;
 }
 @media screen and (max-width: 768px) {
+  article.plaa,
+  article.plab,
+  article.plac {
+    margin: 40px;
+  }
+
   main.plpg {
     width: 768px;
+    position: relative;
+    top: 10px;
+  }
+  .plpg h2 {
+    position: relative;
+    top: 10px;
+    color: white;
+  }
+}
+@media screen and (max-width: 375px) {
+  main.plpg {
+    width: 375px;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .plpg h2 {
+    position: relative;
+    left: 0px;
+    color: white;
+  }
+  section.plantsec {
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
   }
 }

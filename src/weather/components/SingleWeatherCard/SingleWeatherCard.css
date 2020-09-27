@@ -24,10 +24,10 @@
   @media screen and (max-width: 375px) {
     .weather-card {
       position: relative;
-      left:30px;
+      left:22px;
       top:40px;
       background: linear-gradient(#f574f1, #04abf3);
-      width: 380px;
+      width: 370px;
       height: 440px;
       color: black;
       border: 6px double black;
