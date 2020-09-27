@@ -43,6 +43,11 @@ h1.dis {
     width: 768px;
     height: 4800px;
   }
+  section.plantitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   section.plantcard {
     width: 330px;
   }
@@ -52,6 +57,11 @@ h1.dis {
   div.desc1 {
     width: 324px;
     height: 265px;
+  }
+  img.img {
+    position: relative;
+    left: 113px;
+    top: -10px;
   }
 }
 @media screen and (max-width: 375px) {
