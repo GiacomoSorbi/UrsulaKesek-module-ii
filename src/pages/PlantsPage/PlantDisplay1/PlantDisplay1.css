@@ -1,6 +1,6 @@
 section.display {
   background-color: rgb(15, 138, 4);
-  height: 1670px;
+  height: 1770px;
   width: 1440px;
 }
 h1.dis {
@@ -12,6 +12,8 @@ h1.dis {
   width: 300px;
 }
 div.desc1 {
+  position: relative;
+  top: 50px;
   width: 373px;
   height: 265px;
 }
@@ -35,11 +37,11 @@ div.desc1 {
   font-family: Arial Black, Helvetica, sans-serif;
   color: white;
 }
-.plantcard {
+section.plantcard {
   margin: 25px;
   border: 3px solid rgb(245, 151, 10);
   width: 380px;
-  height: 465px;
+  height: 497px;
   position: relative;
   top: 30px;
 }

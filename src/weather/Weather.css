@@ -89,6 +89,7 @@
   }
 }
 @media screen and (max-width: 375px) {
+  
   .search {
     position: relative;
     top: 10px;
