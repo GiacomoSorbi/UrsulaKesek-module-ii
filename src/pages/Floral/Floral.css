@@ -140,7 +140,7 @@ main.flosec {
   }
   h2.flor {
     position: relative;
-    left: 0px;
+    left:0px;
   }
   h2.f {
     position: relative;
@@ -151,4 +151,26 @@ main.flosec {
     width: 220px;
     left: 5px;
   }
+}
+@media screen and (max-width: 375px) {
+  main.flosec {
+    width: 375px;
+    height: 1510px;
+    display:flex;
+    flex-direction: column;
+  }
+  h2.flor {
+    width:300px;
+    position: relative;
+  }
+  h2.f {
+    position: relative;
+  }
+  .floral4,
+  .floral5,
+  .floral6 {
+    visibility: visible;
+    position: relative;
+  }
+
 }
