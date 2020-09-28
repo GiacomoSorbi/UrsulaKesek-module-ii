@@ -41,12 +41,12 @@ h1.header1 {
 }
 @media screen and (max-width: 375px) {
   body {
-    width: 23.4em;
+    width:23.43em;
   }
   .header {
     display: flex;
     flex-direction: column;
-    background-image: url(Images/ylang1.png);
+    background-image: url(Images/ylang-1.png);
     height: 8.5em;
     width:23.4em;
     }

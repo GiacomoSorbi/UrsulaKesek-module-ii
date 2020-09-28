@@ -24,19 +24,23 @@ const Floral = () => (
               </div>
               <div>
                 <p className="fcb">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis doloribus delectus, incidunt quisquam quidem
-                  reiciendis minus illum necessitatibus nam animi veritatis
-                  voluptas consequuntur natus maxime minima molestias ratione!
-                  Amet, dignissimos.
+                  The floral scent family is one of the most common families and
+                  are used in many well-known perfumes. Floral scents are most
+                  often used in women’s fragrances, although they are
+                  occasionally used in men’s as well. They usually smell like
+                  fresh-cut flowers or have a powdery note to them.
                 </p>
+                <p className="fcb">Common floral family notes:</p>
+                <p className="fcb">Rose </p>
+                <p className="fcb">Jasmine</p>
+                <p className="fcb">Orange blossom</p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div>
-        <h2 className="f">B-SoftFloral</h2>
+        <h2 className="f">B-Floral Fruity</h2>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
@@ -48,12 +52,15 @@ const Floral = () => (
               </div>
               <div>
                 <p className="fcb">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis doloribus delectus, incidunt quisquam quidem
-                  reiciendis minus illum necessitatibus nam animi veritatis
-                  voluptas consequuntur natus maxime minima molestias ratione!
-                  Amet, dignissimos.
+                  Floral Fruity – Since 1995, new fruity notes have blossomed in
+                  the world of perfumery. The floral body is easily
+                  identifiable, and the fruity notes are obvious.
                 </p>
+                <p className="fcb">Common fruity notes:</p>
+                <p className="fcb">Apple </p>
+                <p className="fcb">Apricot</p>
+                <p className="fcb">Lychee</p>
+                <p className="fcb">Raspberry</p>
               </div>
             </div>
           </div>
@@ -72,12 +79,18 @@ const Floral = () => (
               </div>
               <div>
                 <p className="fcb">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis doloribus delectus, incidunt quisquam quidem
-                  reiciendis minus illum necessitatibus nam animi veritatis
-                  voluptas consequuntur natus maxime minima molestias ratione!
-                  Amet, dignissimos.
+                  Floral oriental perfumes, also known as “amber” fragrances –
+                  stand out because of their unique blend of warmth and
+                  sensuality. They draw their richness from heady substances
+                  often associated with exotic floral and spicy scents.
                 </p>
+                <p className="fcb">
+                  Ingredients can include: 
+                </p>
+                <p className="fcb">Oud </p>
+                <p className="fcb">Vanilla</p>
+                <p className="fcb">Musk</p>
+                <p className="fcb">Precious woods</p>
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ const CabinetPage = () => (
   <>
     <section className="aroma">
       <main className="cbmain">
-        <h2 className="cbh2">Cabinet Of Curiosities </h2>
+        <h1 className="cbh1">Cabinet Of Curiosities</h1>
         <div className="perfOne">
           <h2 className="fl">Floral</h2>
           <NavLink className="floral" to="/floral">

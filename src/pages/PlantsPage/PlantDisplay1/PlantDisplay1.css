@@ -46,7 +46,7 @@ div.desc1 {
 @media screen and (max-width: 768px) {
   section.display {
     width: 768px;
-    height: 4800px;
+    height: 3300px;
   }
   section.plantitems {
     display: flex;
@@ -54,14 +54,18 @@ div.desc1 {
     justify-content: center;
   }
   section.plantcard {
-    width: 330px;
+    width: 670px;
+    height: 300px;
   }
   div.name {
     width: 200px;
   }
   div.desc1 {
+    position: relative;
+    left: 340px;
+    top: -175px;
     width: 324px;
-    height: 265px;
+    height: 292px;
   }
   img.img {
     position: relative;
@@ -76,12 +80,16 @@ div.desc1 {
   }
   section.plantcard {
     width: 330px;
+    height: 465px;
   }
   div.name {
     width: 200px;
   }
   div.desc1 {
+    position: relative;
+    left: 0px;
+    top: 10px;
     width: 324px;
-    height: 265px;
+    height: 272px;
   }
 }
