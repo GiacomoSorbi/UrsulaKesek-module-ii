@@ -1,8 +1,12 @@
 import React from "react";
 import "./Floral.css";
-import floral1 from "./Images/floral1.png";
-import floral2 from "./Images/floral4.png";
-import floral3 from "./Images/floral3.png";
+import floral1 from "./Images/florala.png";
+import floral2 from "./Images/floralb.png";
+import floral3 from "./Images/floralc.png";
+import floral4 from "./Images/floral2a.png";
+import floral5 from "./Images/floral2b.png";
+import floral6 from "./Images/floral2c.png";
+
 const Floral = () => (
   <section className="flo">
     <h2 className="flor">
@@ -16,7 +20,8 @@ const Floral = () => (
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src={floral1} alt="perfumepic" />
+              <img className="floral1" src={floral1} alt="perfumepic" />
+              <img className="floral4" src={floral4} alt="perfumepic" />
             </div>
             <div className="flip-card-back">
               <div>
@@ -44,7 +49,8 @@ const Floral = () => (
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src={floral2} alt="perfumepic" />
+              <img className="floral2" src={floral2} alt="perfumepic" />
+              <img className="floral5" src={floral5} alt="perfumepic" />
             </div>
             <div className="flip-card-back">
               <div>
@@ -71,7 +77,8 @@ const Floral = () => (
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src={floral3} alt="perfumepic" />
+              <img className="floral3" src={floral3} alt="perfumepic" />
+              <img className="floral6" src={floral6} alt="perfumepic" />
             </div>
             <div className="flip-card-back">
               <div>
@@ -84,9 +91,7 @@ const Floral = () => (
                   sensuality. They draw their richness from heady substances
                   often associated with exotic floral and spicy scents.
                 </p>
-                <p className="fcb">
-                  Ingredients can include: 
-                </p>
+                <p className="fcb">Ingredients can include:</p>
                 <p className="fcb">Oud </p>
                 <p className="fcb">Vanilla</p>
                 <p className="fcb">Musk</p>

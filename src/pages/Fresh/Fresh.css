@@ -1,62 +1,67 @@
-.fd,.fe,.ff,.fg{
+.fd,
+.fe,
+.ff,
+.fg {
   position: relative;
-  left:260px;
-  top:350px;
-font-size: 1.5em;
-font-weight: bold;
-color:yellow;
+  left: 260px;
+  top: 350px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: yellow;
 }
 
-.flip{
+.flip {
   text-align: center;
 }
-.fred,.free,.fref,.freg {
+.fred,
+.free,
+.fref,
+.freg {
   position: relative;
-  top:10px;
+  top: 10px;
   border: 4px double black;
   width: 300px;
   height: 390px;
 }
-.fred{
-  background-image: url(Images/citrus1.png);
+.fred {
+  background-image: url(Images/fruity1.png);
 }
-.free{
+.free {
   background-image: url(Images/green1.png);
 }
-.fref{
+.fref {
   background-image: url(Images/water1.png);
 }
-.freg{
+.freg {
   background-image: url(Images/citrus1.png);
 }
- 
- h2.fre {
-   margin:0px;
-    padding: 5px;
-    color: black;
-    text-align: center;
+
+h2.fre {
+  margin: 0px;
+  padding: 5px;
+  color: black;
+  text-align: center;
+}
+h3 {
+  position: relative;
+  top: 5px;
+}
+main.fre {
+  background: linear-gradient(rgb(110, 196, 235), rgb(3, 143, 59));
+  width: 1440px;
+  height: 540px;
+}
+section.fresec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+h2.olfa {
+  text-align: center;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  main.flo {
+    width: 768px;
   }
-  h3{
-    position: relative;
-    top:5px;
-  }
-  main.fre {
-    background: linear-gradient(rgb(110, 196, 235), rgb(3, 143, 59));
-    width: 1440px;
-    height: 540px;
-  }
-  section.fresec {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  h2.olfa{
-    text-align: center;
-    padding:10px;
-  }
-  @media screen and (max-width: 768px) {
-    main.flo {
-      width: 768px;
-    }
-  }
-  
+}

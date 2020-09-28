@@ -1,40 +1,29 @@
 h2.olfa {
-  margin:0px;
+  margin: 0px;
   position: relative;
   top: 5px;
   color: rgb(102, 57, 2);
   text-align: center;
 }
-h2.flor{
-  margin-top:0px ;
+h2.flor {
+  margin-top: 0px;
   text-align: center;
-
   color: white;
 }
-h2.olfac{
- color:white; 
-}
-.floa,
-.flob,
-.floc {
-  background-color: khaki;
-  position: relative;
-  top: 10px;
-  border: 4px double black;
-  width: 300px;
-  height: 390px;
+h2.f {
+  color: white;
 }
 .floa {
-  background-image: url(Images/floral1.png);
+  background-image: url(Images/florala.png);
 }
 .flob {
-  background-image: url(Images/floral4.png);
+  background-image: url(Images/floralb.png);
 }
 .floc {
-  background-image: url(Images/floral3.png);
+  background-image: url(Images/floralc.png);
 }
-.flip{
-  color:white;
+.flip {
+  color: white;
 }
 .flip-card {
   background-color: transparent;
@@ -72,6 +61,11 @@ h2.olfac{
   color: black;
   transform: rotateY(180deg);
 }
+.floral4,
+.floral5,
+.floral6 {
+  visibility: hidden;
+}
 
 p.fcb {
   position: relative;
@@ -86,10 +80,75 @@ main.flosec {
   justify-content: space-evenly;
 }
 @media screen and (max-width: 768px) {
-  .floa {
-    width: 220px;
-  }
-  main.flo {
+  main.flosec {
     width: 768px;
+    height: 510px;
+  }
+  .floral1,
+  .floral2,
+  .floral3 {
+    visibility: hidden;
+    width: 0px;
+  }
+  .floral4,
+  .floral5,
+  .floral6 {
+    visibility: visible;
+    position: relative;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 240px;
+    height: 312px;
+    text-align: center;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .flip-card-front {
+    position: absolute;
+    width: 240px;
+    height: 312px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-back {
+    position: absolute;
+    width: 240px;
+    height: 410px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
+  .flip-card-back {
+    display: flex;
+    flex-direction: column;
+    background-color: darkorange;
+    color: black;
+    transform: rotateY(180deg);
+  }
+  h2.olfa {
+    position: relative;
+    top: 5px;
+    left: 0px;
+    color: rgb(102, 57, 2);
+    text-align: center;
+  }
+  h2.flor {
+    position: relative;
+    left: 0px;
+  }
+  h2.f {
+    position: relative;
+    left: 10px;
+  }
+  p.fcb {
+    position: relative;
+    width: 220px;
+    left: 5px;
   }
 }
