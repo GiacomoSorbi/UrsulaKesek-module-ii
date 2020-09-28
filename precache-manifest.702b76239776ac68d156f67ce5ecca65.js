@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12b0a66c9743cd9f944bd572f508d2af",
+    "revision": "fd105646bedfb03a0fb67aab299a9054",
     "url": "/UrsulaKesek-module-ii/index.html"
   },
   {
-    "revision": "80c5656ae3b281afcd87",
-    "url": "/UrsulaKesek-module-ii/static/css/main.707150e6.chunk.css"
+    "revision": "fdab6902943d0a624ba0",
+    "url": "/UrsulaKesek-module-ii/static/css/main.f3600b81.chunk.css"
   },
   {
-    "revision": "1b2e59c000f4fc35e85d",
-    "url": "/UrsulaKesek-module-ii/static/js/2.c5983e92.chunk.js"
+    "revision": "2fe2c1c16165543343c9",
+    "url": "/UrsulaKesek-module-ii/static/js/2.963c3d92.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/UrsulaKesek-module-ii/static/js/2.c5983e92.chunk.js.LICENSE.txt"
+    "url": "/UrsulaKesek-module-ii/static/js/2.963c3d92.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80c5656ae3b281afcd87",
-    "url": "/UrsulaKesek-module-ii/static/js/main.b6e49bd8.chunk.js"
+    "revision": "fdab6902943d0a624ba0",
+    "url": "/UrsulaKesek-module-ii/static/js/main.23bb0ee1.chunk.js"
   },
   {
     "revision": "68444fc4ec1b4b92ba93",
@@ -56,16 +56,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrsulaKesek-module-ii/static/media/clarysage.94db1c59.png"
   },
   {
-    "revision": "77df1521b3fb7debc65234352191d301",
-    "url": "/UrsulaKesek-module-ii/static/media/floral1.77df1521.png"
+    "revision": "4d353cd8e192e553e4a734aadcd33631",
+    "url": "/UrsulaKesek-module-ii/static/media/floral2a.4d353cd8.png"
   },
   {
-    "revision": "6cf4f01d0a0374e6a7427c1c8d3e244d",
-    "url": "/UrsulaKesek-module-ii/static/media/floral3.6cf4f01d.png"
+    "revision": "72d62acc682e735aff517c8468a4cfbe",
+    "url": "/UrsulaKesek-module-ii/static/media/floral2b.72d62acc.png"
+  },
+  {
+    "revision": "fefa5b1ff8d0695e07c7bfffc49d5793",
+    "url": "/UrsulaKesek-module-ii/static/media/floral2c.fefa5b1f.png"
+  },
+  {
+    "revision": "77df1521b3fb7debc65234352191d301",
+    "url": "/UrsulaKesek-module-ii/static/media/florala.77df1521.png"
   },
   {
     "revision": "3fd8fe09e9fc9d143a77d449fed35c1a",
-    "url": "/UrsulaKesek-module-ii/static/media/floral4.3fd8fe09.png"
+    "url": "/UrsulaKesek-module-ii/static/media/floralb.3fd8fe09.png"
+  },
+  {
+    "revision": "6cf4f01d0a0374e6a7427c1c8d3e244d",
+    "url": "/UrsulaKesek-module-ii/static/media/floralc.6cf4f01d.png"
   },
   {
     "revision": "2e53694e4e8d589ab44aaf409edc96c1",
