@@ -34,4 +34,20 @@ h3.floa {
   main.ori {
     width: 768px;
   }
+  .oriental,
+  .spicy,
+  .oriwood {
+    visibility: hidden;
+    width:0px;
+  }
+  .oriental1,
+  .spicy1,
+  .oriwood1 {
+    visibility: visible;
+    position: relative;
+  }
+  .flip-card-back {
+    height: 410px;
+  }
+
 }

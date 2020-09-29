@@ -20,7 +20,7 @@ const Fresh = () => (
       <div>
         <h2 className="olfa">D-Fruity</h2>
         <div className="flip-card">
-          <div className="flip-card-inner">
+          <div className="flip-card-inner1">
             <div className="flip-card-front">
               <img className="fruity1" src={fruity1} alt="perfumepic" />
               <img  className="fruity2"src={fruity2} alt="perfumepic" />
@@ -46,7 +46,7 @@ const Fresh = () => (
       <div>
         <h2 className="olfa">E-Green</h2>
         <div className="flip-card">
-          <div className="flip-card-inner">
+          <div className="flip-card-inner1">
             <div className="flip-card-front">
               <img className="greena" src={greena} alt="perfumepic" />
               <img className="greenb"src={greenb} alt="perfumepic" />
@@ -70,7 +70,7 @@ const Fresh = () => (
       <div>
         <h2 className="olfa">F-Water</h2>
         <div className="flip-card">
-          <div className="flip-card-inner">
+          <div className="flip-card-inner1">
             <div className="flip-card-front">
               <img className="water1" src={water1} alt="perfumepic" />
               <img className="water2" src={water2} alt="perfumepic" />
@@ -96,7 +96,7 @@ const Fresh = () => (
       <div>
         <h2 className="olfa">G-Citrus</h2>
         <div className="flip-card">
-          <div className="flip-card-inner">
+          <div className="flip-card-inner1">
             <div className="flip-card-front">
               <img className="citrus1" src={citrus1} alt="perfumepic" />
               <img className="citrus2" src={citrus2} alt="perfumepic" />

@@ -13,6 +13,20 @@
 .flip {
   text-align: center;
 }
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+}
+.flip-card-inner1 {
+  position: relative;
+  width: 300px;
+  height: 390px;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 .fred,
 .free,
 .fref,
@@ -93,6 +107,11 @@ h2.olfa {
   background-color: rgb(115, 247, 7);
   color:black;
 }
+.flip-card:hover .flip-card-inner1 {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 768px) {
   section.fre {
@@ -122,7 +141,7 @@ h2.olfa {
     visibility: visible;
     position: relative;
   }
-  .flip-card-inner {
+  .flip-card-inner1 {
     position: relative;
     left:65px;
     width: 240px;
@@ -132,6 +151,11 @@ h2.olfa {
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
+  .flip-card:hover .flip-card-inner1 {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
   .flip-card-front {
     position: absolute;
     width: 240px;
@@ -219,7 +243,7 @@ h2.olfa {
     visibility: visible;
     position: relative;
   }
-  .flip-card-inner {
+  .flip-card-inner1 {
     box-shadow: none;
       position: relative;
       left:5px;
@@ -228,11 +252,11 @@ h2.olfa {
       text-align: center;
       transition: transform 2s;
       transform-style: preserve-3d;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      box-shadow:none;
     }
     }
   .flip-card-back,.flip-card-back1,.flip-card-back2,.flip-card-back3 {
-    height: 380px;
+    height: 390px;
   }
   
 
