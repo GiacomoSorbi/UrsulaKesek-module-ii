@@ -43,6 +43,7 @@
     justify-content: space-around;
     background: linear-gradient(white 10%, cornflowerblue);
     width: 300px;
+    height:300px;
     margin: 5px;
   }
   .input {

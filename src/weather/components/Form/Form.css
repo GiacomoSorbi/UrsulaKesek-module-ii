@@ -19,5 +19,6 @@
 @media screen and (max-width: 375px) {
   .formw {
     width: 320px;
+    height:300px;
   }
 }
