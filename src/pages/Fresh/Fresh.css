@@ -27,13 +27,19 @@
   background-image: url(Images/fruity1.png);
 }
 .free {
-  background-image: url(Images/green1.png);
+  background-image: url(Images/greena.png);
 }
 .fref {
   background-image: url(Images/water1.png);
 }
 .freg {
   background-image: url(Images/citrus1.png);
+}
+.fruity2,
+.greenb,
+.water2,
+.citrus2 {
+  visibility: hidden;
 }
 
 h2.fre {
@@ -46,12 +52,12 @@ h3 {
   position: relative;
   top: 5px;
 }
-main.fre {
+section.fre {
   background: linear-gradient(rgb(110, 196, 235), rgb(3, 143, 59));
   width: 1440px;
   height: 540px;
 }
-section.fresec {
+main.fresec {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -61,7 +67,88 @@ h2.olfa {
   padding: 10px;
 }
 @media screen and (max-width: 768px) {
-  main.flo {
+  section.fre {
+    background: linear-gradient(rgb(110, 196, 235), rgb(3, 143, 59));
     width: 768px;
+    height: 950px;
+  }
+  
+  main.fresec {
+    width: 768px;
+    height: 820px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+  .fruity1,
+  .greena,
+  .water1,
+  .citrus1 {
+    visibility: hidden;
+    width: 0px;
+  }
+  .fruity2,
+  .greenb,
+  .water2,
+  .citrus2 {
+    visibility: visible;
+    position: relative;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 240px;
+    height: 312px;
+    text-align: center;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .flip-card-front {
+    position: absolute;
+    width: 240px;
+    height: 312px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-back {
+    position: absolute;
+    width: 240px;
+    height: 410px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
+  .flip-card-back {
+    display: flex;
+    flex-direction: column;
+    background-color: darkorange;
+    color: black;
+    transform: rotateY(180deg);
+  }
+  h2.olfa {
+    position: relative;
+    top: 5px;
+    left: 0px;
+    color: rgb(102, 57, 2);
+    text-align: center;
+  }
+  h2.fre {
+    position: relative;
+    left: 0px;
+  }
+  h2.f {
+    position: relative;
+    left: 10px;
+  }
+  p.fcb {
+    position: relative;
+    width: 220px;
+    left: 5px;
   }
 }
+
+

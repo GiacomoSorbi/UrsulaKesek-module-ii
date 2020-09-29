@@ -1,27 +1,33 @@
 import React from "react";
 import "./Fresh.css";
 import citrus1 from "./Images/citrus1.png";
-import green1 from "./Images/green1.png";
+import greena from "./Images/greena.png";
 import water1 from "./Images/water1.png";
 import fruity1 from "./Images/fruity1.png";
+import citrus2 from "./Images/citrus2.png";
+import greenb from "./Images/greenb.png";
+import water2 from "./Images/water2.png";
+import fruity2 from "./Images/fruity2.png";
+
 const Fresh = () => (
-  <main className="fre">
+  <section className="fre">
     <h2 className="fre">
       {" "}
       FRESH PAGE{" "}
       <span className="flip">(Flip the card for more information.)</span>
     </h2>
-    <section className="fresec">
+    <main className="fresec">
       <div>
         <h2 className="olfa">D-Fruity</h2>
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src={fruity1} alt="perfumepic" />
+              <img className="fruity1" src={fruity1} alt="perfumepic" />
+              <img  className="fruity2"src={fruity2} alt="perfumepic" />
             </div>
             <div className="flip-card-back">
               <div>
-                <h2>Olfactory Group</h2>
+                <h2 className="olfa">Olfactory Group</h2>
               </div>
               <div>
                 <p className="fcb">
@@ -42,11 +48,12 @@ const Fresh = () => (
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src={green1} alt="perfumepic" />
+              <img className="greena" src={greena} alt="perfumepic" />
+              <img className="greenb"src={greenb} alt="perfumepic" />
             </div>
             <div className="flip-card-back">
               <div>
-                <h2>Olfactory Group </h2>
+              <h2 className="olfa">Olfactory Group</h2>
               </div>
               <div>
                 <p className="fcb">
@@ -65,11 +72,12 @@ const Fresh = () => (
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src={water1} alt="perfumepic" />
+              <img className="water1" src={water1} alt="perfumepic" />
+              <img className="water2" src={water2} alt="perfumepic" />
             </div>
             <div className="flip-card-back">
               <div>
-                <h2>Olfactory Group</h2>
+              <h2 className="olfa">Olfactory Group</h2>
               </div>
               <div>
                 <p className="fcb">
@@ -90,11 +98,12 @@ const Fresh = () => (
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <img src={citrus1} alt="perfumepic" />
+              <img className="citrus1" src={citrus1} alt="perfumepic" />
+              <img className="citrus2" src={citrus2} alt="perfumepic" />
             </div>
             <div className="flip-card-back">
               <div>
-                <h2>Olfactory Group</h2>
+              <h2 className="olfa">Olfactory Group</h2>
               </div>
               <div>
                 <p className="fcb">
@@ -108,8 +117,8 @@ const Fresh = () => (
           </div>
         </div>
       </div>
-    </section>
-  </main>
+    </main>
+  </section>
 );
 
 export default Fresh;
