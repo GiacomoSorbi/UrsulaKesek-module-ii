@@ -221,8 +221,8 @@ h2.olfa {
   .flip-card-inner {
     box-shadow: none;
   }
-  .flip-card-back {
-    height: 420px;
+  .flip-card-back,.flip-card-back1,.flip-card-back2,.flip-card-back3 {
+    height: 380px;
   }
   }
 
