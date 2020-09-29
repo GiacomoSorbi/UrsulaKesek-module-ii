@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbb728f46b49c50096f9baa582e1c727",
+    "revision": "8d2b6d790eb098112167df9d09adbe1a",
     "url": "/UrsulaKesek-module-ii/index.html"
   },
   {
-    "revision": "159eae086dc687636d73",
-    "url": "/UrsulaKesek-module-ii/static/css/main.863e3118.chunk.css"
+    "revision": "411ac9352e8b82efedc2",
+    "url": "/UrsulaKesek-module-ii/static/css/main.1f4995c6.chunk.css"
   },
   {
     "revision": "32b4edfa1fcafc34ffee",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrsulaKesek-module-ii/static/js/2.549f73fb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "159eae086dc687636d73",
+    "revision": "411ac9352e8b82efedc2",
     "url": "/UrsulaKesek-module-ii/static/js/main.712755f4.chunk.js"
   },
   {
