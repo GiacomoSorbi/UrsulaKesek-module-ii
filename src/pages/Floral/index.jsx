@@ -94,7 +94,6 @@ const Floral = () => (
                 <p className="fcb">Ingredients can include:</p>
                 <p className="fcb">Oud </p>
                 <p className="fcb">Vanilla</p>
-                <p className="fcb">Musk</p>
                 <p className="fcb">Precious woods</p>
               </div>
             </div>
