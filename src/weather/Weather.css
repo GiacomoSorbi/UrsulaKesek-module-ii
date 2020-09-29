@@ -90,7 +90,24 @@
   }
 }
 @media screen and (max-width: 375px) {
-  
+  h2 {
+    position: relative;
+    left: -60px;
+  }
+  .lost {
+    padding: 5px;
+    position: relative;
+    background-color: rgb(242, 245, 51);
+    top: -40px;
+    left: -182px;
+    font-size: 1.5em;
+    color: black;
+    border: 4px double black;
+  }
+  main.content{
+    height:800px;
+
+  }
   .search {
     position: relative;
     top: 10px;
@@ -99,17 +116,6 @@
     font-size: 0.75rem;
     line-height: 1.75;
   }
-  .lost {
-    padding: 5px;
-    position: relative;
-    background-color: rgb(242, 245, 51);
-    top: -38px;
-    left: -182px;
-    font-size: 1.5em;
-    color: black;
-    border: 4px double black;
-  }
-
   .weapp {
     display: flex;
     flex-direction: column;
@@ -117,14 +123,14 @@
     left: -140px;
     align-items: flex-end;
     width: 500px;
-    height: 470px;
+    height: 340px;
     text-align: center;
     padding: 10px;
     font-size: 1em;
     color: white;
   }
-  h2 {
+  div.weathercard{
     position: relative;
-    left: -60px;
+    top:100px;
   }
 }
