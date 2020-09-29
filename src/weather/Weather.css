@@ -1,8 +1,13 @@
+div.weathercard{
+  position: relative;
+  top:100px;
+}
+
 .weapp {
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 840px;
+  left: 660px;
   align-items: flex-end;
   width: 500px;
   height: 470px;
@@ -107,7 +112,6 @@
   }
   main.content{
     height:1200px;
-
   }
   .search {
     position: relative;

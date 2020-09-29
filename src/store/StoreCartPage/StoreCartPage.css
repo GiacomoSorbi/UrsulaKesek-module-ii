@@ -10,7 +10,7 @@
   outline: none;
 }
 span.count {
-  width: 140px;
+  width: 80px;
   height: 40px;
   position: relative;
   border: 3px double black;
@@ -26,8 +26,6 @@ span.count {
 .cpmanage {
   display: flex;
   flex-direction: row;
-  position: relative;
-  left: 15px;
 }
 .cpitems {
   width: 1440px;
@@ -92,7 +90,16 @@ span.count {
     left: 18px;
     top: 10px;
   }
-
+  span.count {
+    width: 140px;
+    height: 40px;
+    position: relative;
+    border: 3px double black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+  }
+  
   .total {
     position: relative;
     top: 10px;
