@@ -51,7 +51,7 @@ const Fresh = () => (
               <img className="greena" src={greena} alt="perfumepic" />
               <img className="greenb"src={greenb} alt="perfumepic" />
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back1">
               <div>
               <h2 className="olfa">Olfactory Group</h2>
               </div>
@@ -75,7 +75,7 @@ const Fresh = () => (
               <img className="water1" src={water1} alt="perfumepic" />
               <img className="water2" src={water2} alt="perfumepic" />
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back2">
               <div>
               <h2 className="olfa">Olfactory Group</h2>
               </div>
@@ -101,7 +101,7 @@ const Fresh = () => (
               <img className="citrus1" src={citrus1} alt="perfumepic" />
               <img className="citrus2" src={citrus2} alt="perfumepic" />
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back3">
               <div>
               <h2 className="olfa">Olfactory Group</h2>
               </div>

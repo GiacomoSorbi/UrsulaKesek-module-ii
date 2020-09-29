@@ -72,12 +72,12 @@ h2.olfa {
     width: 768px;
     height: 950px;
   }
-  
+
   main.fresec {
     width: 768px;
     height: 820px;
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
   }
   .fruity1,
@@ -110,7 +110,7 @@ h2.olfa {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  .flip-card-back {
+  .flip-card-back,.flip-card-back1,.flip-card-back2,.flip-card-back3 {
     position: absolute;
     width: 240px;
     height: 410px;
@@ -122,18 +122,30 @@ h2.olfa {
     cursor: pointer;
   }
 
-  .flip-card-back {
+  .flip-card-back,.flip-card-back1,.flip-card-back2,.flip-card-back3 {
     display: flex;
     flex-direction: column;
-    background-color: darkorange;
-    color: black;
+    background-color: rgb(247, 4, 4);
+    color: white;
     transform: rotateY(180deg);
+  }
+  .flip-card-back1{
+    background-color: rgb(9, 197, 109);
+  }
+
+  .flip-card-back2{
+    background-color: rgb(84, 114, 247);
+  }
+
+  .flip-card-back3{
+    background-color: rgb(115, 247, 7);
+    color:black;
   }
   h2.olfa {
     position: relative;
     top: 5px;
     left: 0px;
-    color: rgb(102, 57, 2);
+    color:black;
     text-align: center;
   }
   h2.fre {
@@ -150,5 +162,39 @@ h2.olfa {
     left: 5px;
   }
 }
+@media screen and (max-width: 375px) {
+  section.fre {
+    background: linear-gradient(rgb(110, 196, 235), rgb(3, 143, 59));
+    width: 375px;
+    height: 1950px;
+  }
 
+  main.fresec {
+    width: 375px;
+    height: 1720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h2.fre {
+    width: 300px;
+    position: relative;
+  }
+  h2.f {
+    position: relative;
+  }
+  .fruity2,
+  .greenb,
+  .water2,
+  .citrus2 {
+    visibility: visible;
+    position: relative;
+  }
+  .flip-card-inner {
+    box-shadow: none;
+  }
+  .flip-card-back {
+    height: 420px;
+  }
+  }
 
