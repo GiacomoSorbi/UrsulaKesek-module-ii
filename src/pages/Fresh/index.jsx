@@ -25,11 +25,12 @@ const Fresh = () => (
               </div>
               <div>
                 <p className="fcb">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis doloribus delectus, incidunt quisquam quidem
-                  reiciendis minus illum necessitatibus nam animi veritatis
-                  voluptas consequuntur natus maxime minima molestias ratione!
-                  Amet, dignissimos.
+                  FRESH FRUITY  The fresh category was always zestily juicy
+                  with fruit notes – traditionally citrus, in the past. But
+                  today, lusher fruits – including mango, peach, melon,
+                  pineapple and berries – are being blended into scents,
+                  softening the freshness with a light yet sensual touch of
+                  summery sweetness.
                 </p>
               </div>
             </div>
@@ -49,11 +50,10 @@ const Fresh = () => (
               </div>
               <div>
                 <p className="fcb">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis doloribus delectus, incidunt quisquam quidem
-                  reiciendis minus illum necessitatibus nam animi veritatis
-                  voluptas consequuntur natus maxime minima molestias ratione!
-                  Amet, dignissimos.
+                  FRESH GREEN So clean, so sporty, the fresh greens showcase
+                  elements like green tea, grass, herbs, vines and leaves
+                  (violet leaf, for instance), and occasionally a little whisper
+                  of fruit. This family, evokes a cool, shaded spot.
                 </p>
               </div>
             </div>
@@ -73,11 +73,12 @@ const Fresh = () => (
               </div>
               <div>
                 <p className="fcb">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis doloribus delectus, incidunt quisquam quidem
-                  reiciendis minus illum necessitatibus nam animi veritatis
-                  voluptas consequuntur natus maxime minima molestias ratione!
-                  Amet, dignissimos.
+                  Gifted perfumers can actually make fresh aquatic fragrances
+                  seem positively icy, or just dew-drenched, or simply conjure
+                  up the fragrance of just-washed linen. Fragrances in this
+                  family are also sometimes referred to as ‘ozonic’, such as the
+                  smell of mountain air, or a sea breeze. Many (but not all)
+                  fresh aquatic fragrances are created for men.
                 </p>
               </div>
             </div>
@@ -97,11 +98,10 @@ const Fresh = () => (
               </div>
               <div>
                 <p className="fcb">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis doloribus delectus, incidunt quisquam quidem
-                  reiciendis minus illum necessitatibus nam animi veritatis
-                  voluptas consequuntur natus maxime minima molestias ratione!
-                  Amet, dignissimos.
+                  Citrus fragrances are old and abundant. Its compositions are
+                  based on lemon, orange, bergamot, grapefruit or mandarin, with
+                  other citrusy, aromatic and tart notes for men and floral
+                  notes for women.
                 </p>
               </div>
             </div>
