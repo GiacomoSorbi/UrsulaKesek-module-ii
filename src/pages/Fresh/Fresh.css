@@ -105,7 +105,7 @@ h2.olfa {
     width: 768px;
     height: 820px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
   .fruity1,
@@ -124,6 +124,7 @@ h2.olfa {
   }
   .flip-card-inner {
     position: relative;
+    left:65px;
     width: 240px;
     height: 312px;
     text-align: center;
@@ -220,9 +221,18 @@ h2.olfa {
   }
   .flip-card-inner {
     box-shadow: none;
-  }
+      position: relative;
+      left:5px;
+      width: 240px;
+      height: 312px;
+      text-align: center;
+      transition: transform 2s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    }
   .flip-card-back,.flip-card-back1,.flip-card-back2,.flip-card-back3 {
     height: 380px;
   }
-  }
+  
 
