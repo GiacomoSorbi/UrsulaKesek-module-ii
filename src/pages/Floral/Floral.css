@@ -155,9 +155,10 @@ main.flosec {
 @media screen and (max-width: 375px) {
   main.flosec {
     width: 375px;
-    height: 1700px;
+    height: 1720px;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   h2.flor {
     width: 300px;
@@ -178,4 +179,5 @@ main.flosec {
   .flip-card-back {
     height: 420px;
   }
-}
+  }
+
