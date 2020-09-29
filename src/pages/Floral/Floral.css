@@ -172,4 +172,10 @@ main.flosec {
     visibility: visible;
     position: relative;
   }
+  .flip-card-inner {
+    box-shadow: none;
+  }
+  .flip-card-back {
+    height: 420px;
+  }
 }
