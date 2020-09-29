@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3bb7c42841640f2ea6e276b42471b21",
+    "revision": "3a4f45da306a78f8199b35c2f2d91604",
     "url": "/UrsulaKesek-module-ii/index.html"
   },
   {
-    "revision": "22e77f341b31fc87d0f5",
-    "url": "/UrsulaKesek-module-ii/static/css/main.56d36551.chunk.css"
+    "revision": "9b1f9156243b72c140d6",
+    "url": "/UrsulaKesek-module-ii/static/css/main.0dd72800.chunk.css"
   },
   {
-    "revision": "32b4edfa1fcafc34ffee",
-    "url": "/UrsulaKesek-module-ii/static/js/2.549f73fb.chunk.js"
+    "revision": "412a268953606e9298e7",
+    "url": "/UrsulaKesek-module-ii/static/js/2.b6b0e4de.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/UrsulaKesek-module-ii/static/js/2.549f73fb.chunk.js.LICENSE.txt"
+    "url": "/UrsulaKesek-module-ii/static/js/2.b6b0e4de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22e77f341b31fc87d0f5",
-    "url": "/UrsulaKesek-module-ii/static/js/main.712755f4.chunk.js"
+    "revision": "9b1f9156243b72c140d6",
+    "url": "/UrsulaKesek-module-ii/static/js/main.9099f735.chunk.js"
   },
   {
     "revision": "68444fc4ec1b4b92ba93",
@@ -140,12 +140,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrsulaKesek-module-ii/static/media/oakmoss.bebb491e.png"
   },
   {
+    "revision": "cb86a34fa456ba74979e889db3d617ba",
+    "url": "/UrsulaKesek-module-ii/static/media/oriental.cb86a34f.png"
+  },
+  {
+    "revision": "95279861fc2299add222a3badce019aa",
+    "url": "/UrsulaKesek-module-ii/static/media/oriental1.95279861.png"
+  },
+  {
     "revision": "b950297dd098f75ef2ec226c627f4422",
     "url": "/UrsulaKesek-module-ii/static/media/rockrose.b950297d.png"
   },
   {
     "revision": "5ffaa7162d1dfb8e463b4dcfb0a307e4",
     "url": "/UrsulaKesek-module-ii/static/media/sandalwood.5ffaa716.png"
+  },
+  {
+    "revision": "3f04b3560e9bfd140d5db2d111d6f388",
+    "url": "/UrsulaKesek-module-ii/static/media/spicy.3f04b356.png"
+  },
+  {
+    "revision": "2d6e2f648f66174f12e2b2ab8d9d3e8f",
+    "url": "/UrsulaKesek-module-ii/static/media/spicy1.2d6e2f64.png"
   },
   {
     "revision": "576ccb29e8d18535d97cd17383b144f5",
@@ -162,6 +178,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "602bc0e57f092840611fa8d77dfeeeb4",
     "url": "/UrsulaKesek-module-ii/static/media/water2.602bc0e5.png"
+  },
+  {
+    "revision": "003c191eb20ac46297d02144142db5ef",
+    "url": "/UrsulaKesek-module-ii/static/media/woody.003c191e.png"
+  },
+  {
+    "revision": "1310c37a6870155dcc8774c149859331",
+    "url": "/UrsulaKesek-module-ii/static/media/woody1.1310c37a.png"
   },
   {
     "revision": "db049f5abb06411c9cc6408d281e8f2d",
