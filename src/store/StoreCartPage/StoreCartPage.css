@@ -133,14 +133,14 @@ span.count {
   .cpmanage {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     position: relative;
     left: 25px;
-    top: 25px;
   }
   .rfc {
     position: relative;
     left: 25px;
-    top: 35px;
+    top: 5px;
   }
   .total {
     position: relative;
