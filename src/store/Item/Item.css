@@ -88,21 +88,21 @@
   }
   .desc {
     width: 200px;
-    height:70px;
+    height: 70px;
   }
-  
+
   .ls {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: rgb(248, 212, 7);
     width: 240px;
-    height:180px;
+    height: 200px;
   }
   .price {
     position: relative;
     left: 25px;
-    top:15px;
+    top: 15px;
     font-size: 1.5em;
     font-weight: bold;
     color: white;
@@ -112,6 +112,11 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: evenly;
+  }
+  .atc {
+    width: 200px;
+    position: relative;
+    left: 25px;
   }
 }
