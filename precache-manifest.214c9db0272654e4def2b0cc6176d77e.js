@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22136c092f3154ec5f7ef8b952666513",
+    "revision": "db975cbb30c0e384cab828104aeb8537",
     "url": "/UrsulaKesek-module-ii/index.html"
   },
   {
-    "revision": "4edb8e821dafda536322",
-    "url": "/UrsulaKesek-module-ii/static/css/main.f7087eb9.chunk.css"
+    "revision": "d9387e54d21dc80bcbe3",
+    "url": "/UrsulaKesek-module-ii/static/css/main.e04cbf73.chunk.css"
   },
   {
-    "revision": "412a268953606e9298e7",
-    "url": "/UrsulaKesek-module-ii/static/js/2.b6b0e4de.chunk.js"
+    "revision": "6659c1e48a1c8991f426",
+    "url": "/UrsulaKesek-module-ii/static/js/2.ad62280c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/UrsulaKesek-module-ii/static/js/2.b6b0e4de.chunk.js.LICENSE.txt"
+    "url": "/UrsulaKesek-module-ii/static/js/2.ad62280c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4edb8e821dafda536322",
-    "url": "/UrsulaKesek-module-ii/static/js/main.25290aaa.chunk.js"
+    "revision": "d9387e54d21dc80bcbe3",
+    "url": "/UrsulaKesek-module-ii/static/js/main.405ea897.chunk.js"
   },
   {
     "revision": "68444fc4ec1b4b92ba93",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "80366b0861afb45ac71cbd909165890f",
     "url": "/UrsulaKesek-module-ii/static/media/amyris-oil.80366b08.png"
+  },
+  {
+    "revision": "69bb30a4da0f4a15750447c845a95ee6",
+    "url": "/UrsulaKesek-module-ii/static/media/aromatic.69bb30a4.png"
+  },
+  {
+    "revision": "4f2f3be72e4b53283fe2fa74077a3feb",
+    "url": "/UrsulaKesek-module-ii/static/media/aromatic1.4f2f3be7.png"
   },
   {
     "revision": "c614b6fda053d703bcbf00c0a0562047",
@@ -180,12 +188,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrsulaKesek-module-ii/static/media/water2.602bc0e5.png"
   },
   {
+    "revision": "6f36fdf6819d3d6cf88f8be56163f90d",
+    "url": "/UrsulaKesek-module-ii/static/media/wood-fruity.6f36fdf6.png"
+  },
+  {
+    "revision": "35819e98d1bccc58315998629c1572c8",
+    "url": "/UrsulaKesek-module-ii/static/media/wood-fruity1.35819e98.png"
+  },
+  {
     "revision": "003c191eb20ac46297d02144142db5ef",
     "url": "/UrsulaKesek-module-ii/static/media/woody.003c191e.png"
   },
   {
+    "revision": "10c588a5019a28e77b2886dabc77e7f2",
+    "url": "/UrsulaKesek-module-ii/static/media/woody.10c588a5.png"
+  },
+  {
     "revision": "1310c37a6870155dcc8774c149859331",
     "url": "/UrsulaKesek-module-ii/static/media/woody1.1310c37a.png"
+  },
+  {
+    "revision": "b9e9cefdecc33da772f0761980d9dc06",
+    "url": "/UrsulaKesek-module-ii/static/media/woody1.b9e9cefd.png"
   },
   {
     "revision": "db049f5abb06411c9cc6408d281e8f2d",
