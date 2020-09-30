@@ -1,6 +1,7 @@
 div.weather-card{
   position: relative;
   top:-270px;
+  left:-250px;
 }
 
 .weapp {
@@ -62,6 +63,7 @@ div.weather-card{
   div.weather-card{
     position: relative;
     top:-270px;
+    left:300px;
   }
   
   .lost {
