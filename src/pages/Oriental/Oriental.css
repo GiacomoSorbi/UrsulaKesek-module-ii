@@ -1,8 +1,22 @@
+h2.olfa {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
 h2.ori {
   padding: 5px;
   color: white;
   text-align: center;
 }
+h3.floa {
+  margin: 15px;
+  border: 4px double black;
+  width: 300px;
+  height: 390px;
+  text-align: center;
+}
+
 main.ori {
   background: linear-gradient(rgb(69, 138, 242), rgb(138, 3, 165));
   width: 1440px;
@@ -13,7 +27,9 @@ main.ori {
 .oriwood1 {
   visibility: hidden;
 }
-
+p.fcb {
+  color: black;
+}
 section.flosec {
   display: flex;
   flex-direction: row;
@@ -22,6 +38,7 @@ section.flosec {
 h2.olfa {
   text-align: center;
   padding: 10px;
+  color: black;
 }
 h3.floa {
   margin: 15px;
@@ -38,7 +55,7 @@ h3.floa {
   .spicy,
   .oriwood {
     visibility: hidden;
-    width:0px;
+    width: 0px;
   }
   .oriental1,
   .spicy1,
@@ -49,5 +66,4 @@ h3.floa {
   .flip-card-back {
     height: 410px;
   }
-
 }

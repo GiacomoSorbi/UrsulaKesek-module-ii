@@ -1,17 +1,19 @@
-h2.flo {
-    padding: 5px;
-    color: black;
-    text-align: center;
-  }
-  main.woo {
-    background: linear-gradient( #ebdf3c, rgb(138, 3, 3));
-    width: 1440px;
-    height: 550px;
-  }
-  section.flosec {
+h2.woo {
+  margin: 0px;
+  padding: 5px;
+  color: black;
+  text-align: center;
+}
+  main.woods {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
+  }
+  section.woodsy {
+    background: linear-gradient( #ebdf3c, rgb(138, 3, 3));
+    width: 1440px;
+    height: 540px;
   }
   h2.olfa{
     text-align: center;
