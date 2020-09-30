@@ -1,4 +1,4 @@
-div.weathercard{
+div.weather-card{
   position: relative;
   top:100px;
 }
@@ -126,6 +126,7 @@ div.weathercard{
     flex-direction: column;
     position: relative;
     left: -140px;
+    top:30px;
     align-items: flex-end;
     width: 500px;
     height: 340px;
@@ -134,8 +135,8 @@ div.weathercard{
     font-size: 1em;
     color: white;
   }
-  div.weathercard{
+  div.weather-card{
     position: relative;
-    top:100px;
+    top:20px;
   }
 }
