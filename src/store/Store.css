@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height:945px;
+  height: 945px;
 }
 @media screen and (max-width: 768px) {
   .storepage {
@@ -11,6 +11,8 @@
 }
 @media screen and (max-width: 375px) {
   .storepage {
+    display: flex;
+    flex-direction: column;
     height: 3300px;
   }
 }
