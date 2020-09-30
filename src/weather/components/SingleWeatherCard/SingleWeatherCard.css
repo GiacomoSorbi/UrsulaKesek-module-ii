@@ -1,8 +1,5 @@
 
 .weather-card {
-  position: relative;
-  right:15em;
-  top:-16.5em;
   background: linear-gradient(#f574f1, #04abf3);
   width: 400px;
   height: 440px;
@@ -11,9 +8,6 @@
 }
 @media screen and (max-width: 768px) {
   .weather-card {
-    position: relative;
-    left:300px;
-    top:-220px;
     background: linear-gradient(#f574f1, #04abf3);
     width: 400px;
     height: 440px;
@@ -23,9 +17,6 @@
   }
   @media screen and (max-width: 375px) {
     .weather-card {
-      position: relative;
-      left:22px;
-      top:300px;
       background: linear-gradient(#f574f1, #04abf3);
       width: 370px;
       height: 1000px;
