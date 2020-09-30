@@ -25,7 +25,7 @@ const Woody = () => (
               <img className="fruity1" src={aromatic} alt="perfumepic" />
               <img className="fruity2" src={aromatic1} alt="perfumepic" />
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back4">
               <div>
                 <h2 className="olfa">Olfactory Group</h2>
               </div>
@@ -52,7 +52,7 @@ const Woody = () => (
               <img className="greena" src={woodfruity} alt="perfumepic" />
               <img className="greenb" src={woodfruity1} alt="perfumepic" />
             </div>
-            <div className="flip-card-back1">
+            <div className="flip-card-back5">
               <div>
                 <h2 className="olfa">Olfactory Group</h2>
               </div>
@@ -79,7 +79,7 @@ const Woody = () => (
               <img className="water1" src={mossy} alt="perfumepic" />
               <img className="water2" src={mossy1} alt="perfumepic" />
             </div>
-            <div className="flip-card-back2">
+            <div className="flip-card-back6">
               <div>
                 <h2 className="olfa">Olfactory Group</h2>
               </div>
@@ -104,7 +104,7 @@ const Woody = () => (
               <img className="citrus1" src={woody} alt="perfumepic" />
               <img className="citrus2" src={woody1} alt="perfumepic" />
             </div>
-            <div className="flip-card-back3">
+            <div className="flip-card-back7">
               <div>
                 <h2 className="olfa">Olfactory Group</h2>
               </div>
