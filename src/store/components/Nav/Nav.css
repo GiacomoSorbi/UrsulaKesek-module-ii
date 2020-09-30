@@ -58,7 +58,7 @@
     height:19em;
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     justify-content: space-evenly;
   }
   .sh,

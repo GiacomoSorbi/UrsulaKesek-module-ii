@@ -69,7 +69,6 @@ ul.spitems {
     height: 3870px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
   }
   ul.spitems {
     width: 375px;

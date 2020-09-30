@@ -125,9 +125,9 @@ span.count {
   }
   .content {
     width: 375px;
+    height: 3700px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     position: relative;
     top: 220px;
   }
@@ -136,7 +136,6 @@ span.count {
     height: 3700px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
   }
   .cpmanage {
     display: flex;
