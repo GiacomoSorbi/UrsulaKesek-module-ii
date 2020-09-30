@@ -52,7 +52,7 @@ h2.olfa {
   color: black;
 }
 .flip-card:hover .flip-card-inner1 {
-  height:390px;
+  height: 390px;
   transform: rotateY(180deg);
   cursor: pointer;
 }
@@ -71,17 +71,17 @@ h2.olfa {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .aromatic,
-  .mossy,
-  .woodsy,
-  .wood-fruity {
+  .fruity1,
+  .greena,
+  .water1,
+  .citrus1 {
     visibility: hidden;
     width: 0px;
   }
-  .aromatic1,
-  .mossy1,
-  .woodsy1,
-  .wood-fruity1 {
+  .fruity2,
+  .greenb,
+  .water2,
+  .citrus2 {
     visibility: visible;
     position: relative;
   }
@@ -113,7 +113,7 @@ h2.olfa {
   .flip-card-back7 {
     position: absolute;
     width: 240px;
-    height: 390px;
+    height: 410px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
