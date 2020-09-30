@@ -75,6 +75,8 @@ ul.spitems {
     display: flex;
     flex-direction: column;
     margin-left: 0px;
+    position: relative;
+    top:40px;
   }
   li.spitem {
     width: 17em;
