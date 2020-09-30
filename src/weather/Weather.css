@@ -59,6 +59,11 @@ div.weather-card{
   background-color: darkslateblue;
 }
 @media screen and (max-width: 768px) {
+  div.weather-card{
+    position: relative;
+    top:-270px;
+  }
+  
   .lost {
     padding: 5px;
     position: relative;
@@ -96,6 +101,12 @@ div.weather-card{
   }
 }
 @media screen and (max-width: 375px) {
+  div.weather-card{
+    position: relative;
+    top:20px;
+    left:25px;
+  }
+
   h2 {
     position: relative;
     left: -60px;
@@ -134,10 +145,5 @@ div.weather-card{
     padding: 10px;
     font-size: 1em;
     color: white;
-  }
-  div.weather-card{
-    position: relative;
-    top:20px;
-    left:25px;
   }
 }
