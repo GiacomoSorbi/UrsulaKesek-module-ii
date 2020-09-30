@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db975cbb30c0e384cab828104aeb8537",
+    "revision": "ba25446252b7bec6f6b41a04c856cb1e",
     "url": "/UrsulaKesek-module-ii/index.html"
   },
   {
-    "revision": "d9387e54d21dc80bcbe3",
-    "url": "/UrsulaKesek-module-ii/static/css/main.e04cbf73.chunk.css"
+    "revision": "b73d417fd8543a67a90a",
+    "url": "/UrsulaKesek-module-ii/static/css/main.e581e33e.chunk.css"
   },
   {
     "revision": "6659c1e48a1c8991f426",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrsulaKesek-module-ii/static/js/2.ad62280c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9387e54d21dc80bcbe3",
-    "url": "/UrsulaKesek-module-ii/static/js/main.405ea897.chunk.js"
+    "revision": "b73d417fd8543a67a90a",
+    "url": "/UrsulaKesek-module-ii/static/js/main.7ecef854.chunk.js"
   },
   {
     "revision": "68444fc4ec1b4b92ba93",
@@ -138,6 +138,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53767b7dac9883d85912dc184854e3a8",
     "url": "/UrsulaKesek-module-ii/static/media/mimosa.53767b7d.png"
+  },
+  {
+    "revision": "b680f69c7247a84f2f75fae7b840619d",
+    "url": "/UrsulaKesek-module-ii/static/media/mossy.b680f69c.png"
+  },
+  {
+    "revision": "799700e7da4f9cd2104ed280e82bea5d",
+    "url": "/UrsulaKesek-module-ii/static/media/mossy1.799700e7.png"
   },
   {
     "revision": "0a415e12a09dc924845e15e01771cb10",
