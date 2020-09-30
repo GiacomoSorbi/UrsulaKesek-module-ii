@@ -66,17 +66,16 @@ ul.spitems {
   }
   .content {
     width: 375px;
-    height:4100px;
+    height: 4100px;
     display: flex;
     flex-direction: column;
   }
   ul.spitems {
     width: 375px;
     display: flex;
-    flex-direction: column;
     margin-left: 0px;
     position: relative;
-    top:40px;
+    top: 40px;
   }
   li.spitem {
     width: 17em;
