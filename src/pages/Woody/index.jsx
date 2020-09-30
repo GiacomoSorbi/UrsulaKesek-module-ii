@@ -3,11 +3,11 @@ import "./Woody.css";
 import aromatic from "./Images/aromatic.png";
 import woodfruity from "./Images/wood-fruity.png";
 import woody from "./Images/woody.png";
-import water1 from "./Images/water1.png";
+import mossy from "./Images/mossy.png";
 import aromatic1 from "./Images/aromatic1.png";
 import woodfruity1 from "./Images/wood-fruity1.png";
 import woody1 from "./Images/woody1.png";
-import water2 from "./Images/water2.png";
+import mossy1 from "./Images/mossy1.png";
 
 const Woody = () => (
   <section className="woodsy">
@@ -76,8 +76,8 @@ const Woody = () => (
         <div className="flip-card">
           <div className="flip-card-inner1">
             <div className="flip-card-front">
-              <img className="water1" src={water1} alt="perfumepic" />
-              <img className="water2" src={water2} alt="perfumepic" />
+              <img className="water1" src={mossy} alt="perfumepic" />
+              <img className="water2" src={mossy1} alt="perfumepic" />
             </div>
             <div className="flip-card-back2">
               <div>
