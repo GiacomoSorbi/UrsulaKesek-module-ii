@@ -125,10 +125,10 @@ div.weather-card{
     display: flex;
     flex-direction: column;
     position: relative;
-    left: -140px;
+    left:-20px;
     top:30px;
     align-items: flex-end;
-    width: 500px;
+    width: 375px;
     height: 340px;
     text-align: center;
     padding: 10px;
@@ -138,5 +138,6 @@ div.weather-card{
   div.weather-card{
     position: relative;
     top:20px;
+    left:25px;
   }
 }
