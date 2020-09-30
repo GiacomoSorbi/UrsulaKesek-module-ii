@@ -73,14 +73,14 @@ h2.olfa {
   }
   .aromatic,
   .mossy,
-  .woody,
+  .woodsy,
   .wood-fruity {
     visibility: hidden;
     width: 0px;
   }
   .aromatic1,
   .mossy1,
-  .woody1,
+  .woodsy1,
   .wood-fruity1 {
     visibility: visible;
     position: relative;

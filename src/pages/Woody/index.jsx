@@ -2,11 +2,11 @@ import React from "react";
 import "./Woody.css";
 import aromatic from "./Images/aromatic.png";
 import woodfruity from "./Images/wood-fruity.png";
-import woody from "./Images/woody.png";
+import woodsy from "./Images/woodsy.png";
 import mossy from "./Images/mossy.png";
 import aromatic1 from "./Images/aromatic1.png";
 import woodfruity1 from "./Images/wood-fruity1.png";
-import woody1 from "./Images/woody1.png";
+import woodsy1 from "./Images/woodsy1.png";
 import mossy1 from "./Images/mossy1.png";
 
 const Woody = () => (
@@ -101,8 +101,8 @@ const Woody = () => (
         <div className="flip-card">
           <div className="flip-card-inner1">
             <div className="flip-card-front">
-              <img className="citrus1" src={woody} alt="perfumepic" />
-              <img className="citrus2" src={woody1} alt="perfumepic" />
+              <img className="citrus1" src={woodsy} alt="perfumepic" />
+              <img className="citrus2" src={woodsy1} alt="perfumepic" />
             </div>
             <div className="flip-card-back7">
               <div>
