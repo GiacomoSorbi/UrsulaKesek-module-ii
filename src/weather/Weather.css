@@ -103,7 +103,7 @@ div.weather-card{
 @media screen and (max-width: 375px) {
   div.weather-card{
     position: relative;
-    top:20px;
+    top:120px;
     left:25px;
   }
 
