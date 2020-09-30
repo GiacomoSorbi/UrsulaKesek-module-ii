@@ -57,7 +57,7 @@
     border: none;
   }
   .storenav ul {
-    height: 19em;
+    height: 21em;
     list-style-type: none;
     display: flex;
     flex-direction: column;
