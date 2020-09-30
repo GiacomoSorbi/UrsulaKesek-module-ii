@@ -64,7 +64,7 @@ ul.spitems {
     width: 375px;
     height: 4500px;
   }
-  main.content {
+  .content {
     width: 375px;
     height: 3870px;
     display: flex;
