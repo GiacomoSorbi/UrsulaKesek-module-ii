@@ -3,17 +3,9 @@ h2.olfa {
   padding: 10px;
   color: black;
 }
-
 h2.ori {
   padding: 5px;
   color: white;
-  text-align: center;
-}
-h3.floa {
-  margin: 15px;
-  border: 4px double black;
-  width: 300px;
-  height: 390px;
   text-align: center;
 }
 
@@ -40,13 +32,6 @@ h2.olfa {
   padding: 10px;
   color: black;
 }
-h3.floa {
-  margin: 15px;
-  border: 4px double black;
-  width: 300px;
-  height: 390px;
-  text-align: center;
-}
 @media screen and (max-width: 768px) {
   main.ori {
     width: 768px;
@@ -65,5 +50,12 @@ h3.floa {
   }
   .flip-card-back {
     height: 440px;
+  }
+}
+@media screen and (max-width: 375px) {
+  h2.ori {
+    position: relative;
+    left: 30px;
+    width: 300px;
   }
 }
