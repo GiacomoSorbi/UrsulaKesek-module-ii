@@ -62,11 +62,11 @@ ul.spitems {
 @media screen and (max-width: 375px) {
   section.storepage {
     width: 375px;
-    height: 4100px;
+    height: 4300px;
   }
   .content {
     width: 375px;
-    height: 4100px;
+    height: 4300px;
     display: flex;
     flex-direction: column;
   }
