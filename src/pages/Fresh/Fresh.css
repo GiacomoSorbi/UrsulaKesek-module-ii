@@ -24,7 +24,7 @@
   text-align: center;
   transition: transform 2s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: none;
 }
 
 .fred,
@@ -154,7 +154,7 @@ h2.olfa {
     text-align: center;
     transition: transform 2s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: none;
   }
   .flip-card:hover .flip-card-inner1 {
     transform: rotateY(180deg);
