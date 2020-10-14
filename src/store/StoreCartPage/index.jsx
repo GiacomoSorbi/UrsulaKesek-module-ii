@@ -3,7 +3,7 @@ import Item from "../Item";
 import EmptyCart from "../StoreEmptyCart";
 import "./StoreCartPage.css";
 
-const StoreCartPage = ({items, onPlus, onMinus }) =>
+const StoreCartPage = ({ items, onPlus, onMinus }) =>
   items.length === 0 ? (
     <EmptyCart />
   ) : (
@@ -21,15 +21,23 @@ const StoreCartPage = ({items, onPlus, onMinus }) =>
                   &#43;
                 </button>
               </div>
-              <button className="rfc" onClick = {()=> onMinus(item)}>
-              Remove Item
-            </button>
+              <button className="rfc" onClick={() => onMinus(item)}>
+                Remove Item
+              </button>
             </Item>
           </div>
         );
       })}
       <div className="total">
-        Total to Pay: £{items.reduce((sum, item) => sum + item.price * item.count,0)}
+        Total to Pay: £
+        {items.reduce((sum, item) => sum + item.price * item.count, 0)}
+      </div>
+      <div className="incart">
+        Items
+        <span className="shoppingcart" role="img" aria-label="shopping-cart">
+          🛒
+        </span>
+        {items.length}
       </div>
     </section>
   );
