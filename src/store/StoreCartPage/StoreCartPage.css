@@ -8,7 +8,7 @@
   width: 100px;
   height: 50px;
   background-color: yellow;
-  padding:5px;
+  padding: 5px;
   border: 4px double black;
   position: relative;
   top: 30px;
@@ -167,5 +167,18 @@ span.count {
   .total {
     position: relative;
     left: 75px;
+  }
+  .incart {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    padding: 5px;
+    border: 4px double black;
+    position: relative;
+    top: 30px;
+  }
+  .shoppingcart {
+    font-size: 2em;
+    align-items: center;
   }
 }
