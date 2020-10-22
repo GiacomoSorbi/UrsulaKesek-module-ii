@@ -175,7 +175,8 @@ span.count {
     padding: 5px;
     border: 4px double black;
     position: relative;
-    top: 30px;
+    top: 1px;
+    left: 130px;
   }
   .shoppingcart {
     font-size: 2em;
