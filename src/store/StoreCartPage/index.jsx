@@ -37,7 +37,7 @@ const StoreCartPage = ({ items, onPlus, onMinus }) =>
         <span className="shoppingcart" role="img" aria-label="shopping-cart">
           🛒
         </span>
-        {items.length}
+        {items.reduce((sum, item) => sum + item.count, 0)}
       </div>
     </section>
   );
